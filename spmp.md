@@ -62,3 +62,11 @@ Software Project Management Plan
 		Aplikasi ini bekerja sama dengan Poliklinik Praga Medika Indramayu.
 	4.3 Fungsi-fungsi pendukung proyek
 		Semua dokumen pendukung proyek akan selesai dalam waktu yang sudah ditentukan.
+5. Paket Pekerjaan, Jadwal dan Budget
+	5.1 Paket pekerjaan
+		
+	5.2 Ketergantungan/keterkaitan
+	5.3 Kebutuhan-kebutuhaan sumber daya
+	5.4 Alokasi budget sumber daya
+	5.5 Jadwal
+		jadwal pembuatan proyek dimulai dari bulan februari sampai bulan mei.
