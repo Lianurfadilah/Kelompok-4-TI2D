@@ -34,3 +34,24 @@ Software Project Management Plan
 
 	2.3 Likungan tanggung jawab
 		Dalam lingkungan masyarakat dan  (MITRA)
+3. Proses Manajerial
+	3.1 Tujuan dan prioritas dan manajemen
+		Tujuan dari projek ini adalah untuk mempermudah Poliklinik (mitra) dalam pendataan pasien yang akan melakukan rawat jalan.
+                 	      Dan membantu masyarakat untuk memperoleh pelayanan yang lebih mudah dan praktis.
+	3.2 Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan
+		Keterbatasan peralatan
+		- Laptop kurang memadai
+
+		Kendala
+		- Waktu
+		- Jam Kuliah
+
+	3.3 Manajemen resiko
+		Aplikasi ini hanya diperuntukan untuk pasien yang akan melakukan rawat jalan.
+	3.4 Mekanisme monitoring dan kontroling
+		- Bekerja sama dengan mitra
+		- Perancangan 
+		- Pengerjaan proyek
+		- Pengencekan 
+		- Evaluasi
+	3.5 Perancangan staf
