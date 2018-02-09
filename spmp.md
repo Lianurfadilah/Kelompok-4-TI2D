@@ -55,3 +55,10 @@ Software Project Management Plan
 		- Pengencekan 
 		- Evaluasi
 	3.5 Perancangan staf
+4. Proses Teknis
+	4.1 Metoda, tool dan teknik
+		Proyek ini akan diimplementasikan kepada masyarakat dan mitra yang bersangkutan.
+	4.2 Dokumentasi perangkat lunak
+		Aplikasi ini bekerja sama dengan Poliklinik Praga Medika Indramayu.
+	4.3 Fungsi-fungsi pendukung proyek
+		Semua dokumen pendukung proyek akan selesai dalam waktu yang sudah ditentukan.
