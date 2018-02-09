@@ -22,3 +22,15 @@ Software Project Management Plan
 		1. Admin
 		2. Dokter
 		3. Pasien
+2. Organisasi Proyek
+	2.1 Model proyek
+		Aplikas tersebut berbasis android, dengan menggunakan sebuah software android studio. Dan kemungkinan akan adaaplikasi pendukung lainya. 
+	2.2 Struktur organisasi
+		Anggota TIM
+		1. Lia Nur Fadilah	(1603104) Project Plen
+		2. Luvi Haerunisah	(1603105) Perancangan Database
+		3. Maulana Ahmad Q	(1603106) Perancangan Project (Dfd, Flowchart, dll)
+	2.3 Batasan dan antarmuka organisasi
+
+	2.3 Likungan tanggung jawab
+		Dalam lingkungan masyarakat dan  (MITRA)
