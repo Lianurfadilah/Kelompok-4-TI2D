@@ -31,13 +31,12 @@ Software Project Management Plan
 		2. Luvi Haerunisah	(1603105) Perancangan Database
 		3. Maulana Ahmad Q	(1603106) Perancangan Project (Dfd, Flowchart, dll)
 	2.3 Batasan dan antarmuka organisasi
-
 	2.3 Likungan tanggung jawab
 		Dalam lingkungan masyarakat dan  (MITRA)
 3. Proses Manajerial
 	3.1 Tujuan dan prioritas dan manajemen
-		Tujuan dari projek ini adalah untuk mempermudah Poliklinik (mitra) dalam pendataan pasien yang akan melakukan rawat jalan.
-                 	      Dan membantu masyarakat untuk memperoleh pelayanan yang lebih mudah dan praktis.
+			Tujuan dari projek ini adalah untuk mempermudah Poliklinik (mitra) dalam pendataan pasien yang akan melakukan rawat jalan.
+		Dan membantu masyarakat untuk memperoleh pelayanan yang lebih mudah dan praktis.
 	3.2 Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan
 		Keterbatasan peralatan
 		- Laptop kurang memadai
@@ -64,9 +63,10 @@ Software Project Management Plan
 		Semua dokumen pendukung proyek akan selesai dalam waktu yang sudah ditentukan.
 5. Paket Pekerjaan, Jadwal dan Budget
 	5.1 Paket pekerjaan
-		
 	5.2 Ketergantungan/keterkaitan
+			ketergantungan antara hardware dan softwarenya, software yang dibutuhkan harus sinkron dengan spek hardwarenya juga. 
 	5.3 Kebutuhan-kebutuhaan sumber daya
+			Kebutuhan sumber daya yang dibutuhkan yaitu terdapat pada hardwarenya, misalnya laptop. diharapkan bisa support dan bisa berjalan sesuai yang diharapkan
 	5.4 Alokasi budget sumber daya
 	5.5 Jadwal
-		jadwal pembuatan proyek dimulai dari bulan februari sampai bulan mei.
+		jadwal pembuatan proyek dimulai dari bulan februari sampai kisaran bulan mei.
