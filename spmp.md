@@ -7,21 +7,26 @@ Software Project Management Plan
 1. Pendahuluan
 	1.1 Gambaran Proyek
 		Aplikasi Rawat Jalan Berbasis Android adalah sebuah aplikasi
-	      yang ditujunkan untuk mempermdah masyarakat dalam melakukan pengecekan atau check up dalam jangka waktu tertentu, sehingga pasien mampu melihat perkembangan dari pemeriksaan tiap waktunya. 
+	      yang ditujukan untuk mempermudah masyarakat dalam melakukan pengecekan atau check up dalam jangka waktu tertentu, sehingga pasien mampu melihat perkembangan dari pemeriksaan tiap waktunya. 
 	1.2 Dokumen-dokumen dalam proyek
-	1.3 Evaluasi SPMP
+		- modul modul pembuatan android
+		- laporan mengenai android
+		- proposal mitra
+	1.3 Evolusi SPMP
+			pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yang dibuat, dan disetiap personal harus mampu mempertanggungjawabkan setiap jobdesk yang sudah ditentukan
 	1.4 Material proyek
 		 Apliasi Pendukung
 		- Android Studio
 		- Sublaim Text
 		- Balsamiq
 		- Mysql
-
+		
+		referensi materi acuan :
+		-http://www.okedroid.com/p/ebook.html
+		-https://belajarkoding.net/produk/dvd-modul-android-lengkap-ebook-video-tutorial/
+		-materi-materi tuorial lainnya
 	1.5 Definisi dan akronim (singkatan)
-		 Aplikasi ini memiliki 3 user, yaitu : 
-		1. Admin
-		2. Dokter
-		3. Pasien
+	
 2. Organisasi Proyek
 	2.1 Model proyek
 		Aplikas tersebut berbasis android, dengan menggunakan sebuah software android studio. Dan kemungkinan akan adaaplikasi pendukung lainya. 
