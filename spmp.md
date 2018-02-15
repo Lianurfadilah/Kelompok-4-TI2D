@@ -36,8 +36,9 @@ Software Project Management Plan
 		2. Luvi Haerunisah	(1603105) Perancangan Database
 		3. Maulana Ahmad Q	(1603106) Perancangan Project (Dfd, Flowchart, dll)
 	2.3 Batasan dan antarmuka organisasi
-	2.3 Likungan tanggung jawab
-		Dalam lingkungan masyarakat dan  (MITRA)
+	
+	2.3 Lingkungan tanggung jawab
+		Dalam lingkungan masyarakat dan 
 3. Proses Manajerial
 	3.1 Tujuan dan prioritas dan manajemen
 			Tujuan dari projek ini adalah untuk mempermudah Poliklinik (mitra) dalam pendataan pasien yang akan melakukan rawat jalan.
@@ -59,6 +60,10 @@ Software Project Management Plan
 		- Pengencekan 
 		- Evaluasi
 	3.5 Perancangan staf
+		Anggota TIM
+		1. Lia Nur Fadilah	(1603104) Project Plen
+		2. Luvi Haerunisah	(1603105) Perancangan Database
+		3. Maulana Ahmad Q	(1603106) Perancangan Project (Dfd, Flowchart, dll)
 4. Proses Teknis
 	4.1 Metoda, tool dan teknik
 		Proyek ini akan diimplementasikan kepada masyarakat dan mitra yang bersangkutan.
