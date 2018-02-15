@@ -68,10 +68,29 @@ Software Project Management Plan
 		Semua dokumen pendukung proyek akan selesai dalam waktu yang sudah ditentukan.
 5. Paket Pekerjaan, Jadwal dan Budget
 	5.1 Paket pekerjaan
+		1. Nama : Lia Nur Fadilah
+		   Jabatan : Project Manager
+		   Modul : 	Perancangan Fungsi
+		   Rincian Pekerjaan : CRUD Pendaftaran
+		2. Nama : Luvi Haerunisah
+		   Jabatan : Anggota
+		   Modul : Perancangan Database, Design
+		   Rician Pekerjaan : Merancang Database dan design
+		3. Maulana Ahmad Q
+		   Jabatan : Anggota
+		   Modul : Perancangan Project 
+		   Rincian Pekerjaan : Dfd, flowchart, erd, dll.
 	5.2 Ketergantungan/keterkaitan
 			ketergantungan antara hardware dan softwarenya, software yang dibutuhkan harus sinkron dengan spek hardwarenya juga. 
 	5.3 Kebutuhan-kebutuhaan sumber daya
 			Kebutuhan sumber daya yang dibutuhkan yaitu terdapat pada hardwarenya, misalnya laptop. diharapkan bisa support dan bisa berjalan sesuai yang diharapkan
 	5.4 Alokasi budget sumber daya
+		Alokasi sumber daya :
+		-Laptop Lenovo Ideapad AD 320-14IKBN Intel core i5 Rp.8.000.000-,
+		-Smartphone Xiaomi Mi Max 2 Rp.3.500.000-,
+		-Uang bensin untuk memenuhi kebutuhan survei ke mitra yang bersangkutan Rp.1.500.000-,
+		-Alokasi dana untuk kebutuhan tim Rp.45.000.000-,
 	5.5 Jadwal
-		jadwal pembuatan proyek dimulai dari bulan februari sampai kisaran bulan mei.
+		Untuk jadwal atau rencana pembuatan proyek ini, kita diberi waktu dari Bulan Februari dan dibatasi hanya sampai dengan Bulan Mei saja.
+		Dengan waktu yang bisa dibilang cukup panjang ini diharapkan kami dapat menyelesaikan proyek ini dengan hasil yang maksimal.
+
