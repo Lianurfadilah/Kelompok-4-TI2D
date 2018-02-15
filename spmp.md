@@ -19,7 +19,7 @@ Software Project Management Plan
 		- Android Studio
 		- Sublaim Text
 		- Balsamiq
-		- Mysql
+		- firebase
 		
 		referensi materi acuan :
 		-http://www.okedroid.com/p/ebook.html
