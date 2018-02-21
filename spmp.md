@@ -1,13 +1,23 @@
 KELOMPOK 4
 TI2D
 
-**Aplikasi Rawat Jalan Berbasis Android**
+**Aplikasi Sistem Informasi pasien dengan study kasus Dr. Jamil Berbasis Android**
 
 Software Project Management Plan
 1. Pendahuluan
 	1.1 Gambaran Proyek
-		Aplikasi Rawat Jalan Berbasis Android adalah sebuah aplikasi
-	      yang ditujukan untuk mempermudah masyarakat dalam melakukan pengecekan atau check up dalam jangka waktu tertentu, sehingga pasien mampu melihat perkembangan dari pemeriksaan tiap waktunya. 
+		Aplikasi Sistem Informasi pasien dengan study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasi
+	    yang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, 
+		aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil.
+		Aplikasi ini terdapat 4 user, yaitu diantaranya :
+		__________________________________________________________________________
+		| No |      User     |    						Fungsi 	 	        	  |
+		---------------------------------------------------------------------------
+		| 1. | Dokter		 |view data pasien, insert resep dokter				  |
+		| 2. | Admin		 |input data pasien 								  |
+		| 3. | Apotek 	     |view data pasien, dan resep obat, input harga       |
+		| 4. | Kasir 	     |view data pasien, resep obat, harga                 |
+		--------------------------------------------------------------------------
 	1.2 Dokumen-dokumen dalam proyek
 		- modul modul pembuatan android
 		- laporan mengenai android
@@ -32,11 +42,11 @@ Software Project Management Plan
 		Aplikas tersebut berbasis android, dengan menggunakan sebuah software android studio. Dan kemungkinan akan adaaplikasi pendukung lainya. 
 	2.2 Struktur organisasi
 		Anggota TIM
-		1. Lia Nur Fadilah	(1603104) Project Plen
+		1. Lia Nur Fadilah	(1603104) Project Plain
 		2. Luvi Haerunisah	(1603105) Perancangan Database
 		3. Maulana Ahmad Q	(1603106) Perancangan Project (Dfd, Flowchart, dll)
 	2.3 Batasan dan antarmuka organisasi
-	
+		
 	2.3 Lingkungan tanggung jawab
 		Dalam lingkungan masyarakat dan 
 3. Proses Manajerial
@@ -73,18 +83,13 @@ Software Project Management Plan
 		Semua dokumen pendukung proyek akan selesai dalam waktu yang sudah ditentukan.
 5. Paket Pekerjaan, Jadwal dan Budget
 	5.1 Paket pekerjaan
-		1. Nama : Lia Nur Fadilah
-		   Jabatan : Project Manager
-		   Modul : 	Perancangan Fungsi
-		   Rincian Pekerjaan : CRUD Pendaftaran
-		2. Nama : Luvi Haerunisah
-		   Jabatan : Anggota
-		   Modul : Perancangan Database, Design
-		   Rician Pekerjaan : Merancang Database dan design
-		3. Maulana Ahmad Q
-		   Jabatan : Anggota
-		   Modul : Perancangan Project 
-		   Rincian Pekerjaan : Dfd, flowchart, erd, dll.
+		______________________________________________________________________________________________________________
+		| No |      Nama       |    Jabatan     |     		 Modul          		|  Rincian Pekerjaan        	 |
+		--------------------------------------------------------------------------------------------------------------
+		| 1. | Lia Nur Fadilah |Project Manager | Perancangan Fungsi		     	|CRUD Pasien, dan CRUD admin 	 |
+		| 2. | Luvi Haerunisah |Anggota			| Perancangan Database, Design		|Merancang Database dan design   |
+		| 3. | Maulana A. Q	   |Anggota			| Perancangan Project				|Dfd, flowchart, erd, dll.       |
+		--------------------------------------------------------------------------------------------------------------
 	5.2 Ketergantungan/keterkaitan
 			ketergantungan antara hardware dan softwarenya, software yang dibutuhkan harus sinkron dengan spek hardwarenya juga. 
 	5.3 Kebutuhan-kebutuhaan sumber daya
