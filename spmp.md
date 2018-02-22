@@ -6,52 +6,73 @@ TI2D
 Software Project Management Plan
 1. Pendahuluan
 	1.1 Gambaran Proyek
-		Aplikasi Sistem Informasi pasien dengan study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasi
+		Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasi
 	    yang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, 
 		aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil.
-		Aplikasi ini terdapat 4 user, yaitu diantaranya :
+		Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. 
+		Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya 
+		sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter 
+		yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian 
+		registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. 
+		Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, 
+		dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. 
+		Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien 
+		menjadi tidak valid. Serta data stook obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, 
+		pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah 
+		sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat 
+		mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien. 
+		Aplikasi ini terdapat 3 user, yaitu diantaranya :
 		__________________________________________________________________________
 		| No |      User     |    						Fungsi 	 	        	  |
 		---------------------------------------------------------------------------
 		| 1. | Dokter		 |view data pasien, insert resep dokter				  |
 		| 2. | Admin		 |input data pasien 								  |
 		| 3. | Apotek 	     |view data pasien, dan resep obat, input harga       |
-		| 4. | Kasir 	     |view data pasien, resep obat, harga                 |
 		--------------------------------------------------------------------------
 	1.2 Dokumen-dokumen dalam proyek
 		- modul modul pembuatan android
 		- laporan mengenai android
 		- proposal mitra
 	1.3 Evolusi SPMP
-			pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yang dibuat, dan disetiap personal harus mampu mempertanggungjawabkan setiap jobdesk yang sudah ditentukan
+			pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yang dibuat, dan disetiap 
+		personal harus mampu mempertanggungjawabkan setiap jobdesk yang sudah ditentukan
 	1.4 Material proyek
 		 Apliasi Pendukung
 		- Android Studio
 		- Sublaim Text
 		- Balsamiq
-		- firebase
+		- visio
 		
 		referensi materi acuan :
 		-http://www.okedroid.com/p/ebook.html
 		-https://belajarkoding.net/produk/dvd-modul-android-lengkap-ebook-video-tutorial/
-		-materi-materi tuorial lainnya
+		-materi-materi tutorial lainnya
 	1.5 Definisi dan akronim (singkatan)
 	
 2. Organisasi Proyek
 	2.1 Model proyek
-		Aplikas tersebut berbasis android, dengan menggunakan sebuah software android studio. Dan kemungkinan akan adaaplikasi pendukung lainya. 
+		Aplikasi Sistem Informasi Pasien Pada Study Kasus Dr. Jamil berbasis android, dengan menggunakan sebuah software android studio. 
+		Dan kemungkinan akan ada aplikasi pendukung lainya. pada proyek aplikasi yang kita buat ini menggunakan model V atau V Model, alasan 
+		menggunakan V model yaitu karena kita bisa bekerja dengan waktu yang secara bersamaan.
 	2.2 Struktur organisasi
 		Anggota TIM
 		1. Lia Nur Fadilah	(1603104) Project Plain
 		2. Luvi Haerunisah	(1603105) Perancangan Database
 		3. Maulana Ahmad Q	(1603106) Perancangan Project (Dfd, Flowchart, dll)
 	2.3 Batasan dan antarmuka organisasi
-		
+		_____________________________________________________________________________________________________________
+		| No |      Nama       |    Jabatan     |     		 Modul          		|  Rincian Pekerjaan        	 |
+		--------------------------------------------------------------------------------------------------------------
+		| 1. | Lia Nur Fadilah |Project Manager | Perancangan Fungsi		     	|CRUD apotek, dan CRUD admin 	 |
+		| 2. | Luvi Haerunisah |Anggota			| Perancangan Database, Design		|Merancang Database dan design   |
+		| 3. | Maulana A. Q	   |Anggota			| Perancangan Project				|Dfd, flowchart, use case dll.       |
+		--------------------------------------------------------------------------------------------------------------
 	2.3 Lingkungan tanggung jawab
-		Dalam lingkungan masyarakat dan 
+		pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yang dibuat, dan disetiap 
+		personal harus mampu mempertanggungjawabkan setiap jobdesk yang sudah ditentukan
 3. Proses Manajerial
 	3.1 Tujuan dan prioritas dan manajemen
-			Tujuan dari projek ini adalah untuk mempermudah Poliklinik (mitra) dalam pendataan pasien yang akan melakukan rawat jalan.
+			Tujuan dari projek ini adalah untuk mempermudah Praktek Dr. Jamil (mitra) dalam pendataan pasien yang akan melakukan rawat jalan.
 		Dan membantu masyarakat untuk memperoleh pelayanan yang lebih mudah dan praktis.
 	3.2 Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan
 		Keterbatasan peralatan
@@ -62,7 +83,7 @@ Software Project Management Plan
 		- Jam Kuliah
 
 	3.3 Manajemen resiko
-		Aplikasi ini hanya diperuntukan untuk pasien yang akan melakukan rawat jalan.
+		resiko yang mungkin terjadi yaitu terjadinya kesalahan pada proses bug 
 	3.4 Mekanisme monitoring dan kontroling
 		- Bekerja sama dengan mitra
 		- Perancangan 
@@ -76,9 +97,9 @@ Software Project Management Plan
 		3. Maulana Ahmad Q	(1603106) Perancangan Project (Dfd, Flowchart, dll)
 4. Proses Teknis
 	4.1 Metoda, tool dan teknik
-		Proyek ini akan diimplementasikan kepada masyarakat dan mitra yang bersangkutan.
+		Proyek ini akan diimplementasikan kepada Praktek Dr. Jamil.
 	4.2 Dokumentasi perangkat lunak
-		Aplikasi ini bekerja sama dengan Poliklinik Praga Medika Indramayu.
+		Aplikasi ini bekerja sama dengan Praktek Dr. Jamil.
 	4.3 Fungsi-fungsi pendukung proyek
 		Semua dokumen pendukung proyek akan selesai dalam waktu yang sudah ditentukan.
 5. Paket Pekerjaan, Jadwal dan Budget
