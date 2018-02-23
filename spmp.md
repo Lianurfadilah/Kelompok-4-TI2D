@@ -1,34 +1,23 @@
 KELOMPOK 4
 TI2D
-
+Version 1
 **Aplikasi Sistem Informasi pasien dengan study kasus Dr. Jamil Berbasis Android**
 
 Software Project Management Plan
 1. Pendahuluan
 	1.1 Gambaran Proyek
-		Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasi
-	    yang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, 
-		aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil.
-		Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. 
-		Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya 
-		sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter 
-		yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian 
-		registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. 
-		Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, 
-		dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. 
-		Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien 
-		menjadi tidak valid. Serta data stook obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, 
-		pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah 
-		sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat 
-		mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien. 
+		Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasiyang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter 
+yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stook obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah 
+sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien. 
 		Aplikasi ini terdapat 3 user, yaitu diantaranya :
-		__________________________________________________________________________
-		| No |      User     |    						Fungsi 	 	        	  |
-		---------------------------------------------------------------------------
-		| 1. | Dokter		 |view data pasien, insert resep dokter				  |
-		| 2. | Admin		 |input data pasien 								  |
-		| 3. | Apotek 	     |view data pasien, dan resep obat, input harga       |
-		--------------------------------------------------------------------------
+		
+|No|User  	 	 |						Fungsi		 			 |
+|--|-------------|----------------------------------------------|
+|  1| Dokter	 |view data pasien, view stok obat, input resep
+|2| Admin	|input data pasien
+|3|Apotek | input stok obat dan harga
+
+	
 	1.2 Dokumen-dokumen dalam proyek
 		- modul modul pembuatan android
 		- laporan mengenai android
@@ -37,10 +26,10 @@ Software Project Management Plan
 			pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yang dibuat, dan disetiap 
 		personal harus mampu mempertanggungjawabkan setiap jobdesk yang sudah ditentukan
 	1.4 Material proyek
-		 Apliasi Pendukung
+		 Aplikasi Pendukung
 		- Android Studio
-		- Sublaim Text
-		- Balsamiq
+		- Sublime Text
+		- MockPlus
 		- visio
 		
 		referensi materi acuan :
@@ -51,29 +40,26 @@ Software Project Management Plan
 	
 2. Organisasi Proyek
 	2.1 Model proyek
-		Aplikasi Sistem Informasi Pasien Pada Study Kasus Dr. Jamil berbasis android, dengan menggunakan sebuah software android studio. 
-		Dan kemungkinan akan ada aplikasi pendukung lainya. pada proyek aplikasi yang kita buat ini menggunakan model V atau V Model, alasan 
-		menggunakan V model yaitu karena kita bisa bekerja dengan waktu yang secara bersamaan.
+		Aplikasi Sistem Informasi Pasien Pada Study Kasus Dr. Jamil berbasis android, dengan menggunakan sebuah software android studio. Dan kemungkinan akan ada aplikasi pendukung lainya. pada proyek aplikasi yang kita buat ini menggunakan model V atau V Model, alasan  menggunakan V model yaitu karena kita bisa bekerja dengan waktu yang secara bersamaan.
 	2.2 Struktur organisasi
 		Anggota TIM
 		1. Lia Nur Fadilah	(1603104) Project Plain
 		2. Luvi Haerunisah	(1603105) Perancangan Database
 		3. Maulana Ahmad Q	(1603106) Perancangan Project (Dfd, Flowchart, dll)
 	2.3 Batasan dan antarmuka organisasi
-		_____________________________________________________________________________________________________________
-		| No |      Nama       |    Jabatan     |     		 Modul          		|  Rincian Pekerjaan        	 |
-		--------------------------------------------------------------------------------------------------------------
-		| 1. | Lia Nur Fadilah |Project Manager | Perancangan Fungsi		     	|CRUD apotek, dan CRUD admin 	 |
-		| 2. | Luvi Haerunisah |Anggota			| Perancangan Database, Design		|Merancang Database dan design   |
-		| 3. | Maulana A. Q	   |Anggota			| Perancangan Project				|Dfd, flowchart, use case dll.       |
-		--------------------------------------------------------------------------------------------------------------
+		
+| No  |  Nama |  Jabatan |Modul | Rincian Pekerjaan|
+|--|--|--|--|--|
+| 1 | LIA NUR FADILAH  |Manager |Perancangan Fungsi | CRUD apotek, dan CRUD admin|
+| 2 | LUVI HAERUNISAH |Anggota| Perancangan Database, Design| |
+| 3 | MAULANA AHMAD Q. |Anggota|Perancangan Project |DFD, flowchart, use case dll.  |
+		
 	2.3 Lingkungan tanggung jawab
 		pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yang dibuat, dan disetiap 
 		personal harus mampu mempertanggungjawabkan setiap jobdesk yang sudah ditentukan
 3. Proses Manajerial
 	3.1 Tujuan dan prioritas dan manajemen
-			Tujuan dari projek ini adalah untuk mempermudah Praktek Dr. Jamil (mitra) dalam pendataan pasien yang akan melakukan rawat jalan.
-		Dan membantu masyarakat untuk memperoleh pelayanan yang lebih mudah dan praktis.
+				Tujuan dari projek ini adalah untuk mempermudah Praktek Dr. Jamil (mitra) dalam pendataan pasien yang akan melakukan rawat jalan. Dan membantu masyarakat untuk memperoleh pelayanan yang lebih mudah dan praktis.
 	3.2 Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan
 		Keterbatasan peralatan
 		- Laptop kurang memadai
@@ -88,13 +74,18 @@ Software Project Management Plan
 		- Bekerja sama dengan mitra
 		- Perancangan 
 		- Pengerjaan proyek
-		- Pengencekan 
+		- Pengujian
 		- Evaluasi
 	3.5 Perancangan staf
 		Anggota TIM
-		1. Lia Nur Fadilah	(1603104) Project Plen
-		2. Luvi Haerunisah	(1603105) Perancangan Database
-		3. Maulana Ahmad Q	(1603106) Perancangan Project (Dfd, Flowchart, dll)
+		 
+		 
+|No| Nama | Jobdesk|
+|--|--|--|
+| 1 | Lia Nur Fadilah |Project Plan |
+|2|Luvi Haerunisah |Perancangan Database|
+|3|Maulana Ahmad Q. |Perancangan Project(DFD, Flowchart, dll)
+
 4. Proses Teknis
 	4.1 Metoda, tool dan teknik
 		Proyek ini akan diimplementasikan kepada Praktek Dr. Jamil.
@@ -104,17 +95,20 @@ Software Project Management Plan
 		Semua dokumen pendukung proyek akan selesai dalam waktu yang sudah ditentukan.
 5. Paket Pekerjaan, Jadwal dan Budget
 	5.1 Paket pekerjaan
-		______________________________________________________________________________________________________________
-		| No |      Nama       |    Jabatan     |     		 Modul          		|  Rincian Pekerjaan        	 |
-		--------------------------------------------------------------------------------------------------------------
-		| 1. | Lia Nur Fadilah |Project Manager | Perancangan Fungsi		     	|CRUD Pasien, dan CRUD admin 	 |
-		| 2. | Luvi Haerunisah |Anggota			| Perancangan Database, Design		|Merancang Database dan design   |
-		| 3. | Maulana A. Q	   |Anggota			| Perancangan Project				|Dfd, flowchart, erd, dll.       |
-		--------------------------------------------------------------------------------------------------------------
+		
+	
+			
+|No|Nama  |Jabatan |Modul |Jobdesk |
+|--|--|--|--|--|--|
+| 1|Lia Nur Fadilah |Project Manager | Perancangan Fungsi		     	|CRUD Pasien, dan CRUD admin 	 |
+| 2. | Luvi Haerunisah |Anggota			| Perancangan Database, Design		|Merancang Database dan design   |
+| 3. | Maulana A. Q	   |Anggota			| Perancangan Project				|Dfd, flowchart, erd, dll.       |
+		
+		
 	5.2 Ketergantungan/keterkaitan
-			ketergantungan antara hardware dan softwarenya, software yang dibutuhkan harus sinkron dengan spek hardwarenya juga. 
+		ketergantungan antara hardware dan softwarenya, software yang dibutuhkan harus sinkron dengan spek hardwarenya juga. 
 	5.3 Kebutuhan-kebutuhaan sumber daya
-			Kebutuhan sumber daya yang dibutuhkan yaitu terdapat pada hardwarenya, misalnya laptop. diharapkan bisa support dan bisa berjalan sesuai yang diharapkan
+		Kebutuhan sumber daya yang dibutuhkan yaitu terdapat pada hardwarenya, misalnya laptop. diharapkan bisa support dan bisa berjalan sesuai yang diharapkan
 	5.4 Alokasi budget sumber daya
 		Alokasi sumber daya :
 		-Laptop Lenovo Ideapad AD 320-14IKBN Intel core i5 Rp.8.000.000-,
@@ -124,4 +118,5 @@ Software Project Management Plan
 	5.5 Jadwal
 		Untuk jadwal atau rencana pembuatan proyek ini, kita diberi waktu dari Bulan Februari dan dibatasi hanya sampai dengan Bulan Mei saja.
 		Dengan waktu yang bisa dibilang cukup panjang ini diharapkan kami dapat menyelesaikan proyek ini dengan hasil yang maksimal.
+
 
