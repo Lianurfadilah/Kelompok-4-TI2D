@@ -1,6 +1,6 @@
 KELOMPOK 4
 TI2D
-Version 1
+
 **Aplikasi Sistem Informasi pasien dengan study kasus Dr. Jamil Berbasis Android**
 
 Software Project Management Plan
@@ -99,7 +99,7 @@ sistem informasi berbasis web dan android untuk menangani masalah pendataan pasi
 	
 			
 |No|Nama  |Jabatan |Modul |Jobdesk |
-|--|--|--|--|--|--|
+|--|--|--|--|--|
 | 1|Lia Nur Fadilah |Project Manager | Perancangan Fungsi		     	|CRUD Pasien, dan CRUD admin 	 |
 | 2. | Luvi Haerunisah |Anggota			| Perancangan Database, Design		|Merancang Database dan design   |
 | 3. | Maulana A. Q	   |Anggota			| Perancangan Project				|Dfd, flowchart, erd, dll.       |
