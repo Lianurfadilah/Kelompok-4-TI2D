@@ -15,6 +15,39 @@
 					  
 				JURUSAN D3 TEKNIK INFORMATIKA
 				 POLITEKNIK NEGERI INDRAMAYU
+1. Pendahuluan
+		Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasi yang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stook obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien. 
+
+1.2 Lingkup Masalah
+
+    Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasi yang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat.
+
+1.3 Definisi, Istilah dan Singkatan
+	
+	Tabel 1. Daftar Definisi dan Akronm
+	
+|Kata Kunci |Definisi atau Akronim  |
+|--|--|
+| SRS | Software Requirement Specification		 |
+| SKPL		 	| Spesifikasi Kebutuhan Perangkat Lunak, Merupakan Dokumen hasil analis yang berisi spesifikasi kebutuhan user				 		|
+ |RPL			| Rekayasa Perangkat Lunak, Kegiatan pengembangan perangkat lunak	|
+
+
+	tabel 2. Daftar Istilah
+	
+| Kata Kunci  | Definisi atau Akronim |
+|--|--|
+| 	 Android	| sistem operasi berbasis Linux yang dirancang untuk perangkat bergerak layar sentuh seperti telepon pintar dan komputer tablet |
+| 	 web		|suatu ruang informasi yang dipakai oleh pengenal globalyang disebut Pengidentifikasi Sumber Seragam untuk mengenal pasti sumber daya berguna |
+	
+1.4 Aturan Penomoran
+
+
+1.5 Referensi
+		ini adalah link atau referensi yang akan dijadikan sebagai acuan, yaitu  https://openlibrary.telkomuniversity.ac.id/pustaka/files/97623/resume/sistem-informasi-pelayanan-pasien-pada-klinik-permata-raya-bandung.pdf [PDF]sistem informasi pelayanan pasien pada klinik permata ... - Open Library
+	
+
+1.6 Deskripsi Umum Dokumen (Ikhtisar)
 		
 2. Gambaran Umum
 	Aplikasi sistem informasi pasien dengan study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasi
