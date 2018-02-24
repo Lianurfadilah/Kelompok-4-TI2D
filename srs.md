@@ -1,8 +1,10 @@
+
+
 				Software Requirements Specification
 							Version X.X
 						  22 Februari 2018
 						  
-			[Gambar POLINDRA](/SEMESTER 4/POLINDRA.png)
+			![enter image description here](https://lh3.googleusercontent.com/rR-694O1gqIeE5eAAhr7UKQf8UvFTnKHd7xOMfaFOHMcJRa3iWYGG1_98dY-QqMamJLcH6EuuW3D=s200 "polindra")
 			
 		Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil
 							(SIMPATY ADIL)
@@ -68,7 +70,24 @@
 |2|Dokter|view data pasien, input resep dokter, Pada Menu ini, tedapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan si Pasien. Disini Dokter hanya bisa melihat saja dan untuk megefisiensikan waktu,Dokter bisa klik tombol search untuk mencari.|
 |3|Apotek |input stok obat, view dan cetak data pasien yang sudah berobat|
 		
+ ![enter image description here](https://lh3.googleusercontent.com/-H5XNofHT6II/WpGTJA65rJI/AAAAAAAAAiw/J2FCAQ47OJcvy5sJCQYuMCxhkDbCHb9pwCL0BGAs/w795-d-h653-n/Dfd.jpg)
 		
 	 2.1.2 Atarmuka Pengguna
+			 berikut ini adalah mockup dari aplikasi yang akan dibuat, yaitu diantaranya :
+			a. dibawah ini adalah mockup admin, untuk dashboard admin menampilkan laporan berupa grafik peningkatan jumlah pasien tiap bulannya
+ ![Dashboard Admin](https://lh3.googleusercontent.com/-UsALNKxjXvo/WpGZNzS5sTI/AAAAAAAAAjs/7tiuojJ1go4Y3SLwcHT0hOfdOSINWUk5gCL0BGAs/w795-d-h612-n/dashboard+admin.png)
+			b. ini adalah menu input pada admin, yaitu fungsi utama admin menginputkan data pasien yang berobat 
+			 ![enter image description here](https://lh3.googleusercontent.com/-M2NT_SUfy4w/WpGbN0Km1pI/AAAAAAAAAkc/73KuGZ4frYklKtC4BduCU2JoUNCjHvwYgCL0BGAs/w795-d-h612-n/input+data+pasien+%2528admin%2529.png)
+	c. berikut ini adalah menu login pada dokter, dimana dokter bisa view data pasien yang mudah siakses dengan android, dimana pada pict user kita bisa klik yang kemudian akan menampilkan nama pasien yang disebelahnya ada button proses. setelah tombol proses diklik mana akan sinkron dan ngelink ke menu selanjutnya.
+ ![enter image description here](https://lh3.googleusercontent.com/-0AfY-A7YgLo/WpGb27VJUvI/AAAAAAAAAk4/4pxAivgt-Hc1dPx67Hvpb9bdc2WqtroXgCL0BGAs/w795-d-h651-n/login+dokter+dan+view+pasien.PNG)
+
+d. selanjutnya ada menu yang ,enampilkan perintah proses yaitu tampilan view biodata pasien,yang kemudian ketikas dokter sudah view data pasien maka dokter akan input resep, nah didalam menu resep dokter ada 2 button yaitu button obat sama proses. dokter bisa dengan mudah input resep obat, yang selanjutnya akan menglink ke bagian apotek ketika resep sudah disimpan. 
+ ![enter image description here](https://lh3.googleusercontent.com/-trOICIsRZzA/WpGdG-7YYFI/AAAAAAAAAls/PFhAOVoe1N8_Diu86eMdSn6MdJ7BtFYggCL0BGAs/w572-d-h477-n/data+pasien+dan+resep+obat.PNG)
+e. berikut penjelasannya button **obat** akan menampilkan stok obat yang ada di apotek, sehingga dokter dengan mudah memantau stok obat yang tersedia. kemudian untuk button **proses** data akan tersimpan secara otomatis ke data apotek 
+ ![enter image description here](https://lh3.googleusercontent.com/-FrORJLGulzg/WpGeTu1A4uI/AAAAAAAAAmk/OX70BtUlOyQ7Zq2yd6A1zfAbfV8EP_SigCL0BGAs/w795-d-h653-n/view+stok+obat+dan+data+pasien.PNG)
+
+f. dibawah iini adalah menu buat apotek, dimana fungsi utama apotek yaitu menginput stok obat yang terdapat pada apotek tersbut, kemudian bisa view resep obat dan view data pasien, kemudian setelah menerima kiriman dari dokter, maka resep dokter itu akan secara default tercetak kemudian pasien tinggak registrasi kepada kasir. sehingga mempermudah dalam proses ttransaksi pembayaran dan pendataannya juga, khususnya pendataan pasien dan obat 
+ ![enter image description here](https://lh3.googleusercontent.com/-V2kNv3gGh7Q/WpGf7svxW9I/AAAAAAAAAnQ/MEmtUcEqQ0IYRTZvTP1sQOA2C-IpT4pwwCL0BGAs/w795-d-h692-n/login+apotek+dan+input+stok+obat.PNG)
+	 2.1.3
 	 
-		
+
