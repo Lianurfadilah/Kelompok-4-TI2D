@@ -1,10 +1,10 @@
 
 
 				Software Requirements Specification
-							Version X.X
+							Version 1
 						  22 Februari 2018
 						  
-			![enter image description here](https://lh3.googleusercontent.com/rR-694O1gqIeE5eAAhr7UKQf8UvFTnKHd7xOMfaFOHMcJRa3iWYGG1_98dY-QqMamJLcH6EuuW3D=s200 "polindra")
+![enter image description here](https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200)
 			
 		Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil
 							(SIMPATY ADIL)
@@ -74,11 +74,13 @@
 		
 	 2.1.2 Atarmuka Pengguna
 			 berikut ini adalah mockup dari aplikasi yang akan dibuat, yaitu diantaranya :
-			a. dibawah ini adalah mockup admin, untuk dashboard admin menampilkan laporan berupa grafik peningkatan jumlah pasien tiap bulannya
+a. dibawah ini adalah mockup admin, untuk dashboard admin menampilkan laporan berupa grafik peningkatan jumlah pasien tiap bulannya
  ![Dashboard Admin](https://lh3.googleusercontent.com/-UsALNKxjXvo/WpGZNzS5sTI/AAAAAAAAAjs/7tiuojJ1go4Y3SLwcHT0hOfdOSINWUk5gCL0BGAs/w795-d-h612-n/dashboard+admin.png)
-			b. ini adalah menu input pada admin, yaitu fungsi utama admin menginputkan data pasien yang berobat 
+
+b. ini adalah menu input pada admin, yaitu fungsi utama admin menginputkan data pasien yang berobat 
 			 ![enter image description here](https://lh3.googleusercontent.com/-M2NT_SUfy4w/WpGbN0Km1pI/AAAAAAAAAkc/73KuGZ4frYklKtC4BduCU2JoUNCjHvwYgCL0BGAs/w795-d-h612-n/input+data+pasien+%2528admin%2529.png)
-	c. berikut ini adalah menu login pada dokter, dimana dokter bisa view data pasien yang mudah siakses dengan android, dimana pada pict user kita bisa klik yang kemudian akan menampilkan nama pasien yang disebelahnya ada button proses. setelah tombol proses diklik mana akan sinkron dan ngelink ke menu selanjutnya.
+
+c. berikut ini adalah menu login pada dokter, dimana dokter bisa view data pasien yang mudah siakses dengan android, dimana pada pict user kita bisa klik yang kemudian akan menampilkan nama pasien yang disebelahnya ada button proses. setelah tombol proses diklik mana akan sinkron dan ngelink ke menu selanjutnya.
  ![enter image description here](https://lh3.googleusercontent.com/-0AfY-A7YgLo/WpGb27VJUvI/AAAAAAAAAk4/4pxAivgt-Hc1dPx67Hvpb9bdc2WqtroXgCL0BGAs/w795-d-h651-n/login+dokter+dan+view+pasien.PNG)
 
 d. selanjutnya ada menu yang ,enampilkan perintah proses yaitu tampilan view biodata pasien,yang kemudian ketikas dokter sudah view data pasien maka dokter akan input resep, nah didalam menu resep dokter ada 2 button yaitu button obat sama proses. dokter bisa dengan mudah input resep obat, yang selanjutnya akan menglink ke bagian apotek ketika resep sudah disimpan. 
@@ -91,3 +93,21 @@ f. dibawah iini adalah menu buat apotek, dimana fungsi utama apotek yaitu mengin
 	 2.1.3
 	 
 
+2.2 Fungsi-fungsi produk 
+
+
+3. Kebutuhan lain yang spesifik 
+	3.1 Kebutuhan antarmuka eksternal
+		3.1.1 Antarmuka pemakai 
+					 dokter dan apotek sebagai user yang dapat mengoperasikan  	aplikasi sistem informasi pasien pada study kasus Dr. Jamil dengan menggunakan smartphone yang berupa android.
+		3.1.2 Antarmuka perangkat lunak
+	Aplikasi dapat diakses jika terhubung dengan internet dan memiliki OS android
+	3.2 Kebutuhan Fungsional 
+		3.2.1 Aliran informasi 
+			3.2.1.1 DFD
+	![enter image description here](https://lh3.googleusercontent.com/-H5XNofHT6II/WpGTJA65rJI/AAAAAAAAAiw/J2FCAQ47OJcvy5sJCQYuMCxhkDbCHb9pwCL0BGAs/w795-d-h653-n/Dfd.jpg)
+	
+			3.2.1.2 Flowchart 
+	![enter image description here](https://lh3.googleusercontent.com/FbMisA8lRJADXeOnisOfOBfsdTMChc0GyclLf7_GSXtGnRTzzLIGN-Il63nDR84i6zfuq5VhnMHp=s600 "flowchart")
+	3.3 Pemodelan data 
+![enter image description here](https://lh3.googleusercontent.com/vMNrVRPLzCFx4mPb5LV3yTdk26-hHYnKfXb7wwUjVnr188lNZwwdfthI3Bj4xcv5hHyzfuD4wXDg=s600)
