@@ -88,9 +88,17 @@ d. selanjutnya ada menu yang ,enampilkan perintah proses yaitu tampilan view bio
 e. berikut penjelasannya button **obat** akan menampilkan stok obat yang ada di apotek, sehingga dokter dengan mudah memantau stok obat yang tersedia. kemudian untuk button **proses** data akan tersimpan secara otomatis ke data apotek 
  ![enter image description here](https://lh3.googleusercontent.com/-FrORJLGulzg/WpGeTu1A4uI/AAAAAAAAAmk/OX70BtUlOyQ7Zq2yd6A1zfAbfV8EP_SigCL0BGAs/w795-d-h653-n/view+stok+obat+dan+data+pasien.PNG)
 
-f. dibawah iini adalah menu buat apotek, dimana fungsi utama apotek yaitu menginput stok obat yang terdapat pada apotek tersbut, kemudian bisa view resep obat dan view data pasien, kemudian setelah menerima kiriman dari dokter, maka resep dokter itu akan secara default tercetak kemudian pasien tinggak registrasi kepada kasir. sehingga mempermudah dalam proses ttransaksi pembayaran dan pendataannya juga, khususnya pendataan pasien dan obat 
+f. dibawah ini adalah menu buat apotek, dimana fungsi utama apotek yaitu menginput stok obat yang terdapat pada apotek tersbut, kemudian bisa view resep obat dan view data pasien, kemudian setelah menerima kiriman dari dokter, maka resep dokter itu akan secara default tercetak kemudian pasien tinggak registrasi kepada kasir. sehingga mempermudah dalam proses ttransaksi pembayaran dan pendataannya juga, khususnya pendataan pasien dan obat 
  ![enter image description here](https://lh3.googleusercontent.com/-V2kNv3gGh7Q/WpGf7svxW9I/AAAAAAAAAnQ/MEmtUcEqQ0IYRTZvTP1sQOA2C-IpT4pwwCL0BGAs/w795-d-h692-n/login+apotek+dan+input+stok+obat.PNG)
 	 2.1.3
+	 Dibawah ini adalah  antar muka hardware.
+	 Admin :menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan.
+	 Dokter : view data pasien, input resep dokter, Pada Menu ini, tedapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan si Pasien. Disini Dokter hanya bisa melihat saja dan untuk megefisiensikan waktu,Dokter bisa klik tombol search untuk mencari.
+	 Apotek :input stok obat, view dan cetak data pasien yang sudah berobat
+	 ![enter image description here](https://lh3.googleusercontent.com/-Vm8DM0x7o0A/WpJ6cgU_uMI/AAAAAAAAARQ/FrchoGJ_Xo8kTTH0iRZfmX1OFu1-cbfYwCL0BGAs/w530-d-h275-n/usecase.png)
+	 
+	
+	 
 	 
 
 2.2 Fungsi-fungsi produk 
@@ -111,3 +119,4 @@ f. dibawah iini adalah menu buat apotek, dimana fungsi utama apotek yaitu mengin
 	![enter image description here](https://lh3.googleusercontent.com/FbMisA8lRJADXeOnisOfOBfsdTMChc0GyclLf7_GSXtGnRTzzLIGN-Il63nDR84i6zfuq5VhnMHp=s600 "flowchart")
 	3.3 Pemodelan data 
 ![enter image description here](https://lh3.googleusercontent.com/vMNrVRPLzCFx4mPb5LV3yTdk26-hHYnKfXb7wwUjVnr188lNZwwdfthI3Bj4xcv5hHyzfuD4wXDg=s600)
+
