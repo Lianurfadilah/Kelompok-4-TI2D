@@ -1,7 +1,8 @@
 
 
+
 				Software Requirements Specification
-							Version 1
+							Version 1.1
 						  22 Februari 2018
 						  
 ![enter image description here](https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200)
@@ -19,13 +20,14 @@
 				 POLITEKNIK NEGERI INDRAMAYU
 1. Pendahuluan
 		Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasi yang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stook obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien. 
-
-1.2 Lingkup Masalah
-
-    Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasi yang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat.
-
+1.1 Tujuan 
+		tujuan pembuatan SRS yaitu sebagai pendokumentasian file-file atau berkas-berkas terkait project yang dibuat, yang nantinya akan dijadikan sebagai suatu acuan.
+1.2 Lingkup 
+		Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android ini adalah sebuah aplikasi yang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat.
 1.3 Definisi, Istilah dan Singkatan
 	
+
+
 	Tabel 1. Daftar Definisi dan Akronm
 	
 |Kata Kunci |Definisi atau Akronim  |
@@ -42,21 +44,19 @@
 | 	 Android	| sistem operasi berbasis Linux yang dirancang untuk perangkat bergerak layar sentuh seperti telepon pintar dan komputer tablet |
 | 	 web		|suatu ruang informasi yang dipakai oleh pengenal globalyang disebut Pengidentifikasi Sumber Seragam untuk mengenal pasti sumber daya berguna |
 	
-1.4 Aturan Penomoran
 
-
-1.5 Referensi
-		ini adalah link atau referensi yang akan dijadikan sebagai acuan, yaitu  https://openlibrary.telkomuniversity.ac.id/pustaka/files/97623/resume/sistem-informasi-pelayanan-pasien-pada-klinik-permata-raya-bandung.pdf [PDF]sistem informasi pelayanan pasien pada klinik permata ... - Open Library
+1.4 Referensi
+IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Specifications. IEEE Computer Society, 1998. dan  https://openlibrary.telkomuniversity.ac.id/pustaka/files/97623/resume/sistem-informasi-pelayanan-pasien-pada-klinik-permata-raya-bandung.pdf [PDF]sistem informasi pelayanan pasien pada klinik permata ... - Open Library  yang akan dijadikan sebagai acuan untuk pembuatan project
 	
 
-1.6 Deskripsi Umum Dokumen (Ikhtisar)
-		
+1.5 Deskripsi Umum Dokumen (Ikhtisar)
+		pada Bab pertama yaitu menjelaskan tentang aplikasi atau project yang akan dibuat. Bab berikutnya, bagian Uraian Keseluruhan, dari dokumen ini memberikan gambaran umum tentang sistem yang akan dibuat dan alur dari sistemnya. dan bab yang ketiga yaitu menjelaskan gambaran umum fungsi fungsi dari setiap user diantaranya yaitu fungsi sebagai admin, dokter, dan apotek. 
 2. Gambaran Umum
 	Aplikasi sistem informasi pasien dengan study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasi
     yang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, 
     aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil.
     Aplikasi ini terdapat 4 user, yaitu diantaranya :
-	1. Admin	 : Input data pasien
+	1. Admin	 	: Input data pasien
 	2. Dokter	: Input data pasien dan insert resep dokter
 	3. Apotek	: View data pasien,input resep obat dan input harga
 
@@ -90,20 +90,21 @@ e. berikut penjelasannya button **obat** akan menampilkan stok obat yang ada di 
 
 f. dibawah ini adalah menu buat apotek, dimana fungsi utama apotek yaitu menginput stok obat yang terdapat pada apotek tersbut, kemudian bisa view resep obat dan view data pasien, kemudian setelah menerima kiriman dari dokter, maka resep dokter itu akan secara default tercetak kemudian pasien tinggak registrasi kepada kasir. sehingga mempermudah dalam proses ttransaksi pembayaran dan pendataannya juga, khususnya pendataan pasien dan obat 
  ![enter image description here](https://lh3.googleusercontent.com/-V2kNv3gGh7Q/WpGf7svxW9I/AAAAAAAAAnQ/MEmtUcEqQ0IYRTZvTP1sQOA2C-IpT4pwwCL0BGAs/w795-d-h692-n/login+apotek+dan+input+stok+obat.PNG)
-	 2.1.3
+	 2.1.3 Antarmuka Perangkat Keras (Hardware)
 	 Dibawah ini adalah  antar muka hardware.
 	 Admin :menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan.
 	 Dokter : view data pasien, input resep dokter, Pada Menu ini, tedapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan si Pasien. Disini Dokter hanya bisa melihat saja dan untuk megefisiensikan waktu,Dokter bisa klik tombol search untuk mencari.
 	 Apotek :input stok obat, view dan cetak data pasien yang sudah berobat
 	 ![enter image description here](https://lh3.googleusercontent.com/-Vm8DM0x7o0A/WpJ6cgU_uMI/AAAAAAAAARQ/FrchoGJ_Xo8kTTH0iRZfmX1OFu1-cbfYwCL0BGAs/w530-d-h275-n/usecase.png)
 	 
-	
-	 
-	 
-
 2.2 Fungsi-fungsi produk 
+![enter image description here](https://lh3.googleusercontent.com/-pr6PIJurEGg/WpJqtSlhMfI/AAAAAAAAAp0/mIqkzS9s8pQZY_Ab17ZwJvQJSdZhbEnDwCJoC/w795-h627-n/use+case.jpg)
 
-
+| No | User |Fungsi  |
+|--|--|--|
+| 1 |Admin	  | menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan|
+|2|Dokter|view data pasien, input resep dokter, Pada Menu ini, tedapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan si Pasien. Disini Dokter hanya bisa melihat saja dan untuk megefisiensikan waktu,Dokter bisa klik tombol search untuk mencari.|
+|3|Apotek |input stok obat, view dan cetak data pasien yang sudah berobat|
 3. Kebutuhan lain yang spesifik 
 	3.1 Kebutuhan antarmuka eksternal
 		3.1.1 Antarmuka pemakai 
