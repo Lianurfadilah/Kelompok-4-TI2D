@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,8 +6,8 @@
 </head>
 <body><center>
 	<h1>Software Requirements Specification</h1>
-	<h2>Version 1.1<br>
-	28 Februari 2018</h2><br><br>
+	<h2>Version 1.2<br>
+	01 Maret 2018</h2><br><br>
 	<img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"><br>
 	<h2>Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
 	</style>(SIMPATY ADIL)</h2><br>
@@ -100,7 +101,7 @@ f. dibawah ini adalah menu buat apotek, dimana fungsi utama apotek yaitu menginp
 	 ![enter image description here](https://lh3.googleusercontent.com/-Vm8DM0x7o0A/WpJ6cgU_uMI/AAAAAAAAARQ/FrchoGJ_Xo8kTTH0iRZfmX1OFu1-cbfYwCL0BGAs/w530-d-h275-n/usecase.png)
 	 
 2.2 Fungsi-fungsi produk 
-![enter image description here](https://lh3.googleusercontent.com/-pr6PIJurEGg/WpJqtSlhMfI/AAAAAAAAAp0/mIqkzS9s8pQZY_Ab17ZwJvQJSdZhbEnDwCJoC/w795-h627-n/use+case.jpg)
+![enter image description here](https://lh3.googleusercontent.com/-EWCFjOFxbqk/WpdkCjxqzRI/AAAAAAAAArw/ym8TI0ZMviof1mN_TxermDDTBU1zj3uJQCL0BGAs/w795-d-h615-n/use+case+fungsi++project.jpeg)
 
 | No | User |Fungsi  |
 |--|--|--|
