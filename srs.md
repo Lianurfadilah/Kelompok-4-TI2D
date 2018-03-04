@@ -7,7 +7,7 @@
 	<h1 align="center">Software Requirements Specification</h1>
 	<h2 align="center">Version 1.3<br>
 	01 Maret 2018</h2><br><br>
-	<align="center" img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200" align="center"><br>
+	<img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200" align="center"><br>
 	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
 	(SIMPATY ADIL)</h2>
 	<align="center" br>
@@ -26,7 +26,7 @@
 
 **1. Pendahuluan**
 
-		Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasi yang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stook obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien. 
+Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasi yang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stook obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien. 
 
 1.1 Tujuan 
 		tujuan pembuatan SRS yaitu sebagai pendokumentasian file-file atau berkas-berkas terkait project yang dibuat, yang nantinya akan dijadikan sebagai suatu acuan.
@@ -72,9 +72,9 @@ Aplikasi ini terdapat 3 user, yaitu:
 2. Dokter	: Input data pasien dan insert resep dokter.
 3. Apotek	: View data pasien,input resep obat dan input harga.
 
-  2.1 Perspektif produk (Perbandingan)
+2.1 Perspektif produk (Perbandingan)
 
-		Aplikasi yang kita buat ini adalah sistem informasi pasien dengan study kasus Dr. Jamil. Untuk perbedaan antara aplikasi Sistem Informasi Pasien dengan Study Kasus Dr. Jamilyang kami buat dengan-Rancang Bangun Aplikasi Rekam Medis untuk Praktik Pribadi Dokter Berbasis Android dan Memanfaatkan Layanan Web (https://www.researchgate.net/publication/320519219_Rancang_Bangun_Aplikasi_Rekam_Medis_untuk_Praktik_Pribadi_Dokter_Berbasis_Android_dan_Memanfaatkan_Layanan_Web). Keunggulan dari aplikasi kami adalah aplikasi kami terhubung dengan Apotek dan Kasir ditempat Praktek tersebut. Sedangkan Rancang Bangun Aplikasi Rekam Medis untuk Praktik Pribadi Dokter Berbasis Android dan Memanfaatkan Layanan Web ini hanya diperuntukan untuk pasien yang berkonsultasi dengan Dokter, dan pada data Dokter, Dokter hanya bisa melihat dan menambahkan pasien tanpa bisa mengupdate data pasien.
+Aplikasi yang kita buat ini adalah sistem informasi pasien dengan study kasus Dr. Jamil. Untuk perbedaan antara aplikasi Sistem Informasi Pasien dengan Study Kasus Dr. Jamil yang kami buat dengan-Rancang Bangun Aplikasi Rekam Medis untuk Praktik Pribadi Dokter Berbasis Android dan Memanfaatkan Layanan Web (https://www.researchgate.net/publication/320519219_Rancang_Bangun_Aplikasi_Rekam_Medis_untuk_Praktik_Pribadi_Dokter_Berbasis_Android_dan_Memanfaatkan_Layanan_Web). Keunggulan dari aplikasi kami adalah aplikasi kami terhubung dengan Apotek dan Kasir ditempat Praktek tersebut. Sedangkan Rancang Bangun Aplikasi Rekam Medis untuk Praktik Pribadi Dokter Berbasis Android dan Memanfaatkan Layanan Web ini hanya diperuntukan untuk pasien yang berkonsultasi dengan Dokter, dan pada data Dokter, Dokter hanya bisa melihat dan menambahkan pasien tanpa bisa mengupdate data pasien.
 
 
 		2.1.1 Antarmuka Sistem
@@ -158,10 +158,10 @@ Aplikasi ini dapat diakses jika terhubung dengan internet dan memiliki OS androi
 
 3.2.1 Aliran informasi 
 
-			3.2.1.1 DFD
+3.2.1.1 DFD
 	![enter image description here](https://lh3.googleusercontent.com/-H5XNofHT6II/WpGTJA65rJI/AAAAAAAAAiw/J2FCAQ47OJcvy5sJCQYuMCxhkDbCHb9pwCL0BGAs/w795-d-h653-n/Dfd.jpg)
 	
-			3.2.1.2 Flowchart 
+3.2.1.2 Flowchart 
 	![enter image description here](https://lh3.googleusercontent.com/FbMisA8lRJADXeOnisOfOBfsdTMChc0GyclLf7_GSXtGnRTzzLIGN-Il63nDR84i6zfuq5VhnMHp=s600 "flowchart")
 
 3.3 Pemodelan data
