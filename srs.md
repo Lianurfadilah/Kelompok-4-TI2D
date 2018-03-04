@@ -7,7 +7,7 @@
 	<h1 align="center">Software Requirements Specification</h1>
 	<h2 align="center">Version 1.3<br>
 	01 Maret 2018</h2><br><br>
-	<img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200" align="center"><br>
+	<p align="center" img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200" align="center"></p><br>
 	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
 	(SIMPATY ADIL)</h2>
 	<align="center" br>
@@ -149,9 +149,9 @@ Apotek :input stok obat, view dan cetak data pasien yang sudah berobat.
 
 3.1 Kebutuhan antarmuka eksternal
 
-3.1.1 Antarmuka pemakai
+	3.1.1 Antarmuka pemakai
 
-dokter dan apotek sebagai user yang dapat mengoperasikan  	aplikasi sistem informasi pasien pada study kasus Dr. Jamil dengan menggunakan smartphone yang berupa android.
+Dokter dan Apotek sebagai user yang dapat mengoperasikan aplikasi sistem informasi pasien pada study kasus Dr. Jamil dengan menggunakan smartphone yang berupa android.
 
 3.1.2 Antarmuka perangkat lunak
 Aplikasi ini dapat diakses jika terhubung dengan internet dan memiliki OS android.
@@ -162,11 +162,11 @@ Aplikasi ini dapat diakses jika terhubung dengan internet dan memiliki OS androi
 
 3.2.1 Aliran informasi 
 
-3.2.1.1 DFD
+	3.2.1.1 DFD
 
 ![enter image description here](https://lh3.googleusercontent.com/-H5XNofHT6II/WpGTJA65rJI/AAAAAAAAAiw/J2FCAQ47OJcvy5sJCQYuMCxhkDbCHb9pwCL0BGAs/w795-d-h653-n/Dfd.jpg)
 	
-3.2.1.2 Flowchart 
+	3.2.1.2 Flowchart 
 
 ![enter image description here](https://lh3.googleusercontent.com/FbMisA8lRJADXeOnisOfOBfsdTMChc0GyclLf7_GSXtGnRTzzLIGN-Il63nDR84i6zfuq5VhnMHp=s600 "flowchart")
 
