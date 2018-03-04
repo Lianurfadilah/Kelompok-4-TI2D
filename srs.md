@@ -1,12 +1,13 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
 </head>
 <body><center>
 	<h1 align="center">Software Requirements Specification</h1>
-	<h2 align="center">Version 1.3<br>
-	01 Maret 2018</h2><br><br>
+	<h2 align="center">Version 1.4<br>
+	04 Maret 2018</h2><br><br>
 	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
 	<br>
 	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
@@ -161,19 +162,60 @@ Aplikasi ini dapat diakses jika terhubung dengan internet dan memiliki OS androi
 
 
 
-3.2.1 Aliran informasi 
+3.2.1 Search Article 
 
-	3.2.1.1 DFD
-
-![enter image description here](https://lh3.googleusercontent.com/-H5XNofHT6II/WpGTJA65rJI/AAAAAAAAAiw/J2FCAQ47OJcvy5sJCQYuMCxhkDbCHb9pwCL0BGAs/w795-d-h653-n/Dfd.jpg)
 	
-	3.2.1.2 Flowchart 
+|Use Case Name|Search Article  |
+|--|--|
+|**Trigger**| halaman beranda user admin
+| **Pre condition**  | Web ditampilkan hanya untuk admin yang digunakan untuk input saat pendaftaran pasien |
+|**Basic Path** | 1. admin menginput data pasien	
+||2. kemudian sistem mengirim data terebut ke dalam sistem user dokternya, sehingga ketika dokter membuka menu daftar pasien, maka data sudah muncul secara otomatis   |
+||3. setelah itu dokter tinggal menginputkann resep obat, yang kemudian terhubung langsung ke bagian apoteknya.
+|**Post condition**| user dokter mampu melihat daftar pasien yang dikirim dari admin, dan apotek bisa melihat resep obat dari dokter
+|**Exception push**| user dokter dapat melakukan pencarian obat, yang sebelumnya data obat tersebut sudah duimasukkan oleh user apotek.
+|**Other**| data stok barang dpaat ditampilkan dan divew oleh user dokter
+	3.2.2 Communicate
+	
+| Use Case Name  Communicate|  |
+|--|--|
+| **Trigeer** | user masuk ke login  |
+|**Precondition**|halaman dashboard dan haaman input data paien |
+|**Basic Path** | 1. admin menginput data pasien	
+||2. kemudian sistem mengirim data terebut ke dalam sistem user dokternya, sehingga ketika dokter membuka menu daftar pasien, maka data sudah muncul secara otomatis   |
+||3. setelah itu dokter tinggal menginputkann resep obat, yang kemudian terhubung langsung ke bagian apoteknya
+|**Alternative**|Tidak ada |
+|**Postcondition**|user apotek bisa melihat data obat yang suudah diinputkan 
+|**Exception Paths**| bisa dilihat kapan saja,dikhususkan untuk pelaporan data jumlah pasien perbulannya
 
-![enter image description here](https://lh3.googleusercontent.com/FbMisA8lRJADXeOnisOfOBfsdTMChc0GyclLf7_GSXtGnRTzzLIGN-Il63nDR84i6zfuq5VhnMHp=s600 "flowchart")
+3.2.3 Add Author
 
-3.3 Pemodelan data
+|Nama Use Case|Add Author  |
+|--|--|
+|  **Trigger**| Admin, melakukan proses pendataan pasien  |
+|**Precondition**|admin telah mengakses layar utama |
+|**Basic Path**| 1\. Sistem menyajikan tabel kosong untuk memasukkan pendaftaran pasien 
+||2\. admin memasukkan informasi dan mengirimkan biodata pasien 
+||3\. Sistem memeriksa bahwa kolom nama biodata lainnya sudah terpenuhi 
 
 
 
-![enter image description here](https://lh3.googleusercontent.com/vMNrVRPLzCFx4mPb5LV3yTdk26-hHYnKfXb7wwUjVnr188lNZwwdfthI3Bj4xcv5hHyzfuD4wXDg=s600)
+
+3.3 Persyaratan Non Fungsional 
+3.3.1 Struktur tidak logis
+
+Struktur logis data yang akan disimpan dalam database Article Manager internal diberikan di bawah ini.
+![enter image description here](https://lh3.googleusercontent.com/-lCS6Bwz7rNs/WpwTgaN3R4I/AAAAAAAAAsk/5eU7bi9d6JoWUveH0HqyUiVvL3cpTWN-ACL0BGAs/w795-d-h554-n/3.srs.jpg)
+
+**Reviewer Data Entity 
+| Data item |Type|Description |Comment|
+|--|--|--|--|
+| nama  |text  |nama obat 	 |  |
+|ID|Integer |harga obat 
+|speciality | Text |mempunyai keahlian dalam bidangnya masing-masing
+
+3.3.2 Keamanan
+
+Server tempat untk admin dan apotek berada akan memiliki keamanan sendiri untuk mencegah akses write / delete yang tidak sah. Tidak ada batasan akses baca. 
+PC tempat admin berada akan memiliki keamanan sendiri. Hanya admin yang memiliki akses fisik ke mesin dan program di dalamnya. Tidak ada perlindungan khusus yang ada di dalam sistem ini .
 
