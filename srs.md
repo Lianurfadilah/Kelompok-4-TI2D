@@ -13,10 +13,10 @@
 	(SIMPATY ADIL)</h2>
 	<align="center" br>
 	<ol align="center">Nama Anggota TIM</ol>
-	<li> LIA NUR FADILAH (1603104)</li><align="center" br>
-	<li> JENIA ADELLIA P.(1603102)</li><align="center" br>
-	<li>LUVI HAERUNISAH	(1603105)</li><align="center" br>
-	<li>MAULANA AHMAD Q.(1603106)</li><align="center" br><br>
+	<align="center" br><li> LIA NUR FADILAH (1603104)</li>
+	<align="center" br><li> JENIA ADELLIA P.(1603102)</li>
+	<align="center" br><li>LUVI HAERUNISAH	(1603105)</li>
+	</li><align="center" br><li>MAULANA AHMAD Q.(1603106)<br>
 	<br>
 	<h2 align="center">JURUSAN D3 TEKNIK INFORMATIKA<br>
 		POLITEKNIK NEGERI INDRAMAYU<br>
