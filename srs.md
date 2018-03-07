@@ -12,11 +12,11 @@
 	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
 	(SIMPATY ADIL)</h2>
 	<align="center" br>
-	<ol align="center">Nama Anggota TIM</ol>
+	<ol align="center">Nama Anggota TIM</ol><align="center">
 	<br>LIA NUR FADILAH (1603104)</br>
 	<br>JENIA ADELLIA P.(1603102)</br>
 	<br>LUVI HAERUNISAH	(1603105)</br>
-	<br>MAULANA AHMAD Q.(1603106)</br>
+	<br>MAULANA AHMAD Q.(1603106)</br></align="center">
 	<br>
 	<h2 align="center">JURUSAN D3 TEKNIK INFORMATIKA<br>
 		POLITEKNIK NEGERI INDRAMAYU<br>
