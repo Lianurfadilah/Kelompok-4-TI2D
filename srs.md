@@ -1,13 +1,12 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
 </head>
 <body><center>
 	<h1 align="center">Software Requirements Specification</h1>
-	<h2 align="center">Version 1.4<br>
-	04 Maret 2018</h2><br><br>
+	<h2 align="center">Version 1.5<br>
+	07 Maret 2018</h2><br><br>
 	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
 	<br>
 	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
