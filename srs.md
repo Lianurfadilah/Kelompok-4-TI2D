@@ -14,10 +14,10 @@
 	<align="center" br>
 	<ol align="center">Nama Anggota TIM</ol>
 	<align="center" br>
-	<li> LIA NUR FADILAH (1603104)</li>
-	<li> JENIA ADELLIA P.(1603102)</li>
+	<li>LIA NUR FADILAH (1603104)</li>
+	<li>JENIA ADELLIA P.(1603102)</li>
 	<li>LUVI HAERUNISAH	(1603105)</li>
-	<li>MAULANA AHMAD Q.(1603106)<br>
+	<li>MAULANA AHMAD Q.(1603106)</li>
 	<br>
 	<h2 align="center">JURUSAN D3 TEKNIK INFORMATIKA<br>
 		POLITEKNIK NEGERI INDRAMAYU<br>
