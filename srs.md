@@ -3,25 +3,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
 </head>
 <body><center>
-	<h1>Software Requirements Specification</h1>
-	<h2>Version 1.4<br>
+	<h1 align="center">Software Requirements Specification</h1>
+	<h2 align="center">Version 1.4<br>
 	04 Maret 2018</h2><br><br>
 	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
 	<br>
-	<h2>Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
-	</style>
+	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
 	(SIMPATY ADIL)</h2>
 	<align="center" br>
-	<ol>Nama Anggota TIM</ol>
-	LIA NUR FADILAH (1603104)<br>
-	JENIA ADELLIA P.(1603102)<br>
-	LUVI HAERUNISAH	(1603105)<br>
-	MAULANA AHMAD Q.(1603106)<br><br>
+	<ol align="center">Nama Anggota TIM</ol><align="center">
+	<br>LIA NUR FADILAH (1603104)</br>
+	<br>JENIA ADELLIA P.(1603102)</br>
+	<br>LUVI HAERUNISAH	(1603105)</br>
+	<br>MAULANA AHMAD Q.(1603106)</br></align="center">
 	<br>
-	<h2>JURUSAN D3 TEKNIK INFORMATIKA<br>
+	<h2 align="center">JURUSAN D3 TEKNIK INFORMATIKA<br>
 		POLITEKNIK NEGERI INDRAMAYU<br>
 		2018</h2>
 </center>
@@ -230,6 +228,7 @@ Aplikasi ini dapat diakses jika terhubung dengan internet dan memiliki OS androi
 
 Struktur logis data (ERD) yang akan disimpan dalam database Article Manager internal diberikan di bawah ini:
 ![enter image description here](https://lh3.googleusercontent.com/-6y7S5INTPQY/Wp_0PbavORI/AAAAAAAAAug/IELJNzRZqDckxQBiQlxlIYEnY7zQWTrwwCL0BGAs/w795-d-h957-n/erd.jpg)
+
 
 
 |Data item|Type|Description|Comment|
