@@ -106,10 +106,13 @@ REFERENSI:
 Berikut ini adalah Mockup (Rancangan Interface) dari Aplikasi yang akan dibuat, yaitu:
 
 a. Dibawah ini adalah mockup Admin, untuk dashboard Admin menampilkan laporan berupa grafik peningkatan jumlah pasien tiap bulannya.
+	
 	Register Admin
 ![Register Admin](https://lh3.googleusercontent.com/-2VFO9kvwgXA/Wp_22e5JPyI/AAAAAAAAAMM/_3VH6SS1KB4sK2TDyc0W-c1azpBkg1JTACL0BGAs/w530-d-h398-n-rw/register.png)
+	
 	Log In Admin
 ![Log in Admin](https://lh3.googleusercontent.com/-8UAgXZK1MWM/Wp_27BObXtI/AAAAAAAAAMg/ChLGZO9VbVMckbbzLel0iOHowTfCknVmACL0BGAs/w530-d-h409-n-rw/masuk.png)
+	
 	Dashboard Admin
  ![Dashboard Admin](https://lh3.googleusercontent.com/-UsALNKxjXvo/WpGZNzS5sTI/AAAAAAAAAjs/7tiuojJ1go4Y3SLwcHT0hOfdOSINWUk5gCL0BGAs/w795-d-h612-n/dashboard+admin.png)
 
@@ -224,7 +227,7 @@ Aplikasi ini dapat diakses jika terhubung dengan internet dan memiliki OS androi
 	3.3.1 Struktur tidak logis
 
 Struktur logis data (ERD) yang akan disimpan dalam database Article Manager internal diberikan di bawah ini:
-![enter image description here](https://lh3.googleusercontent.com/-lCS6Bwz7rNs/WpwTgaN3R4I/AAAAAAAAAsk/5eU7bi9d6JoWUveH0HqyUiVvL3cpTWN-ACL0BGAs/w795-d-h554-n/3.srs.jpg)
+![enter image description here](https://lh3.googleusercontent.com/-6y7S5INTPQY/Wp_0PbavORI/AAAAAAAAAug/IELJNzRZqDckxQBiQlxlIYEnY7zQWTrwwCL0BGAs/w795-d-h957-n/erd.jpg)
 
 **Reviewer Data Entity 
 
