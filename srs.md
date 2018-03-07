@@ -6,19 +6,20 @@
 </head>
 <body><center>
 	<h1 align="center">Software Requirements Specification</h1>
-	<h2 align="center">Version 1.5<br>
-	07 Maret 2018</h2><br><br>
+	<h2 align="center">Version 1.4<br>
+	04 Maret 2018</h2><br><br>
 	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
 	<br>
-	<h2>Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
+	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
 	(SIMPATY ADIL)</h2>
-	<ol>Nama Anggota TIM</ol>
-	LIA NUR FADILAH (1603104)<br>
-	JENIA ADELLIA P.(1603102)<br>
-	LUVI HAERUNISAH	(1603105)<br>
-	MAULANA AHMAD Q.(1603106)<br>
+	<align="center" br>
+	<ol align="center">Nama Anggota TIM</ol><align="center">
+	<br>LIA NUR FADILAH (1603104)</br>
+	<br>JENIA ADELLIA P.(1603102)</br>
+	<br>LUVI HAERUNISAH	(1603105)</br>
+	<br>MAULANA AHMAD Q.(1603106)</br></align="center">
 	<br>
-	<h2>JURUSAN D3 TEKNIK INFORMATIKA<br>
+	<h2 align="center">JURUSAN D3 TEKNIK INFORMATIKA<br>
 		POLITEKNIK NEGERI INDRAMAYU<br>
 		2018</h2>
 </center>
@@ -105,7 +106,11 @@ REFERENSI:
 Berikut ini adalah Mockup (Rancangan Interface) dari Aplikasi yang akan dibuat, yaitu:
 
 a. Dibawah ini adalah mockup Admin, untuk dashboard Admin menampilkan laporan berupa grafik peningkatan jumlah pasien tiap bulannya.
-
+	Register Admin
+![Register Admin](https://lh3.googleusercontent.com/-2VFO9kvwgXA/Wp_22e5JPyI/AAAAAAAAAMM/_3VH6SS1KB4sK2TDyc0W-c1azpBkg1JTACL0BGAs/w530-d-h398-n-rw/register.png)
+	Log In Admin
+![Log in Admin](https://lh3.googleusercontent.com/-8UAgXZK1MWM/Wp_27BObXtI/AAAAAAAAAMg/ChLGZO9VbVMckbbzLel0iOHowTfCknVmACL0BGAs/w530-d-h409-n-rw/masuk.png)
+	Dashboard Admin
  ![Dashboard Admin](https://lh3.googleusercontent.com/-UsALNKxjXvo/WpGZNzS5sTI/AAAAAAAAAjs/7tiuojJ1go4Y3SLwcHT0hOfdOSINWUk5gCL0BGAs/w795-d-h612-n/dashboard+admin.png)
 
 b. ini adalah menu input pada admin, yaitu fungsi utama admin menginputkan data pasien yang berobat 
@@ -129,8 +134,7 @@ f. Dibawah ini adalah menu apotek, dimana fungsi utama apotek yaitu menginput st
 
 2.1.3 Antarmuka Perangkat Keras (Hardware)
 
-Dibawah ini adalah  antar muka hardware.
-
+Dibawah ini adalah  antar muka hardware:
 Admin :menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan.
 
 Dokter : view data pasien, input resep dokter, Pada Menu ini, tedapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan si Pasien. Disini Dokter hanya bisa melihat saja dan untuk megefisiensikan waktu,Dokter bisa klik tombol search untuk mencari.
@@ -139,10 +143,27 @@ Apotek :input stok obat, view dan cetak data pasien yang sudah berobat.
 
 ![enter image description here](https://lh3.googleusercontent.com/-Vm8DM0x7o0A/WpJ6cgU_uMI/AAAAAAAAARQ/FrchoGJ_Xo8kTTH0iRZfmX1OFu1-cbfYwCL0BGAs/w530-d-h275-n/usecase.png)
 
+2.1.4 Antarmuka Perangkat Lunak
+
+Tidak ada antarmuka perangkat lain yang dibutuhkan dalam pengembangan Aplikasi Sistem Informasi Pasien pada Study Kasus Dr. Jamil.
+
+2.1.5 Antarmuka Komunikasi
+
+Ada antarmuka komunikasi yang dibutuhkan dalam aplikasi ini yaitu antarmuka untuk melakukan koneksi dalam jaringan internet yaitu:
+
+1.  Antarmuka komunikasi pada sisi Server
+
+Sebuah aplikasi web berkomunikasi dengan perangkat lunak _client_ melalui HTTP. HTTP, sebagai protokol yang berbicara menggunakan _request_ dan _response_ menjadikan aplikasi web bergantung kepada siklus ini untuk menghasilkan dokumen yang ingin diakses oleh pengguna. Secara umum, aplikasi web yang akan kita kembangkan harus memiliki satu cara untuk membaca HTTP Request dan mengembalikan HTTP Response ke pengguna.
+
+2.1.6 Batasan Memori
+
+Penggunaan Ruang penyimpanan pada aplikasi ini (berbasis Android) yaitu tidak kurang dari 100 Mb.
+
 	 
 2.2 Fungsi-fungsi produk 
 ![enter image description here](https://lh3.googleusercontent.com/-EWCFjOFxbqk/WpdkCjxqzRI/AAAAAAAAArw/ym8TI0ZMviof1mN_TxermDDTBU1zj3uJQCL0BGAs/w795-d-h615-n/use+case+fungsi++project.jpeg)
 
+	2.2.1  Tabel Kebutuhan Fungsional
 | No | User |Fungsi  |
 |--|--|--|
 | 1 |Admin	  | menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan|
@@ -203,7 +224,7 @@ Aplikasi ini dapat diakses jika terhubung dengan internet dan memiliki OS androi
 	3.3.1 Struktur tidak logis
 
 Struktur logis data (ERD) yang akan disimpan dalam database Article Manager internal diberikan di bawah ini:
-![enter image description here](https://lh3.googleusercontent.com/-6y7S5INTPQY/Wp_0PbavORI/AAAAAAAAAug/IELJNzRZqDckxQBiQlxlIYEnY7zQWTrwwCL0BGAs/w795-d-h957-n/erd.jpg)
+![enter image description here](https://lh3.googleusercontent.com/-lCS6Bwz7rNs/WpwTgaN3R4I/AAAAAAAAAsk/5eU7bi9d6JoWUveH0HqyUiVvL3cpTWN-ACL0BGAs/w795-d-h554-n/3.srs.jpg)
 
 **Reviewer Data Entity 
 
