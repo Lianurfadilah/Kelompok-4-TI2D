@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head></head
@@ -60,21 +61,24 @@ Descriptions
 
 **BAB 3 Definisi**
 
+	
+![enter image description here](https://lh3.googleusercontent.com/HTjJ_xBgNNM513h6a_5g8kYmze-8dw9Ucw6mg9-u7ec2vC1c-FgJJb-cdrYxVsuV5KhZzec0DtXN=s700 )
+	
 	Diagram level 0
 
-![diagram 0](https://lh3.googleusercontent.com/-Uh6lqSmsUEk/WqR2C2aX-tI/AAAAAAAAAA4/rJ6A-GxIcfMQAarY-7l6hdtK15Qo5r0BwCL0BGAs/w530-d-h335-n-rw/Diagram%2Bkonteks.png)
+![enter image description here](https://lh3.googleusercontent.com/-NSwsuQrAnnQ/WqSW5Ne_1dI/AAAAAAAAA1M/x-UEPg9j6OEyXTi0JGi9YetnHjozxnPFQCL0BGAs/w795-d-h536-n/LEVEL+O.PNG)
 
 	Diagram level 1
 
-![diagram 1](https://lh3.googleusercontent.com/-3W8vEsF2U8s/WqR19Dx2mPI/AAAAAAAAAAk/aKu_EJYpLxsvfr_8oyptvwUuq8i85PdmgCL0BGAs/w530-d-h542-n-rw/Diagram%2B1.png)
+![enter image description here](https://lh3.googleusercontent.com/-XVs_QUHt6-k/WqSRsrwWwCI/AAAAAAAAAwc/uSHqcyGJ3hMWBer-3ql801v4v2Vzvq0rgCL0BGAs/w795-d-h813-n/Level+1.jpeg)
 
 	Diagram level 2
 
-![diagram 2](https://lh3.googleusercontent.com/-3ghct8SmHbg/WqSC_6mZg7I/AAAAAAAAAB4/P1v5cLeAx5sUmWqKODDYUSSkFgEwikr4QCL0BGAs/w530-d-h292-n-rw/diagram%2Blev.2.jpeg)
+![enter image description here](https://lh3.googleusercontent.com/-sjlQVVd_ZOo/WqSR41gTsqI/AAAAAAAAAw0/GFl5BDef6KAeM202TadT8RvkRFIyTwhswCL0BGAs/w795-d-h438-n/dfd+level+2.png)
 
 	Diagram level 3
 
-![diagram 3](https://lh3.googleusercontent.com/-SD5swmnoyi4/WqSDWMOBq_I/AAAAAAAAACM/9SS7kCKArMkCbdKwddB6FFjM6_kJEMUFwCL0BGAs/w530-d-h282-n-rw/Diagram%2Blev.3.jpeg)
+![enter image description here](https://lh3.googleusercontent.com/-lzav3YlomtM/WqSSPK41b1I/AAAAAAAAAxM/VZ8QimoDlG0GniPBf_P9l0QQkbq2YoOcACL0BGAs/w795-d-h423-n/dfd+level+3.png)
 
 
 
