@@ -53,7 +53,7 @@ Aplikasi ini dibuat berdasarkan study kasus pada Dr. Jamil yang ditujukan pada s
 SDD ini mengacu pada **IEEE Draft Standard for Software Design
 Descriptions** .
 
-** BAB 2 Referensi**
+**BAB 2 Referensi**
 
 IEEE P1016/D5.0; 12 December 2005, IEEE Draft Standard for Software Design
 Descriptions
@@ -76,10 +76,5 @@ Descriptions
 
 ![diagram 3](https://lh3.googleusercontent.com/-SD5swmnoyi4/WqSDWMOBq_I/AAAAAAAAACM/9SS7kCKArMkCbdKwddB6FFjM6_kJEMUFwCL0BGAs/w530-d-h282-n-rw/Diagram%2Blev.3.jpeg)
 
-**BAB 4 Konsep Framework untuk SDD**
-
-	4.1 Software Desain Konteks
-
-https://lh3.googleusercontent.com/-Uh6lqSmsUEk/WqR2C2aX-tI/AAAAAAAAAA4/rJ6A-GxIcfMQAarY-7l6hdtK15Qo5r0BwCL0BGAs/w530-d-h335-n-rw/Diagram%2Bkonteks.png
 
 
