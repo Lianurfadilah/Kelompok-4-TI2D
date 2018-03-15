@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -228,7 +229,7 @@ Aplikasi ini dapat diakses jika terhubung dengan internet dan memiliki OS androi
 	3.3.1 Struktur tidak logis
 
 Struktur logis data (ERD) yang akan disimpan dalam database Article Manager internal diberikan di bawah ini:
-![enter image description here](https://lh3.googleusercontent.com/-6y7S5INTPQY/Wp_0PbavORI/AAAAAAAAAug/IELJNzRZqDckxQBiQlxlIYEnY7zQWTrwwCL0BGAs/w795-d-h957-n/erd.jpg)
+![enter image description here](https://lh3.googleusercontent.com/-x3zoblTsMoE/WqncZUlROYI/AAAAAAAAA2s/gdMCRLg9cMkKv8-t_-BJLuoG77K0kTA0wCL0BGAs/w795-d-h627-n/ERD+FIX+BISMILLAH.png)
 
 
 
