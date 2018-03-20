@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 <head></head
@@ -61,28 +62,29 @@ Descriptions
 
 **BAB 3 Definisi**
 
+	Diagram Konteks
 	
-![diagram konteks](https://lh3.googleusercontent.com/-ch93xPulygU/WqqLLAI6YnI/AAAAAAAAAEI/A6o0LzPEp8AWpMTqkZkNBPRDnOvEjeg_wCL0BGAs/w530-d-h335-n-rw/Diagram%2Bkonteks.jpg)
+![enter image description here](https://lh3.googleusercontent.com/-Ky-_cGCZCEE/WrEjE-yA5gI/AAAAAAAAAbg/WaghyDGsBAMdSTD-XA7uthOHPOGNOpj2gCL0BGAs/w530-d-h335-n/Diagram+konteks.jpg)
+	
+
 	
 	Diagram level 0
 
-![enter image description here](https://lh3.googleusercontent.com/-OzWpIrh7tJ4/WqqLSSrcujI/AAAAAAAAAEc/b7Sf4lVFwEYB1yoUezaMLLeMePujwXJIgCL0BGAs/w530-d-h377-n-rw/diagram%2Blev0.jpg)
+![enter image description here](https://lh3.googleusercontent.com/-7L8hPlRtEcc/WrEfaaH63eI/AAAAAAAAAY0/MCwwSKzwnHAN1k6CPDNSxK_O7c-EIBP6ACL0BGAs/w530-d-h405-n/konteks.png)
 
 	Diagram level 1
 
-![enter image description here](https://lh3.googleusercontent.com/-6ZexaTP2iBQ/WqqLdaa3YYI/AAAAAAAAAEw/ik7OXQdDY24UuOLcElHObaD80OBY7RIqwCL0BGAs/w530-d-h286-n-rw/diagramlev1.jpg)
+![enter image description here](https://lh3.googleusercontent.com/-exeKWSSev5w/WrEfhiQm4iI/AAAAAAAAAZI/Ltt9knISKSEJc-hAAZ9o4CCtggkUCHnuQCL0BGAs/w530-d-h316-n/lvl1.png)
 
 	Diagram level 2
 
-![enter image description here](https://lh3.googleusercontent.com/-6qkWp7i7HRY/WqqLngilSZI/AAAAAAAAAFE/6zfpih4N98Mn8WdcRFosag7SZ9C0qNkngCL0BGAs/w530-d-h379-n-rw/diagramlev2.jpg)
+![enter image description here](https://lh3.googleusercontent.com/-YNi1-lBFId8/WrEfpQ28DfI/AAAAAAAAAZc/omRIc9KDIhEgKfSELnV0Uhd0NMjzgjibwCL0BGAs/w530-d-h410-n/lvl2.png)
 
 	Diagram level 3
 
-![enter image description here](https://lh3.googleusercontent.com/-MsfJjknmVIo/WqqLuvFm9oI/AAAAAAAAAFY/4_LFE3QAecwBeibT8F-rQCP1AM_hKgjBACL0BGAs/w530-d-h342-n-rw/diagramlev3.jpg)
+![enter image description here](https://lh3.googleusercontent.com/-9DQEePWu-ec/WrEfu6uQegI/AAAAAAAAAZw/giZG_15HcOAp4Fx2OFLRo2kQXdr9KQpZgCL0BGAs/w530-d-h342-n/lvl3.png)
 
 	Diagram level 4
 
-![enter image description here](https://lh3.googleusercontent.com/-iE04LtcBTHY/WqqL3gb_rgI/AAAAAAAAAFs/WV5nPoxpM9kClEk-mtO1GOzbnMCAy3RywCL0BGAs/w530-d-h463-n-rw/diagramlev4.jpg)
-
-
+![enter image description here](https://lh3.googleusercontent.com/-TQZG1vhi7UU/WrEfz03YuQI/AAAAAAAAAaE/YaYeKVFg6XAG2YjRl6pytmsVD9_neMSAQCL0BGAs/w530-d-h448-n/lvl4.png)
 
