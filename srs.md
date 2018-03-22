@@ -7,7 +7,7 @@
 <body><center>
 	<h1 align="center">Software Requirements Specification</h1>
 	<h2 align="center">Version 1.5<br>
-	07 Maret 2018</h2><br><br>
+	22 Maret 2018</h2><br><br>
 	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
 	<br>
 	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
@@ -190,33 +190,33 @@ Aplikasi ini dapat diakses jika terhubung dengan internet dan memiliki OS androi
 
 	3.2.1 Diagram Kebutuhan Fungsional
 
-|Use Case Name|Search Article|
+|Use Case Name|Dokter dan Apoteker|
 |--|--|
 |**Trigger**| halaman beranda user admin|
 | **Pre condition**  | Web ditampilkan hanya untuk admin yang digunakan untuk input saat pendaftaran pasien |
-|**Basic Path** | 1. admin menginput data pasien	
-||2. kemudian sistem mengirim data tersebut ke dalam sistem user dokternya, sehingga ketika dokter membuka menu daftar pasien, maka data sudah muncul secara otomatis.
-||3. setelah itu dokter hanya input resep obat, yang kemudian terhubung langsung ke bagian apoteknya.|
+|**Basic Path** | 1. admin input data pasien	
+||2. Sistem mengirim data pasien, dan view data pasien .
+||3. Dokter input resep obat, yang kemudian terhubung langsung ke bagian apoteker.|
 |**Post condition**| user dokter mampu melihat daftar pasien yang dikirim dari admin, dan apotek bisa melihat resep obat dari dokter|
 |**Exception push**| user dokter dapat melakukan pencarian obat, yang sebelumnya data obat tersebut sudah duimasukkan oleh user apotek.|
-|**Other**| data stok barang dpaat ditampilkan dan divew oleh user dokter|
+|**Other**| data stok barang dapat ditampilkan dan diview oleh user dokter|
 
 	3.2.2 komunikasi
 	
-| nama Use Case Komunikasi|  |
+| nama Use Case Komunikasi|  Admin|
 |--|--|
-| **Triger** | user masuk ke login  |
-|**Precondition**|halaman dashboard dan haaman input data paien |
+| **Triger** | user login  |
+|**Precondition**|halaman dashboard dan halaman input data pasien berupa web|
 |**Basic Path** | 1. admin menginput data pasien	
 ||2. kemudian sistem mengirim data terebut ke dalam sistem user dokternya, sehingga ketika dokter membuka menu daftar pasien, maka data sudah muncul secara otomatis   
-||3. setelah itu dokter tinggal menginputkann resep obat, yang kemudian terhubung langsung ke bagian apoteknya|
+||3. Dokter menginputkan resep obat, yang kemudian terhubung langsung ke bagian apoteker|
 |**Alternative**|Tidak ada |
-|**Postcondition**|user apotek bisa melihat data obat yang suudah diinputkan|
+|**Postcondition**|user apotek bisa melihat data obat yang sudah diinputkan|
 |**Exception Paths**| bisa dilihat kapan saja,dikhususkan untuk pelaporan data jumlah pasien perbulannya|
 
 	3.2.3 tambahan
 
-|Nama Use Case|Tambahan|
+|Nama Use Case|Sistem|
 |--|--|
 |  **Trigger**| Admin, melakukan proses pendataan pasien  |
 |**Precondition**|admin telah mengakses layar utama |
@@ -240,6 +240,7 @@ Struktur logis data (ERD) yang akan disimpan dalam database Article Manager inte
 
 3.3.2 Keamanan
 
-Server tempat untk admin dan apotek berada akan memiliki keamanan sendiri untuk mencegah akses write / delete yang tidak sah. Tidak ada batasan akses baca. 
+Server tempat untuk admin dan apotek berada akan memiliki keamanan sendiri untuk mencegah akses write / delete yang tidak sah. Tidak ada batasan akses baca. 
 
 PC tempat admin berada akan memiliki keamanan sendiri. Hanya admin yang memiliki akses fisik ke mesin dan program di dalamnya. Tidak ada perlindungan khusus yang ada di dalam sistem ini.
+
