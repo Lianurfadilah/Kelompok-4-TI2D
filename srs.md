@@ -90,9 +90,10 @@ Keunggulan dari aplikasi kami adalah terhubung dengan Apotek dan Kasir ditempat 
 
 | No | User |	Fungsi  |
 |--|--|--|
-| 1 |Admin| menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan|
-|2|Dokter|view data pasien, input resep dokter, Pada Menu ini, terdapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan Pasien bisa dilihat pada Dokter. Tetapi disini Dokter hanya bisa melihat saja dan untuk megefisiensikan waktu,Dokter bisa klik tombol search untuk mencari .|
-|3|Apotek|input stok obat, view dan cetak data pasien yang sudah berobat|
+| 1 |Admin| Login, menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan, dan menampilkan laporan pendaftaran pasien tiap bulan berupa grafik|
+|2|Dokter|view data pasien, dan input resep obat. Pada Menu ini terdapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan Pasien bisa dilihat pada Dokter. agar lebih efisien disini Dokter bisa klik tombol search untuk mencari data pasien.|
+|3|Apotek|input stok obat, lihat dan cetak data pasien yang sudah berobat|
+
 
 ![admin](https://lh3.googleusercontent.com/-2ELKoMhZd4M/WrRFEkXKniI/AAAAAAAAAIs/VStwj-bIOiw97On87z7RdtYvyaASNJ5vgCL0BGAs/w530-d-h392-n-rw/use%2Bcase%2Bbagian%2Badmin.jpg)
 
