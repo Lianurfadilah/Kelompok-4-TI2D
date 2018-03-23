@@ -1,22 +1,25 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
 </head>
 <body><center>
 	<h1 align="center">Software Requirements Specification</h1>
-	<h2 align="center">Version 1.4<br>
-	04 Maret 2018</h2><br><br>
+	<h2 align="center">Version 1.5<br>
+	22 Maret 2018</h2><br><br>
 	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
 	<br>
 	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
 	(SIMPATY ADIL)</h2>
 	<align="center" br>
 	<ol align="center">Nama Anggota TIM</ol><align="center">
-	<br>LIA NUR FADILAH (1603104)</br>
-	<br>JENIA ADELLIA P.(1603102)</br>
-	<br>LUVI HAERUNISAH	(1603105)</br>
-	<br>MAULANA AHMAD Q.(1603106)</br></align="center">
+	<div align="center">
+	LIA NUR FADILAH (1603104)<br>
+	JENIA ADELLIA P.(1603102)<br>
+	LUVI HAERUNISAH	(1603105)<br>
+	MAULANA AHMAD Q.(1603106)<br>
+	</div>
 	<br>
 	<h2 align="center">JURUSAN D3 TEKNIK INFORMATIKA<br>
 		POLITEKNIK NEGERI INDRAMAYU<br>
@@ -60,6 +63,8 @@ Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android ini
 
  1. IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Specifications. IEEE Computer Society, 1998. 
  2. https://openlibrary.telkomuniversity.ac.id/pustaka/files/97623/resume/sistem-informasi-pelayanan-pasien-pada-klinik-permata-raya-bandung.pdf 
+ 3.  http://www.academia.edu/11355568/Contoh_SKPL_SPESIFIKASI_KEBUTUHAN_PERANGKAT_LUNAK_
+ 4. (https://www.researchgate.net/publication/320519219_Rancang_Bangun_Aplikasi_Rekam_Medis_untuk_Praktik_Pribadi_Dokter_Berbasis_Android_dan_Memanfaatkan_Layanan_Web)
 
 1.5 Deskripsi Umum Dokumen (Ikhtisar)
 
@@ -77,8 +82,8 @@ Aplikasi ini terdapat 3 user, yaitu:
 
 2.1 Perspektif produk (Perbandingan)
 
-Aplikasi yang kita buat ini adalah sistem informasi pasien dengan study kasus Dr. Jamil. Untuk perbedaan antara aplikasi Sistem Informasi Pasien dengan Study Kasus Dr. Jamil yang kami buat dengan-Rancang Bangun Aplikasi Rekam Medis untuk Praktik Pribadi Dokter Berbasis Android dan Memanfaatkan Layanan Web (https://www.researchgate.net/publication/320519219_Rancang_Bangun_Aplikasi_Rekam_Medis_untuk_Praktik_Pribadi_Dokter_Berbasis_Android_dan_Memanfaatkan_Layanan_Web).
-Keunggulan dari aplikasi kami adalah terhubung dengan Apotek dan Kasir ditempat Praktek tersebut. Sedangkan Rancang Bangun Aplikasi Rekam Medis untuk Praktik Pribadi Dokter Berbasis Android dan Memanfaatkan Layanan Web ini hanya diperuntukan untuk pasien yang berkonsultasi dengan Dokter, dan pada data Dokter, Dokter hanya bisa melihat dan menambahkan pasien tanpa bisa mengupdate data pasien.
+Aplikasi yang kita buat ini adalah sistem informasi pasien dengan study kasus Dr. Jamil. Untuk perbedaan antara aplikasi Sistem Informasi Pasien dengan Study Kasus Dr. Jamil yang kami buat dengan-Rancang Bangun Aplikasi Rekam Medis untuk Praktik Pribadi Dokter Berbasis Android dan Memanfaatkan Layanan Web.
+Keunggulan dari aplikasi kami adalah terhubung dengan Apotek dan Kasir ditempat Praktek tersebut. Sedangkan Rancang Bangun Aplikasi Rekam Medis untuk Praktik Pribadi Dokter Berbasis Android dan Memanfaatkan Layanan Web ini hanya diperuntukan untuk pasien yang berkonsultasi dengan Dokter, dan pada data Dokter, Dokter hanya bisa melihat data pasien tanpa bisa mengupdate data pasien.
 
 
 		2.1.1 Antarmuka Sistem
@@ -89,24 +94,30 @@ Keunggulan dari aplikasi kami adalah terhubung dengan Apotek dan Kasir ditempat 
 |2|Dokter|view data pasien, input resep dokter, Pada Menu ini, terdapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan Pasien bisa dilihat pada Dokter. Tetapi disini Dokter hanya bisa melihat saja dan untuk megefisiensikan waktu,Dokter bisa klik tombol search untuk mencari .|
 |3|Apotek|input stok obat, view dan cetak data pasien yang sudah berobat|
 
-Data Flow Diagram:
+![admin](https://lh3.googleusercontent.com/-2ELKoMhZd4M/WrRFEkXKniI/AAAAAAAAAIs/VStwj-bIOiw97On87z7RdtYvyaASNJ5vgCL0BGAs/w530-d-h392-n-rw/use%2Bcase%2Bbagian%2Badmin.jpg)
 
- ![enter image description here](https://lh3.googleusercontent.com/-H5XNofHT6II/WpGTJA65rJI/AAAAAAAAAiw/J2FCAQ47OJcvy5sJCQYuMCxhkDbCHb9pwCL0BGAs/w795-d-h653-n/Dfd.jpg)
-PENJELASAN:
- 1. ADMIN: admin ke sistem mempunyai fungsi input pasien, dan keluar yang dihasilkan berupa data laporan jumlah pasien yang berboat berupa grafik.
- 2. DOKTER: mempunyai fungsi input resep obat ke sistem sesudah melihat data pasien yang masuk yang diinputkan oleh Admin. 
- 3. APOTEK: Menginputkan stok obat, nama obat, jenis obat, jumlah obat, dan bisa melihat data pasien yang masuk.	
- 
-REFERENSI:
- http://www.academia.edu/11355568/Contoh_SKPL_SPESIFIKASI_KEBUTUHAN_PERANGKAT_LUNAK_
+![dokter](https://lh3.googleusercontent.com/-PsN9dQXncG8/WrRFPVzs3YI/AAAAAAAAAJU/cwZeJUMXoIQd-v-Fo_KaPtJIkawy1HrlgCL0BGAs/w530-d-h368-n-rw/use%2Bcase%2Bbagian%2Bdokter.jpg)
+
+![apoteker](https://lh3.googleusercontent.com/-gXq2qYQBeeE/WrRFKgz025I/AAAAAAAAAJA/pMiLtOJbszsaIz09yJhcDKg7L79erY0ywCL0BGAs/w530-d-h472-n-rw/use%2Bcase%2Bbagian%2Bapoteker.jpg)
 
 2.1.2 Atarmuka Pengguna
 
 Berikut ini adalah Mockup (Rancangan Interface) dari Aplikasi yang akan dibuat, yaitu:
 
 a. Dibawah ini adalah mockup Admin, untuk dashboard Admin menampilkan laporan berupa grafik peningkatan jumlah pasien tiap bulannya.
+<<<<<<< HEAD
 
  ![Login dan Register Admin](https://lh3.googleusercontent.com/-dHgoBIA7ghQ/Wp_tKQZtQ0I/AAAAAAAAATk/mwgSec4cAVsq947_4WCWDUZ52FxEZb0iQCJoC/w530-h201-n/loin%2Bdan%2Bregister.png)
+=======
+	
+	Register Admin
+![Register Admin](https://lh3.googleusercontent.com/-2VFO9kvwgXA/Wp_22e5JPyI/AAAAAAAAAMM/_3VH6SS1KB4sK2TDyc0W-c1azpBkg1JTACL0BGAs/w530-d-h398-n-rw/register.png)
+	
+	Log In Admin
+![Log in Admin](https://lh3.googleusercontent.com/-8UAgXZK1MWM/Wp_27BObXtI/AAAAAAAAAMg/ChLGZO9VbVMckbbzLel0iOHowTfCknVmACL0BGAs/w530-d-h409-n-rw/masuk.png)
+	
+	Dashboard Admin
+>>>>>>> feab9251863a189634a2237b8d4562c0f473919d
  ![Dashboard Admin](https://lh3.googleusercontent.com/-UsALNKxjXvo/WpGZNzS5sTI/AAAAAAAAAjs/7tiuojJ1go4Y3SLwcHT0hOfdOSINWUk5gCL0BGAs/w795-d-h612-n/dashboard+admin.png)
 
 b. ini adalah menu input pada admin, yaitu fungsi utama admin menginputkan data pasien yang berobat 
@@ -130,8 +141,7 @@ f. Dibawah ini adalah menu apotek, dimana fungsi utama apotek yaitu menginput st
 
 2.1.3 Antarmuka Perangkat Keras (Hardware)
 
-Dibawah ini adalah  antar muka hardware.
-
+Dibawah ini adalah  antar muka hardware:
 Admin :menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan.
 
 Dokter : view data pasien, input resep dokter, Pada Menu ini, tedapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan si Pasien. Disini Dokter hanya bisa melihat saja dan untuk megefisiensikan waktu,Dokter bisa klik tombol search untuk mencari.
@@ -140,10 +150,27 @@ Apotek :input stok obat, view dan cetak data pasien yang sudah berobat.
 
 ![enter image description here](https://lh3.googleusercontent.com/-Vm8DM0x7o0A/WpJ6cgU_uMI/AAAAAAAAARQ/FrchoGJ_Xo8kTTH0iRZfmX1OFu1-cbfYwCL0BGAs/w530-d-h275-n/usecase.png)
 
+2.1.4 Antarmuka Perangkat Lunak
+
+Tidak ada antarmuka perangkat lain yang dibutuhkan dalam pengembangan Aplikasi Sistem Informasi Pasien pada Study Kasus Dr. Jamil.
+
+2.1.5 Antarmuka Komunikasi
+
+Ada antarmuka komunikasi yang dibutuhkan dalam aplikasi ini yaitu antarmuka untuk melakukan koneksi dalam jaringan internet yaitu:
+
+1.  Antarmuka komunikasi pada sisi Server
+
+Sebuah aplikasi web berkomunikasi dengan perangkat lunak _client_ melalui HTTP. HTTP, sebagai protokol yang berbicara menggunakan _request_ dan _response_ menjadikan aplikasi web bergantung kepada siklus ini untuk menghasilkan dokumen yang ingin diakses oleh pengguna. Secara umum, aplikasi web yang akan kita kembangkan harus memiliki satu cara untuk membaca HTTP Request dan mengembalikan HTTP Response ke pengguna.
+
+2.1.6 Batasan Memori
+
+Penggunaan Ruang penyimpanan pada aplikasi ini (berbasis Android) yaitu tidak kurang dari 100 Mb.
+
 	 
 2.2 Fungsi-fungsi produk 
-![enter image description here](https://lh3.googleusercontent.com/-EWCFjOFxbqk/WpdkCjxqzRI/AAAAAAAAArw/ym8TI0ZMviof1mN_TxermDDTBU1zj3uJQCL0BGAs/w795-d-h615-n/use+case+fungsi++project.jpeg)
+![enter image description here](https://lh3.googleusercontent.com/-14ARNace9NU/WrQ6zwjNyXI/AAAAAAAAAIA/AHvQLduu7BQRP5o6S1JaKQXmCfIf2DhCQCL0BGAs/w530-d-h410-n-rw/use%2Bcase%2Bfungsit.jpg)
 
+	2.2.1  Tabel Kebutuhan Fungsional
 | No | User |Fungsi  |
 |--|--|--|
 | 1 |Admin	  | menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan|
@@ -165,33 +192,33 @@ Aplikasi ini dapat diakses jika terhubung dengan internet dan memiliki OS androi
 
 	3.2.1 Diagram Kebutuhan Fungsional
 
-|Use Case Name|Search Article|
+|Use Case Name|Dokter dan Apoteker|
 |--|--|
 |**Trigger**| halaman beranda user admin|
 | **Pre condition**  | Web ditampilkan hanya untuk admin yang digunakan untuk input saat pendaftaran pasien |
-|**Basic Path** | 1. admin menginput data pasien	
-||2. kemudian sistem mengirim data tersebut ke dalam sistem user dokternya, sehingga ketika dokter membuka menu daftar pasien, maka data sudah muncul secara otomatis.
-||3. setelah itu dokter hanya input resep obat, yang kemudian terhubung langsung ke bagian apoteknya.|
+|**Basic Path** | 1. admin input data pasien	
+||2. Sistem mengirim data pasien, dan view data pasien .
+||3. Dokter input resep obat, yang kemudian terhubung langsung ke bagian apoteker.|
 |**Post condition**| user dokter mampu melihat daftar pasien yang dikirim dari admin, dan apotek bisa melihat resep obat dari dokter|
 |**Exception push**| user dokter dapat melakukan pencarian obat, yang sebelumnya data obat tersebut sudah duimasukkan oleh user apotek.|
-|**Other**| data stok barang dpaat ditampilkan dan divew oleh user dokter|
+|**Other**| data stok barang dapat ditampilkan dan diview oleh user dokter|
 
 	3.2.2 komunikasi
 	
-| nama Use Case Komunikasi|  |
+| nama Use Case Komunikasi|  Admin|
 |--|--|
-| **Triger** | user masuk ke login  |
-|**Precondition**|halaman dashboard dan haaman input data paien |
+| **Triger** | user login  |
+|**Precondition**|halaman dashboard dan halaman input data pasien berupa web|
 |**Basic Path** | 1. admin menginput data pasien	
 ||2. kemudian sistem mengirim data terebut ke dalam sistem user dokternya, sehingga ketika dokter membuka menu daftar pasien, maka data sudah muncul secara otomatis   
-||3. setelah itu dokter tinggal menginputkann resep obat, yang kemudian terhubung langsung ke bagian apoteknya|
+||3. Dokter menginputkan resep obat, yang kemudian terhubung langsung ke bagian apoteker|
 |**Alternative**|Tidak ada |
-|**Postcondition**|user apotek bisa melihat data obat yang suudah diinputkan|
+|**Postcondition**|user apotek bisa melihat data obat yang sudah diinputkan|
 |**Exception Paths**| bisa dilihat kapan saja,dikhususkan untuk pelaporan data jumlah pasien perbulannya|
 
 	3.2.3 tambahan
 
-|Nama Use Case|Tambahan|
+|Nama Use Case|Sistem|
 |--|--|
 |  **Trigger**| Admin, melakukan proses pendataan pasien  |
 |**Precondition**|admin telah mengakses layar utama |
@@ -204,9 +231,8 @@ Aplikasi ini dapat diakses jika terhubung dengan internet dan memiliki OS androi
 	3.3.1 Struktur tidak logis
 
 Struktur logis data (ERD) yang akan disimpan dalam database Article Manager internal diberikan di bawah ini:
-![enter image description here](https://lh3.googleusercontent.com/-lCS6Bwz7rNs/WpwTgaN3R4I/AAAAAAAAAsk/5eU7bi9d6JoWUveH0HqyUiVvL3cpTWN-ACL0BGAs/w795-d-h554-n/3.srs.jpg)
+![enter image description here](https://lh3.googleusercontent.com/-b-psNrrlOk8/WqonLX7W3GI/AAAAAAAAA3Y/6n_qs5JVVm8efgapTqOS5IVgKpEIlZKuACL0BGAs/w530-d-h418-n-rw/ERD%2BFIX%2BBISMILLAH.jpg)
 
-**Reviewer Data Entity 
 
 |Data item|Type|Description|Comment|
 |--|--|--|--|
@@ -216,6 +242,7 @@ Struktur logis data (ERD) yang akan disimpan dalam database Article Manager inte
 
 3.3.2 Keamanan
 
-Server tempat untk admin dan apotek berada akan memiliki keamanan sendiri untuk mencegah akses write / delete yang tidak sah. Tidak ada batasan akses baca. 
+Server tempat untuk admin dan apotek berada akan memiliki keamanan sendiri untuk mencegah akses write / delete yang tidak sah. Tidak ada batasan akses baca. 
 
 PC tempat admin berada akan memiliki keamanan sendiri. Hanya admin yang memiliki akses fisik ke mesin dan program di dalamnya. Tidak ada perlindungan khusus yang ada di dalam sistem ini.
+

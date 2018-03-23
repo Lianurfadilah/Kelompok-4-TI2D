@@ -1,14 +1,33 @@
-KELOMPOK 4
-TI2D
 
-**Aplikasi Sistem Informasi pasien dengan study kasus Dr. Jamil Berbasis Android**
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body><center>
+	<h1 align="center">Software Project Management Plan</h1>
+	<h2 align="center">Version 1.2<br>
+	07 Maret 2018</h2><br><br>
+	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
+	<br>
+	<h2>Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
+	(SIMPATY ADIL)</h2>
+	<ol>Nama Anggota TIM</ol>
+	LIA NUR FADILAH (1603104)<br>
+	JENIA ADELLIA P.(1603102)<br>
+	LUVI HAERUNISAH	(1603105)<br>
+	MAULANA AHMAD Q.(1603106)<br>
+	<br>
+	<h2>JURUSAN D3 TEKNIK INFORMATIKA<br>
+		POLITEKNIK NEGERI INDRAMAYU<br>
+		2018</h2>
+</center>
+</body>
+</html>
 
 Software Project Management Plan
 1. Pendahuluan
 	1.1 Gambaran Proyek
-		Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasiyang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter 
-yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stook obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah 
-sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien. 
+		Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasiyang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stook obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien. 
 		Aplikasi ini terdapat 3 user, yaitu diantaranya :
 		
 |No|User  	 	 |						Fungsi		 			 |
@@ -30,7 +49,7 @@ sistem informasi berbasis web dan android untuk menangani masalah pendataan pasi
 		- Android Studio
 		- Sublime Text
 		- MockPlus
-		- visio
+		- Visio
 		
 		referensi materi acuan :
 		-http://www.okedroid.com/p/ebook.html
@@ -41,18 +60,24 @@ sistem informasi berbasis web dan android untuk menangani masalah pendataan pasi
 2. Organisasi Proyek
 	2.1 Model proyek
 		Aplikasi Sistem Informasi Pasien Pada Study Kasus Dr. Jamil berbasis android, dengan menggunakan sebuah software android studio. Dan kemungkinan akan ada aplikasi pendukung lainya. pada proyek aplikasi yang kita buat ini menggunakan model V atau V Model, alasan  menggunakan V model yaitu karena kita bisa bekerja dengan waktu yang secara bersamaan.
+		![enter image description here](http://3.bp.blogspot.com/-vGtlEKrEeyw/Ud1_SfkFZFI/AAAAAAAAAFU/DBY1ZEJ7ubE/s320/v-model.png)
+		
+		
 	2.2 Struktur organisasi
 		Anggota TIM
-		1. Lia Nur Fadilah	(1603104) Project Plain
-		2. Luvi Haerunisah	(1603105) Perancangan Database
-		3. Maulana Ahmad Q	(1603106) Perancangan Project (Dfd, Flowchart, dll)
+		1. Lia Nur Fadilah	(1603104) Project Plain, manager project
+		2. Jenia Adellia Puspita (1603102) Perancangan Database
+		3. Luvi Haerunisah	(1603105) Perancangan ERD, DFD, Flowchart
+		4. Maulana Ahmad Q	(1603106) Perancangan mockup 
 	2.3 Batasan dan antarmuka organisasi
 		
 | No  |  Nama |  Jabatan |Modul | Rincian Pekerjaan|
 |--|--|--|--|--|
 | 1 | LIA NUR FADILAH  |Manager |Perancangan Fungsi | CRUD apotek, dan CRUD admin|
-| 2 | LUVI HAERUNISAH |Anggota| Perancangan Database, Design| |
-| 3 | MAULANA AHMAD Q. |Anggota|Perancangan Project |DFD, flowchart, use case dll.  |
+| 2 | JENIA ADELLIA P.|Anggota| Perancangan Project| Database, dan CRUD Apotek
+| |
+| 3 | LUVI HAERUNISAH |Anggota| Perancangan Project| Perancangan DFD, ERD, Flowchart|
+| 4 | MAULANA AHMAD Q. |Anggota|Perancangan Project |Perancanagn Mockup |
 		
 	2.3 Lingkungan tanggung jawab
 		pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yang dibuat, dan disetiap 
@@ -83,8 +108,9 @@ sistem informasi berbasis web dan android untuk menangani masalah pendataan pasi
 |No| Nama | Jobdesk|
 |--|--|--|
 | 1 | Lia Nur Fadilah |Project Plan |
-|2|Luvi Haerunisah |Perancangan Database|
-|3|Maulana Ahmad Q. |Perancangan Project(DFD, Flowchart, dll)
+|2|Jenia Adellia P. |Perancangan Database|
+|3|Luvi Haerunisah |Perancangan DFD, ERD, Flowchart|
+|4|Maulana Ahmad Q. |Perancangan )
 
 4. Proses Teknis
 	4.1 Metoda, tool dan teknik
@@ -100,9 +126,10 @@ sistem informasi berbasis web dan android untuk menangani masalah pendataan pasi
 			
 |No|Nama  |Jabatan |Modul |Jobdesk |
 |--|--|--|--|--|
-| 1|Lia Nur Fadilah |Project Manager | Perancangan Fungsi		     	|CRUD Pasien, dan CRUD admin 	 |
-| 2. | Luvi Haerunisah |Anggota			| Perancangan Database, Design		|Merancang Database dan design   |
-| 3. | Maulana A. Q	   |Anggota			| Perancangan Project				|Dfd, flowchart, erd, dll.       |
+| 1.|Lia Nur Fadilah |Project Manager | Perancangan Fungsi		     	|CRUD Pasien, dan CRUD admin 	 |
+| 2. | Jenia Adellia |Anggota			| Perancangan Database, CRUD Apotek	|Merancang Database dan design   |
+| 3. | Luvi Haerunisah |Anggota			| Perancangan Database, Design		|perancangan DFD, ERD, Flowchart  |
+| 4. | Maulana A. Q	   |Anggota			| Perancangan Project				|perancangan mockup        |
 		
 		
 	5.2 Ketergantungan/keterkaitan
