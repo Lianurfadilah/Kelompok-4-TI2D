@@ -106,6 +106,7 @@ Berikut ini adalah Mockup (Rancangan Interface) dari Aplikasi yang akan dibuat, 
 
 a. Dibawah ini adalah mockup Admin, untuk dashboard Admin menampilkan laporan berupa grafik peningkatan jumlah pasien tiap bulannya.
 
+ ![Login dan Register Admin](https://lh3.googleusercontent.com/-dHgoBIA7ghQ/Wp_tKQZtQ0I/AAAAAAAAATk/mwgSec4cAVsq947_4WCWDUZ52FxEZb0iQCJoC/w530-h201-n/loin%2Bdan%2Bregister.png)
  ![Dashboard Admin](https://lh3.googleusercontent.com/-UsALNKxjXvo/WpGZNzS5sTI/AAAAAAAAAjs/7tiuojJ1go4Y3SLwcHT0hOfdOSINWUk5gCL0BGAs/w795-d-h612-n/dashboard+admin.png)
 
 b. ini adalah menu input pada admin, yaitu fungsi utama admin menginputkan data pasien yang berobat 
