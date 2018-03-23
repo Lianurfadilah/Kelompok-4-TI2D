@@ -63,6 +63,8 @@ Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android ini
 
  1. IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Specifications. IEEE Computer Society, 1998. 
  2. https://openlibrary.telkomuniversity.ac.id/pustaka/files/97623/resume/sistem-informasi-pelayanan-pasien-pada-klinik-permata-raya-bandung.pdf 
+ 3.  http://www.academia.edu/11355568/Contoh_SKPL_SPESIFIKASI_KEBUTUHAN_PERANGKAT_LUNAK_
+ 4. (https://www.researchgate.net/publication/320519219_Rancang_Bangun_Aplikasi_Rekam_Medis_untuk_Praktik_Pribadi_Dokter_Berbasis_Android_dan_Memanfaatkan_Layanan_Web)
 
 1.5 Deskripsi Umum Dokumen (Ikhtisar)
 
@@ -80,8 +82,8 @@ Aplikasi ini terdapat 3 user, yaitu:
 
 2.1 Perspektif produk (Perbandingan)
 
-Aplikasi yang kita buat ini adalah sistem informasi pasien dengan study kasus Dr. Jamil. Untuk perbedaan antara aplikasi Sistem Informasi Pasien dengan Study Kasus Dr. Jamil yang kami buat dengan-Rancang Bangun Aplikasi Rekam Medis untuk Praktik Pribadi Dokter Berbasis Android dan Memanfaatkan Layanan Web (https://www.researchgate.net/publication/320519219_Rancang_Bangun_Aplikasi_Rekam_Medis_untuk_Praktik_Pribadi_Dokter_Berbasis_Android_dan_Memanfaatkan_Layanan_Web).
-Keunggulan dari aplikasi kami adalah terhubung dengan Apotek dan Kasir ditempat Praktek tersebut. Sedangkan Rancang Bangun Aplikasi Rekam Medis untuk Praktik Pribadi Dokter Berbasis Android dan Memanfaatkan Layanan Web ini hanya diperuntukan untuk pasien yang berkonsultasi dengan Dokter, dan pada data Dokter, Dokter hanya bisa melihat dan menambahkan pasien tanpa bisa mengupdate data pasien.
+Aplikasi yang kita buat ini adalah sistem informasi pasien dengan study kasus Dr. Jamil. Untuk perbedaan antara aplikasi Sistem Informasi Pasien dengan Study Kasus Dr. Jamil yang kami buat dengan-Rancang Bangun Aplikasi Rekam Medis untuk Praktik Pribadi Dokter Berbasis Android dan Memanfaatkan Layanan Web.
+Keunggulan dari aplikasi kami adalah terhubung dengan Apotek dan Kasir ditempat Praktek tersebut. Sedangkan Rancang Bangun Aplikasi Rekam Medis untuk Praktik Pribadi Dokter Berbasis Android dan Memanfaatkan Layanan Web ini hanya diperuntukan untuk pasien yang berkonsultasi dengan Dokter, dan pada data Dokter, Dokter hanya bisa melihat data pasien tanpa bisa mengupdate data pasien.
 
 
 		2.1.1 Antarmuka Sistem
@@ -92,16 +94,11 @@ Keunggulan dari aplikasi kami adalah terhubung dengan Apotek dan Kasir ditempat 
 |2|Dokter|view data pasien, input resep dokter, Pada Menu ini, terdapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan Pasien bisa dilihat pada Dokter. Tetapi disini Dokter hanya bisa melihat saja dan untuk megefisiensikan waktu,Dokter bisa klik tombol search untuk mencari .|
 |3|Apotek|input stok obat, view dan cetak data pasien yang sudah berobat|
 
-Data Flow Diagram:
+![admin](https://lh3.googleusercontent.com/-2ELKoMhZd4M/WrRFEkXKniI/AAAAAAAAAIs/VStwj-bIOiw97On87z7RdtYvyaASNJ5vgCL0BGAs/w530-d-h392-n-rw/use%2Bcase%2Bbagian%2Badmin.jpg)
 
- ![enter image description here](https://lh3.googleusercontent.com/-H5XNofHT6II/WpGTJA65rJI/AAAAAAAAAiw/J2FCAQ47OJcvy5sJCQYuMCxhkDbCHb9pwCL0BGAs/w795-d-h653-n/Dfd.jpg)
-PENJELASAN:
- 1. ADMIN: admin ke sistem mempunyai fungsi input pasien, dan keluar yang dihasilkan berupa data laporan jumlah pasien yang berboat berupa grafik.
- 2. DOKTER: mempunyai fungsi input resep obat ke sistem sesudah melihat data pasien yang masuk yang diinputkan oleh Admin. 
- 3. APOTEK: Menginputkan stok obat, nama obat, jenis obat, jumlah obat, dan bisa melihat data pasien yang masuk.	
- 
-REFERENSI:
- http://www.academia.edu/11355568/Contoh_SKPL_SPESIFIKASI_KEBUTUHAN_PERANGKAT_LUNAK_
+![dokter](https://lh3.googleusercontent.com/-PsN9dQXncG8/WrRFPVzs3YI/AAAAAAAAAJU/cwZeJUMXoIQd-v-Fo_KaPtJIkawy1HrlgCL0BGAs/w530-d-h368-n-rw/use%2Bcase%2Bbagian%2Bdokter.jpg)
+
+![apoteker](https://lh3.googleusercontent.com/-gXq2qYQBeeE/WrRFKgz025I/AAAAAAAAAJA/pMiLtOJbszsaIz09yJhcDKg7L79erY0ywCL0BGAs/w530-d-h472-n-rw/use%2Bcase%2Bbagian%2Bapoteker.jpg)
 
 2.1.2 Atarmuka Pengguna
 
@@ -166,7 +163,7 @@ Penggunaan Ruang penyimpanan pada aplikasi ini (berbasis Android) yaitu tidak ku
 
 	 
 2.2 Fungsi-fungsi produk 
-![enter image description here](https://lh3.googleusercontent.com/-EWCFjOFxbqk/WpdkCjxqzRI/AAAAAAAAArw/ym8TI0ZMviof1mN_TxermDDTBU1zj3uJQCL0BGAs/w795-d-h615-n/use+case+fungsi++project.jpeg)
+![enter image description here](https://lh3.googleusercontent.com/-14ARNace9NU/WrQ6zwjNyXI/AAAAAAAAAIA/AHvQLduu7BQRP5o6S1JaKQXmCfIf2DhCQCL0BGAs/w530-d-h410-n-rw/use%2Bcase%2Bfungsit.jpg)
 
 	2.2.1  Tabel Kebutuhan Fungsional
 | No | User |Fungsi  |
