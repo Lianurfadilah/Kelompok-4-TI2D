@@ -3,7 +3,7 @@
 <head></head>
 
 <body><center>
-	<h1 align="center"Software Project Management Plan</h1>
+	<h1 align="center">Software Project Management Plan</h1>
 	<h2 align="center">Version 1.2<br>
 	7 Maret 2018</h2><br><br>
 	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
@@ -74,6 +74,7 @@ personal harus mampu mempertanggungjawabkan setiap jobdesk yang sudah ditentukan
 	2.1 Model proyek
 
 Aplikasi Sistem Informasi Pasien Pada Study Kasus Dr. Jamil berbasis android dan web. proyek aplikasi yang kita buat ini menggunakan model V atau V Model, alasan  menggunakan V model yaitu karena kita bisa bekerja dengan waktu yang secara bersamaan.
+
 ![enter image description here](http://3.bp.blogspot.com/-vGtlEKrEeyw/Ud1_SfkFZFI/AAAAAAAAAFU/DBY1ZEJ7ubE/s320/v-model.png)
 		
 		
