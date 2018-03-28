@@ -26,7 +26,6 @@
 </body>
 </html>
 
-Software Project Management Plan
 1. Pendahuluan
 
 	1.1 Gambaran Proyek
@@ -54,7 +53,8 @@ Pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yan
 personal harus mampu mempertanggungjawabkan setiap jobdesk yang sudah ditentukan.
 
 	1.4 Material proyek
-		Aplikasi Pendukung:
+
+Aplikasi Pendukung:
 
 - Android Studio
 - Sublime Text
@@ -81,22 +81,22 @@ Aplikasi Sistem Informasi Pasien Pada Study Kasus Dr. Jamil berbasis android dan
 	2.2 Struktur organisasi
 
 Anggota TIM
-1. Lia Nur Fadilah	(1603104) Project Plan, manager project
-2. Jenia Adellia Puspita (1603102) Perancangan Database, Web
-3. Luvi Haerunisah	(1603105) Perancangan ERD, DFD, Flowchart
-4. Maulana Ahmad Q	(1603106) Perancangan mockup 
+1. Lia Nur Fadilah	(1603104) 
+2. Jenia Adellia Puspita (1603102) 
+3. Luvi Haerunisah	(1603105) 
+4. Maulana Ahmad Q	(1603106) 
 
 	2.3 Batasan dan antarmuka organisasi
 		
 | No  |  Nama |  Jabatan |Modul | Rincian Pekerjaan|
 |--|--|--|--|--|
-| 1 | LIA NUR FADILAH  |Manager |Perancangan Fungsi | CRUD apotek, dan CRUD admin|
-| 2 | JENIA ADELLIA P.|Anggota| Perancangan Project| Database, dan login pada admin
-| |
-| 3 | LUVI HAERUNISAH |Anggota| Perancangan Project| Perancangan DFD, ERD, Flowchart|
-| 4 | MAULANA AHMAD Q. |Anggota|Perancangan Project |Perancangan Mockup |
+| 1 | LIA NUR FADILAH  |Manager Proyek |Perancangan Fungsi Sistem| Android Developer|
+| 2 | JENIA ADELLIA P.|Anggota| Perancangan Project|Web Developer|
+| 3 | LUVI HAERUNISAH |Anggota| Perancangan Project|DFD, Flowchart, ERD, Database|
+| 4 | MAULANA AHMAD Q. |Anggota|Perancangan Project |Mockup Design |
 		
 	2.4 Lingkungan tanggung jawab
+
 pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yang dibuat, dan disetiap  personal harus mampu mempertanggungjawabkan setiap jobdesk yang sudah ditentukan.
 
 3. Proses Manajerial
@@ -106,6 +106,7 @@ pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yan
 Tujuan dari projek ini adalah untuk mempermudah Praktek Dr. Jamil (mitra) dalam pendataan pasien yang akan melakukan rawat jalan. Dan membantu masyarakat untuk memperoleh pelayanan yang lebih mudah dan praktis.
 
 	3.2 Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan
+
 -Keterbatasan peralatan
 - Laptop kurang memadai
 
@@ -127,13 +128,14 @@ resiko yang mungkin terjadi yaitu terjadinya kesalahan pada proses bug dan error
 
 	3.5 Perancangan staf
 
-Anggota TIM 
+Anggota TIM
+
 |No| Nama | Jobdesk|
 |--|--|--|
-| 1 | Lia Nur Fadilah |Project Plan |
-|2|Jenia Adellia P. |Perancangan Database|
-|3|Luvi Haerunisah |Perancangan DFD, ERD, Flowchart|
-|4|Maulana Ahmad Q. |Perancangan )
+| 1 | Lia Nur Fadilah |Project Plan, Android Developer |
+|2|Jenia Adellia P. |Web Developer|
+|3|Luvi Haerunisah |Database|
+|4|Maulana Ahmad Q. |Mockup Design|
 
 4. Proses Teknis
 
@@ -145,20 +147,20 @@ Proyek ini akan diimplementasikan kepada Praktek Dr. Jamil.
 
 Aplikasi ini bekerja sama dengan Praktek Dr. Jamil.
 
-4.3 Fungsi-fungsi pendukung proyek
+	4.3 Fungsi-fungsi pendukung proyek
 
 Semua dokumen pendukung proyek akan selesai dalam waktu yang sudah ditentukan.
 
 5. Paket Pekerjaan, Jadwal dan Budget
+
 	5.1 Paket pekerjaan
 	
-|No|Nama  |Jabatan |Modul |Jobdesk |
+| No  |  Nama |  Jabatan |Modul | Rincian Pekerjaan|
 |--|--|--|--|--|
-| 1.|Lia Nur Fadilah |Project Manager | Perancangan Fungsi		     	|CRUD Pasien, dan CRUD admin 	 |
-| 2. | Jenia Adellia |Anggota			| Perancangan Database, CRUD Apotek	|Merancang Database dan design   |
-| 3. | Luvi Haerunisah |Anggota			| Perancangan Database, Design		|perancangan DFD, ERD, Flowchart  |
-| 4. | Maulana A. Q	   |Anggota			| Perancangan Project				|perancangan mockup        |
-		
+| 1 | LIA NUR FADILAH  |Manager Proyek |Perancangan Fungsi Sistem| Android Developer|
+| 2 | JENIA ADELLIA P.|Anggota| Perancangan Project|Web Developer|
+| 3 | LUVI HAERUNISAH |Anggota| Perancangan Project|DFD, Flowchart, ERD, Database|
+| 4 | MAULANA AHMAD Q. |Anggota|Perancangan Project |Mockup Design |
 		
 	5.2 Ketergantungan/keterkaitan
 
@@ -169,7 +171,9 @@ ketergantungan antara hardware dan softwarenya, software yang dibutuhkan harus s
 Kebutuhan sumber daya yang dibutuhkan yaitu terdapat pada hardwarenya, misalnya laptop. diharapkan bisa support dan bisa berjalan sesuai yang diharapkan.
 
 	5.4 Alokasi budget sumber daya
-	Alokasi sumber daya :
+
+Alokasi sumber daya :
+
 -Laptop Lenovo Ideapad AD 320-14IKBN Intel core i5 Rp.8.000.000-,
 -Smartphone Xiaomi Mi Max 2 Rp.3.500.000-,
 -Uang bensin untuk memenuhi kebutuhan survei ke mitra yang bersangkutan Rp.1.500.000-,
