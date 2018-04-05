@@ -7,7 +7,7 @@
 <body><center>
 	<h1 align="center">Software Requirements Specification</h1>
 	<h2 align="center">Version 1.5<br>
-	22 Maret 2018</h2><br><br>
+	05 April 2018</h2><br><br>
 	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
 	<br>
 	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
@@ -194,7 +194,7 @@ Aplikasi ini dapat diakses jika terhubung dengan internet dan memiliki OS androi
 
 |Use Case Name|Dokter dan Apoteker|
 |--|--|
-|**Trigger**| halaman beranda user admin|
+|**Trigger**| halaman awal aplikasi|
 | **Pre condition**  | Web ditampilkan hanya untuk admin yang digunakan untuk input saat pendaftaran pasien |
 |**Basic Path** | 1. admin input data pasien	
 ||2. Sistem mengirim data pasien, dan view data pasien .
@@ -245,4 +245,5 @@ Struktur logis data (ERD) yang akan disimpan dalam database Article Manager inte
 Server tempat untuk admin dan apotek berada akan memiliki keamanan sendiri untuk mencegah akses write / delete yang tidak sah. Tidak ada batasan akses baca. 
 
 PC tempat admin berada akan memiliki keamanan sendiri. Hanya admin yang memiliki akses fisik ke mesin dan program di dalamnya. Tidak ada perlindungan khusus yang ada di dalam sistem ini.
+
 
