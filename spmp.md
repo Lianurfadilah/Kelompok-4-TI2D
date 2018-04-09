@@ -140,16 +140,27 @@ Anggota TIM
 4. Proses Teknis
 
 	4.1 Metoda, tool dan teknik
+	
+	Model proses yang diterapkan pada proses pembuatan aplikasi ini ialah model V-Model karena dianggap cukup mudah dalam setiap langkahnya.
+	Model V-Model sendiri memudahkan perancang ketika terjadi suatu perubahan yang memungkinkan kembali ke proses sebelumnya,
+	dan alat seperti Visio, CorelDraw, Photoshop, dan Sublime akan digunakan. 
+	Teknik analisis berorientasi objek akan digunakan untuk menyelesaikan proyek dengan sukses.
 
-Proyek ini akan diimplementasikan kepada Praktek Dr. Jamil.
+	Proyek ini menggunakan
+	- Komputer sebagai pengimput data pasien dari admin
+	- Hand Pone untuk menampilkan antrian Pasien pada dokter,Pengimput resep obat oleh dokter dan menampilkan stok obat pada dokter 
+	yg di inputkan oleh apoteker
+
 
 	4.2 Dokumentasi perangkat lunak
 
-Aplikasi ini bekerja sama dengan Praktek Dr. Jamil.
+	Dokumentasi seperti piagam proyek, Dokumen Daftar Pasien, Dokumen stok obat,Dokumen kunjugan Pasien Tiap bulan,
+	dokumen Spesifikasi Teknis, dokumen desain detail, Rencana Uji, Rencana Pelaksanaan, dan dokumen Realisasi Manfaat.
 
-	4.3 Fungsi-fungsi pendukung proyek
+	4.3 Fungsi pendukung proyek
 
-Semua dokumen pendukung proyek akan selesai dalam waktu yang sudah ditentukan.
+	. Ahli Pemrograman Web
+
 
 5. Paket Pekerjaan, Jadwal dan Budget
 
