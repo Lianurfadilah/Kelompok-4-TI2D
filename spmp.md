@@ -69,6 +69,16 @@ Aplikasi Pendukung:
 
 	1.5 Definisi dan akronim (singkatan)
 	
+- V-Model	V-Model Merupakan salah satu model proses pembuatan software
+- SIMPATY ADIL(SISTEM INFORMASI PASIEN PADA STUDY KASUS DOKTER JAMIL) adalah sebuah aplikasi yang ditujukan untuk mempermudah dalam proses pendataan pasien 
+  dan pendataan obat yang terdapat pada apotek,aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil.
+- Google Playstore	Google Playstore merupakan store aplikasi dari google yang menyediakan berbagai aplikasi Android baik yang gratis maupun yang berbayar
+- SDD	Software Design Description merupakan dokumen project software yang berisi tentang deskripsi desain software yang akan dirancang / dibuat
+- SPMP	Software Project Manajemen Plan merupakan dokumen project software yang berisi tentang perencanaan
+  pembangunan atau pengembangan software aplikasi secara umum
+- SRS	Software Requirement Specification merupakan dokumen perangkat lunak yang berisi tentang requirement
+  spesifikasi atau spesifikasi yang ada pada perangkat lunak yang akan dibangun atau dirancang
+	
 2. Organisasi Proyek
 
 	2.1 Model proyek
