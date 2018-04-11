@@ -42,8 +42,12 @@ Aplikasi ini terdapat 3 user, yaitu diantaranya :
 
 	
 	1.2 Dokumen-dokumen dalam proyek
-
-- modul modul pembuatan 
+	
+- SPMP = Software Project Manajemen Plan merupakan dokumen project software yang berisi tentang perencanaan
+         pembangunan atau pengembangan software aplikasi secara umum
+- SRS  = Software Requirement Specification merupakan dokumen perangkat lunak yang berisi tentang requirement
+         spesifikasi atau spesifikasi yang ada pada perangkat lunak yang akan dibangun atau dirancang
+- SDD  = Software Design Description merupakan dokumen project software yang berisi tentang deskripsi desain software yang akan dirancang / dibuat
 - laporan 
 - proposal pengajuan
 
@@ -98,12 +102,10 @@ Anggota TIM
 
 	2.3 Batasan dan antarmuka organisasi
 		
-| No  |  Nama |  Jabatan |Modul | Rincian Pekerjaan|
-|--|--|--|--|--|
-| 1 | LIA NUR FADILAH  |Manager Proyek |Perancangan Fungsi Sistem| Android Developer|
-| 2 | JENIA ADELLIA P.|Anggota| Perancangan Project|Web Developer|
-| 3 | LUVI HAERUNISAH |Anggota| Perancangan Project|DFD, Flowchart, ERD, Database|
-| 4 | MAULANA AHMAD Q. |Anggota|Perancangan Project |Mockup Design |
+ Batasan dari aplikasi ini hanya bisa diakses oleh Admin,apoteker,dan Dokter pada Praktek dokter jamil.
+ untuk penggunaan yang lebih luasnya akan dikembangkan lagi agar bisa di upload di google playstore dan dapat diakses oleh pasien secara umum 
+ dan layanan yang diberikan.
+
 		
 	2.4 Lingkungan tanggung jawab
 
