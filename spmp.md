@@ -42,8 +42,12 @@ Aplikasi ini terdapat 3 user, yaitu diantaranya :
 
 	
 	1.2 Dokumen-dokumen dalam proyek
-
-- modul modul pembuatan 
+	
+- SPMP = Software Project Manajemen Plan merupakan dokumen project software yang berisi tentang perencanaan
+         pembangunan atau pengembangan software aplikasi secara umum
+- SRS  = Software Requirement Specification merupakan dokumen perangkat lunak yang berisi tentang requirement
+         spesifikasi atau spesifikasi yang ada pada perangkat lunak yang akan dibangun atau dirancang
+- SDD  = Software Design Description merupakan dokumen project software yang berisi tentang deskripsi desain software yang akan dirancang / dibuat
 - laporan 
 - proposal pengajuan
 
