@@ -1,6 +1,119 @@
+<<<<<<< HEAD
 
 Skip to content
 This repository
+=======
+<!DOCTYPE html>
+<html>
+<head></head>
+
+<body><center>
+	<h1 align="center">Software Project Management Plan</h1>
+	<h2 align="center">Version 1.2<br>
+	7 Maret 2018</h2><br><br>
+	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
+	<br>
+	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
+	(SIMPATY ADIL)</h2>
+	<align="center" br>
+	<ol align="center">Nama Anggota TIM</ol><align="center">
+	<div align="center">
+	LIA NUR FADILAH (1603104)<br>
+	JENIA ADELLIA P.(1603102)<br>
+	LUVI HAERUNISAH	(1603105)<br>
+	MAULANA AHMAD Q.(1603106)<br>
+	</div>
+	<br>
+	<h2 align="center">JURUSAN D3 TEKNIK INFORMATIKA<br>
+		POLITEKNIK NEGERI INDRAMAYU<br>
+		2018</h2>
+</center>
+</body>
+</html>
+
+1. Pendahuluan
+
+	1.1 Gambaran Proyek
+
+Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasiyang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stook obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien.
+
+Aplikasi ini terdapat 3 user, yaitu diantaranya :
+		
+|No|User  	 	 |						Fungsi		 			 |
+|--|-------------|----------------------------------------------|
+|  1| Dokter	 |view data pasien, view stok obat, input resep|
+|2| Admin	|input data pasien|
+|3|Apotek | input stok obat dan harga|
+
+	
+	1.2 Dokumen-dokumen dalam proyek
+	
+- SPMP = Software Project Manajemen Plan merupakan dokumen project software yang berisi tentang perencanaan
+         pembangunan atau pengembangan software aplikasi secara umum
+- SRS  = Software Requirement Specification merupakan dokumen perangkat lunak yang berisi tentang requirement
+         spesifikasi atau spesifikasi yang ada pada perangkat lunak yang akan dibangun atau dirancang
+- SDD  = Software Design Description merupakan dokumen project software yang berisi tentang deskripsi desain software yang akan dirancang / dibuat
+- laporan 
+- proposal pengajuan
+
+	1.3 Evolusi SPMP
+
+Pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yang dibuat, dan disetiap 
+personal harus mampu mempertanggungjawabkan setiap jobdesk yang sudah ditentukan.
+
+	1.4 Material proyek
+
+Aplikasi Pendukung:
+
+- Android Studio
+- Sublime Text
+- MockPlus
+- Microsoft Visio
+		
+	referensi materi acuan :
+
+- http://www.okedroid.com/p/ebook.html
+- https://belajarkoding.net/produk/dvd-modul-android-lengkap-ebook-video-tutorial/
+- materi-materi tutorial lainnya
+
+	1.5 Definisi dan akronim (singkatan)
+	
+- V-Model	V-Model Merupakan salah satu model proses pembuatan software
+- SIMPATY ADIL(SISTEM INFORMASI PASIEN PADA STUDY KASUS DOKTER JAMIL) adalah sebuah aplikasi yang ditujukan untuk mempermudah dalam proses pendataan pasien 
+  dan pendataan obat yang terdapat pada apotek,aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil.
+- Google Playstore	Google Playstore merupakan store aplikasi dari google yang menyediakan berbagai aplikasi Android baik yang gratis maupun yang berbayar
+- SDD	Software Design Description merupakan dokumen project software yang berisi tentang deskripsi desain software yang akan dirancang / dibuat
+- SPMP	Software Project Manajemen Plan merupakan dokumen project software yang berisi tentang perencanaan
+  pembangunan atau pengembangan software aplikasi secara umum
+- SRS	Software Requirement Specification merupakan dokumen perangkat lunak yang berisi tentang requirement
+  spesifikasi atau spesifikasi yang ada pada perangkat lunak yang akan dibangun atau dirancang
+	
+2. Organisasi Proyek
+
+	2.1 Model proyek
+
+Aplikasi Sistem Informasi Pasien Pada Study Kasus Dr. Jamil berbasis android dan web. proyek aplikasi yang kita buat ini menggunakan model V atau V Model, alasan  menggunakan V model yaitu karena kita bisa bekerja dengan waktu yang secara bersamaan.
+
+![enter image description here](http://3.bp.blogspot.com/-vGtlEKrEeyw/Ud1_SfkFZFI/AAAAAAAAAFU/DBY1ZEJ7ubE/s320/v-model.png)
+		
+		
+	2.2 Struktur organisasi
+
+Anggota TIM
+1. Lia Nur Fadilah	(1603104) 
+2. Jenia Adellia Puspita (1603102) 
+3. Luvi Haerunisah	(1603105) 
+4. Maulana Ahmad Q	(1603106) 
+
+	2.3 Batasan dan antarmuka organisasi
+		
+ Batasan dari aplikasi ini hanya bisa diakses oleh Admin,apoteker,dan Dokter pada Praktek dokter jamil.
+ untuk penggunaan yang lebih luasnya akan dikembangkan lagi agar bisa di upload di google playstore dan dapat diakses oleh pasien secara umum 
+ dan layanan yang diberikan.
+
+		
+	2.4 Lingkungan tanggung jawab
+>>>>>>> 5e8019deab34da1b75185f36b82b8dfa12f1c035
 
     Pull requests
     Issues
