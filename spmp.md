@@ -39,8 +39,6 @@ Aplikasi ini terdapat 3 user, yaitu diantaranya :
 |  1| Dokter	 |view data pasien, view stok obat, input resep|
 |2| Admin	|input data pasien|
 |3|Apotek | input stok obat dan harga|
-
-	
 **1.2 Dokumen-dokumen dalam proyek**
 - modul modul pembuatan 
 - laporan 
@@ -204,3 +202,5 @@ Alokasi sumber daya :
 
 
 
+
+	
