@@ -1,16 +1,11 @@
-<<<<<<< HEAD
 
-Skip to content
-This repository
-=======
 <!DOCTYPE html>
-<html>
-<head></head>
+
 
 <body><center>
 	<h1 align="center">Software Project Management Plan</h1>
 	<h2 align="center">Version 1.2<br>
-	7 Maret 2018</h2><br><br>
+	12 April  2018</h2><br><br>
 	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
 	<br>
 	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
@@ -31,11 +26,11 @@ This repository
 </body>
 </html>
 
-1. Pendahuluan
+**1. Pendahuluan**
 
-	1.1 Gambaran Proyek
+**1.1 Gambaran Proyek**
 
-Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Android adalah sebuah aplikasiyang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stook obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien.
+Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis website adalah sebuah aplikasiyang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stok obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien.
 
 Aplikasi ini terdapat 3 user, yaitu diantaranya :
 		
@@ -46,339 +41,166 @@ Aplikasi ini terdapat 3 user, yaitu diantaranya :
 |3|Apotek | input stok obat dan harga|
 
 	
-	1.2 Dokumen-dokumen dalam proyek
-	
-- SPMP = Software Project Manajemen Plan merupakan dokumen project software yang berisi tentang perencanaan
-         pembangunan atau pengembangan software aplikasi secara umum
-- SRS  = Software Requirement Specification merupakan dokumen perangkat lunak yang berisi tentang requirement
-         spesifikasi atau spesifikasi yang ada pada perangkat lunak yang akan dibangun atau dirancang
-- SDD  = Software Design Description merupakan dokumen project software yang berisi tentang deskripsi desain software yang akan dirancang / dibuat
+**1.2 Dokumen-dokumen dalam proyek**
+- modul modul pembuatan 
 - laporan 
 - proposal pengajuan
 
-	1.3 Evolusi SPMP
+**1.3 Evolusi SPMP**
 
 Pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yang dibuat, dan disetiap 
 personal harus mampu mempertanggungjawabkan setiap jobdesk yang sudah ditentukan.
 
-	1.4 Material proyek
+**1.4 Material proyek**
 
 Aplikasi Pendukung:
 
-- Android Studio
 - Sublime Text
 - MockPlus
 - Microsoft Visio
 		
-	referensi materi acuan :
+		
+	**Referensi materi acuan :**
 
 - http://www.okedroid.com/p/ebook.html
 - https://belajarkoding.net/produk/dvd-modul-android-lengkap-ebook-video-tutorial/
 - materi-materi tutorial lainnya
 
-	1.5 Definisi dan akronim (singkatan)
-	
-- V-Model	V-Model Merupakan salah satu model proses pembuatan software
-- SIMPATY ADIL(SISTEM INFORMASI PASIEN PADA STUDY KASUS DOKTER JAMIL) adalah sebuah aplikasi yang ditujukan untuk mempermudah dalam proses pendataan pasien 
-  dan pendataan obat yang terdapat pada apotek,aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil.
-- Google Playstore	Google Playstore merupakan store aplikasi dari google yang menyediakan berbagai aplikasi Android baik yang gratis maupun yang berbayar
-- SDD	Software Design Description merupakan dokumen project software yang berisi tentang deskripsi desain software yang akan dirancang / dibuat
-- SPMP	Software Project Manajemen Plan merupakan dokumen project software yang berisi tentang perencanaan
-  pembangunan atau pengembangan software aplikasi secara umum
-- SRS	Software Requirement Specification merupakan dokumen perangkat lunak yang berisi tentang requirement
-  spesifikasi atau spesifikasi yang ada pada perangkat lunak yang akan dibangun atau dirancang
-	
-2. Organisasi Proyek
+**1.5 Definisi dan akronim (singkatan)**
+|No| Singkatan | Definisi |
+|--|--|--|
+|1 |Dr | Dokter |
+|2 |Komputerisasi |Pengolahan Data |
+|3 |Admin|Bagian utama, seperti mencatat, surat menyurat dan pendataan |
+|4 |Apoteker |Pendataan / Pendaftaran  |
+|5 |Registrasi | Orang yang ahli dalam ilmu obat-obatan |  
+|6 |Operasional | Operasi / Kegiatan yang didasarkan pada aturan |
+|7 |Valid | Menurut  cara yang semestinya |
+|8 |Mitra |Mitra dalam pembuatan proyek ini "Dr. Jamil" |
+|9 |Survei|Melakukan peninjauan atau pengecekan  |
+|10 | SIMPATY ADIL |Sistem Informasi Pasien Pada Study Kasus Dr. Jamil |
+|11 | SPMP  |Software Project Manajemen Plan |
+|12 | SRS |Software Requirement Specification |
+|13 | SDD | Software Design Description|
 
-	2.1 Model proyek
+**2. Organisasi Proyek**
+
+  **2.1 Model proyek**
 
 Aplikasi Sistem Informasi Pasien Pada Study Kasus Dr. Jamil berbasis android dan web. proyek aplikasi yang kita buat ini menggunakan model V atau V Model, alasan  menggunakan V model yaitu karena kita bisa bekerja dengan waktu yang secara bersamaan.
 
 ![enter image description here](http://3.bp.blogspot.com/-vGtlEKrEeyw/Ud1_SfkFZFI/AAAAAAAAAFU/DBY1ZEJ7ubE/s320/v-model.png)
 		
 		
-	2.2 Struktur organisasi
+**2.2 Struktur organisasi**
+Dalam pengerjaan pembuatan aplikasi ini kita melakukan pembagian untuk memudahkan dalam  berjalannya pembuatan aplikasi ini. Yang kita buat menjadi sebuah struktur seperti dibawah :
+
+![enter image description here](https://lh3.googleusercontent.com/-LFjsBkwUmQM/Ws2-cVzkK6I/AAAAAAAAAfY/KENNlYPZOlQnKZFSrOuPyeCEfAt2SnTfQCJoC/w530-h322-n/struktur.png)
+
+**2.3 Batasan dan antarmuka organisasi**
+		
+| No  |  Nama |  Jabatan |Modul | Rincian Pekerjaan|
+|--|--|--|--|--|
+| 1 | LIA NUR FADILAH  |Manager Proyek |Perancangan Fungsi Sistem| Web Developer|
+| 2 | JENIA ADELLIA P.|Anggota| Perancangan Project|Web Developer|
+| 3 | LUVI HAERUNISAH |Anggota| Perancangan Project|DFD, Flowchart, ERD, Database|
+| 4 | MAULANA AHMAD Q. |Anggota|Perancangan Project |Mockup Design |
+		
+**2.4 Lingkungan tanggung jawab**
+
+pada proyek ini ditunjuk masing-masing bertanggung jawab pada dokumen projek yang dibuat, dan disetiap  personal harus mampu mempertanggungjawabkan setiap jobdesk yang sudah ditentukan.
+
+**3. Proses Manajerial**
+**3.1 Tujuan dan prioritas dan manajemen**
+
+Tujuan dari projek ini adalah untuk mempermudah Praktek Dr. Jamil (mitra) dalam pendataan pasien yang akan melakukan rawat jalan. Dan membantu masyarakat untuk memperoleh pelayanan yang lebih mudah dan praktis.
+
+**3.2 Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan**
+
+-Keterbatasan peralatan
+- Laptop kurang memadai
+
+Kendala
+- Waktu
+- Jam Kuliah
+
+**3.3 Manajemen resiko**
+
+resiko yang mungkin terjadi yaitu terjadinya kesalahan pada proses bug dan error.
+
+**3.4 Mekanisme monitoring dan kontroling**
+
+- Bekerja sama dengan mitra
+- Perancangan 
+- Pengerjaan proyek
+- Pengujian
+- Evaluasi
+
+**3.5 Perancangan staff**
 
 Anggota TIM
-1. Lia Nur Fadilah	(1603104) 
-2. Jenia Adellia Puspita (1603102) 
-3. Luvi Haerunisah	(1603105) 
-4. Maulana Ahmad Q	(1603106) 
 
-	2.3 Batasan dan antarmuka organisasi
-		
- Batasan dari aplikasi ini hanya bisa diakses oleh Admin,apoteker,dan Dokter pada Praktek dokter jamil.
- untuk penggunaan yang lebih luasnya akan dikembangkan lagi agar bisa di upload di google playstore dan dapat diakses oleh pasien secara umum 
- dan layanan yang diberikan.
+|No| Nama | Jobdesk|
+|--|--|--|
+| 1 | Lia Nur Fadilah |Project Plan, Web Developer |
+|2|Jenia Adellia P. |Web Developer|
+|3|Luvi Haerunisah |DFD, Flowhchart, ERD dan Database|
+|4|Maulana Ahmad Q. |Design Mockup, Kordinasi dengan mitra|
 
-		
-	2.4 Lingkungan tanggung jawab
->>>>>>> 5e8019deab34da1b75185f36b82b8dfa12f1c035
+**4. Proses Teknis**
 
-    Pull requests
-    Issues
-    Marketplace
-    Explore
+**4.1 Metoda, tool dan teknik**
 
-    @afniamalia
+Proyek ini akan diimplementasikan kepada Praktek Dr. Jamil, dengan memanfaatkan  metodologi V model. Dan alat seperti Sublime Text dan firebase. Mengunakan boostrap sebagai penunjang aplikasi pada bagian WEB nya.
 
-0
-0
-
-    5
-
-BeyKun/RPL-D-8
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Insights
-RPL-D-8/spmp.md
-f342971 6 hours ago
-@koriah koriah spmpe
-@BeyKun
-@koriah
-@pluvirage
-@Ninayatun
-252 lines (174 sloc) 11.9 KB
-Software Project Management Plan
-
-Version 1.1
-
-22 Februari 2018
-
-
-Q-PRESS (QR-Kode Presensi)
-
-Aplikasi Menggunakan Kode QR
-
-Kelompok 8
-Koriah (1603103)
-Bayu Rasukma Raga (1603093)
-Syamsul Fahri Hadi (1603115)
-
-
-Jurusan Teknik Informatika
-
-Politeknik Negeri Indramayu
-BAB 1. PENDAHULUAN
-
-1.1 Gambaran Proyek
-
-Pada umumnya sistem presensi kehadiran menggunakan pemanggilan dosen ke siswa satu per satu dengan menyebutkan nama dari siswa tersebut. Dalam penggunaan sistem tersebut, sangat memakan waktu dan tidak efesien, karena memakan banyak waktu dari jam mata kuliah. Selain itu, sistem presensi manual menggunakan banyak kertas sehingga terjadi pemborosan. Pembuatan kertas menggunakan bahan baku kulit pohon, jadi jika menggunakan banyak kertas tentunya menggunakan kulit pohon secara berlebihan, jika hal ini terjadi kemungkinan besar terjadinya kerusan alam.
-
-Untuk itu, kelompok 8 mempunyai gagasan yang dapat meminimialisir dari tidak efesiennya sistem presensi sekarang, yaitu dengan membuat aplikas Q-PRES (QR-Code Presensi). Aplikasi menggunakan sistem scan kode QR untuk setiap presensi pada jadwal mata kuliah di setiap Lab atau Kelas. Dari sistemnya sendiri menggunakan 3 user, yaitu mahasiswa, dosen dan admin.
-
-Dari sistem mahasiswa menggunakan MAC address device (HP) dan Nim untuk pendaftaran. Hak akses dari mahasiswa menggunakan NIM, yang kemudian NIM tersebut akan mencari MAC device pada saat pertama pendaftaran untuk mencocokkannya. Jika NIM dan MAC addressnya sudah sinkron maka mahasiswa tersebut dapat login. Kemudian mahasiswa dapat melakukan Scan QR-Code presensi yang menyatakan bahwa dia hadir. Mahasiswa tidak akan bisa melakukan scan Kode QR jikalau dosen belum mengaktivasi atau membuka sistemnya.
-
-Pada sistem siswa, terdapat beberapa fungsi utama yaitu :
-
-    Siswa dapat melihat jadwal perkuliahan.
-    Sebelum siswa melakukan presensi, dia akan mendapatkan notifikasi untuk memulai scan, jika berhasil melakukan scan siswa akan mendapat notifikasi scan telah berhasil.
-    Siswa dapat melihat jumlah kompen yang dia dapatkan karena keterlambatan maupun ketidakhadiran.
-
-Sedangkan pada sistem Dosen memiliki hak akses untuk membuka presensi. Setelah para mahasiswa telah melakukan presensi, maka dosen akan mendapat data siswa yang masuk pada mata kuliah hari itu. Jika hasilnya tidak sesuai maka untuk validasinya Dosen akan pengecekan ulang untuk memastikan.
-
-Pada sistem Dosen memiliki fungsi yaitu :
-
-    Dosen bisa melihat jadwal.
-    Dosen memilih jadwal yang akan dilaksanakan.
-    Mempunyai hak akses untuk membuka presensi untuk mahasiswa.
-    Melihat data kehadiran siswa.
-    Validasi siswa
-
-Pada sistem Admin yaitu :
-
-    Menerima data mahasiswa yang hadir secara otomatis.
-    Menginput data mahasiswa.
-    Menginput dosen.
-    Menginput jadwal Kuliah.
-    Presentase presensi mahasiswa per hari dan per semester.
-
-Batasan pada Sistem Aplikasi :
-Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa menggunakan akun atau device dari mahasiswa lainnya. Kalaupun terdapat beberapa mahasiswa yang tidak mempunyai HP, maka dosen akan melaukukan presensi manual. Melalui pemanggilan nama mahasiswa tersebut. Mahasiswa tidak boleh menitipkan HP-nya ke mahasiswa lain untuk melakukan presensi, karena setiap dosen akan melakukan validasi presensi.
-
-1.2 Dokumen - dokumen dalam Proyek
-
-    Logbook Dokumentasi hasil pengerjaan.
-    Android Studio Media pendukung untuk pembuatan aplikasi.
-    Sublime Media pendukung unutk pembuatan aplikasi.
-    Laravel Framework yang digunakan untuk mendukung pembuatan aplikasi.
-    Mysql Digunakan sebagai Database penyimpanan data.
-    Firebas Sebagai Database Realtime.
-
-1.3 Evolusi SPMP
-
-Selama proyek, dokumen ini akan diperbarui karena menggunakan model konsep V Model. Setiap Anggota mempunyai tanggung jawab dan tugas sesuai jobdesk masing-masing. Personal yang bertanggung jawab unutk merawat aplikasi ini adalah Admin, Mahasiswa dan Dosen yang ditunjuk sebagai pengguna dari aplikasi ini.
-
-1.4 Material Acuan
-
-    IEEE
-    unimap IEEE SPMP
-
-1.5 Definisi dan Akronim (Singkatan)
-
-    QR-Code : Quick Response Code
-    Q-PRES : QR Presensi
-    HP : Handphone
-    presensi : Kehadiran
-
-BAB 2 ORGANISASI PROYEK
-
-2.1 Model Proses
-
-Model Proses yang digunakan pada aplikasi menggunakan V-Model. Dikarenakan v-model sangat fleksibel, yang mendukung pengurangan maupun penambahan project dalam prosesnya. Meminimalisasikan kesalahan pada hasil akhir karena ada test pada setiap prosesnya. Model Proses yang digunakan pada aplikasi menggunakan V-Model. Dikarenakan v-model sangat fleksibel, yang mendukung pengurangan maupun penambahan project dalam prosesnya. Meminimalisasikan kesalahan pada hasil akhir karena ada test pada setiap prosesnya.
-
-Proses yang digunakan pada proyek ini menggunakan Kode QR (Quick Respon). Dimana user mahasiswa harus mendaftar terlebih dahulu menggunakan MAC Address dari perangkat HP dan menggunakan NIM dari mahasiswa tersebut. Kemudian, jika mahasiswa tersebut ingin masuk atau melakukan presensi, ia harus memasukkan NIM-nya. NIM tersebut akan mencocokkan atau mencari MAC Address yang sudah didaftarakan pada awal pendaftaran untuk bisa masuk ke akun mahasiswa tersebut. Dosen akan didaftarkan pada Admin. Admin mempunyai kewenanangan yang lebih pada aplikasi ini.
-
-2.2 Struktur Organisasi
-No. 	Jabatan 	Nama 	Nim
-1 	Ketua Tim 	Koriah 	1603103
-2 	Android Developer 	Bayu Rasukma Raga 	1603093
-3 	Web Developer 	Syamsul Fahri hadi 	1603115
-
-2.3 Batasan dan Antarmuka Organisasi
-
-Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa menggunakan akun atau device dari mahasiswa lainnya. Kalaupun terdapat beberapa mahasiswa yang tidak mempunyai HP, maka dosen akan melaukukan presensi manual. Melalui pemanggilan nama mahasiswa tersebut. Mahasiswa tidak boleh menitipkan HP-nya ke mahasiswa lain untuk melakukan presensi, karena setiap dosen akan melakukan validasi presensi.
-No. 	Nama 	Nim 	Penanggung Jawab
-1 	Koriah 	1603103 	Dokumen
-			Database
-			Design
-2 	Bayu Rasukma 	1603093 	Lead Android Develop
-3 	Syamsul Fahri H 	1603115 	Lead Web Develop
-
-2.4 Lingkup Tanggung Jawab
-
-Setiap anggota mempunyai tanggung jawab terhadap tugasnya. Anggota mempunyai jobdesk-nya masing-masing sesuai dengan poin 2.2.
-BAB 3 Proses Manajerial
-
-3.1 Tujuan dan prioritas manajemen
-
-Tujuan dari proyek ini adalah mengembangkan sistem Aplikasi Absensi dengan menggunakan kode QR Agar bisa dijalankan dan diimplementasikan dengan baik oleh mitra. Proyek ini sangat diprioritaskan karena bermanfaat untuk menambah kinerja admin dalam mengelola data absensi dan meminimalisir penggunaan kertas sehingga biaya yang dikeluarkan oleh mitra dapat dikurangi.
-
-3.2 Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan
-
-Asumsi proyek ini adalah sebagai berikut :
-
-    Tim terdiri dari 3 orang
-    Ketersediaan peralatan dan perangkat lunak
-    Persetujuan dan Perizinan dari mitra
-
-Proyek ini berketergantungan pada :
-
-    Biaya
-    Ketersediaan software dan hardware
-    Keahlian anggota dalam penggunaan software dan bahasa pemrogramman
-    Data-data yang diberikan oleh mitra
-
-Batasan Masalah dalam proyek ini adalah sebagai berikut :
-
-    Tidak adanya vailidasi ketika HandPhone mahasiswa dititipkan ke temanya sehingga dapat menitipkan absen
-    Software yang digunakan adalah Android Studio, Sublmie Text 3 dan Firebase
-    Manajemen risiko
-
-3.3 Resiko yang ada pada proyek ini adalah :
-
-    Risiko Finansial
-    Risiko Waktu
-    Risiko Teknologi
-    Risiko Sumberdaya Manusia
-    Risiko Alat dan Bahan
-
-3.4 Makanismme monitoring dan kontroling
-
-    Rapat dan Pengerjaan mingguan
-    Pembuatan Dokumentasi Proyek
-    Testing dan evaluasi kinerja Aplikasi
-
-BAB 4 Prosess Teknis
-
-4.1 Metoda, tool dan teknik
-
-Proyek ini akan diimplementasikan dengan memanfaatkan metodologi V Model, dan alat seperti Android Studio, Sublime Text 3 dan Firebase sebagai alat pembuatan Aplikasi ini. Menggunakan Framework laravel dan Bootstrap sebagai penunjang Aplikasi bagian WEB nya serta menggunakan teknik Object Oriented dalam pengerjaan proyek ini.
-
-enter image description here
-
-4.2 Dokumentasi perangkat lunak
+**4.2 Dokumentasi perangkat lunak**
 
 SQAP
 
-4.3 Fungsi-fungsi pendukung proyek
+**4.3 Fungsi-fungsi pendukung proyek**
 
-Fungsi Pendukung dalam protek ini adalah :
+- Teknisi Jaringan
+- Teknisi Hardware
+- Spesialis Web
 
-    Teknisi Jaringan
-    Teknisi Hardware
-    Spesialis WEB
-    Spesialis Androud
+**5. Paket Pekerjaan, Jadwal dan Budget**
 
-BAB 5 Paket Pekerjaan, Jadwal dan Anggaran
+**5.1 Paket pekerjaan**
+	
+| No  |  Nama |  Jabatan |Modul | Rincian Pekerjaan|
+|--|--|--|--|--|
+| 1 | LIA NUR FADILAH  |Manager Proyek |Perancangan Fungsi Sistem| Android Developer|
+| 2 | JENIA ADELLIA P.|Anggota| Perancangan Project|Web Developer|
+| 3 | LUVI HAERUNISAH |Anggota| Perancangan Project|DFD, Flowchart, ERD, Database|
+| 4 | MAULANA AHMAD Q.  |Anggota|Perancangan Project |Mockup Design |
+		
+**5.2 Ketergantungan/keterkaitan**
+Kebutuhan keterkaitan :
+ 1. Penentuan ide dan rumusan masalah apa saja yang terjadi pada tempat Prakterk Dr. Jamil
+ 2. Pembuatan ranacangan sistem aplikasi yang akan dibuat
+ 3. Pembuatan sistem aplikasi website
+ 4. Uji coba program
+ 5. Revisi 
 
-5.1 Paket Pekerjaan
+**5.3 Kebutuhan-kebutuhaan sumber daya**
 
-Paket pekerjaan yang akan di lakukan :
-Nama 	Modul yang dikerjakan
-Koriah 	Modul Data Dosen
-	Modul Mata Kuliah
-	Modul Data Kelas
-Bayu Rasukma Raga 	Modul Rekap
-	Modul Scan Presensi
-	Modul Jadwal
-	Authentikasi
-	Data Mahasiswa
-Syamsul Fahri Hadi 	Modul Dashboard
-	Modul Ruangan
+Kebutuhan sumber daya yang dibutuhkan yaitu terdapat pada hardwarenya, misalnya laptop. diharapkan bisa support dan bisa berjalan sesuai yang diharapkan.
 
-5.2 Ketergantungan dan ketrtarikan
+**5.4 Alokasi budget sumber daya**
 
-kebutuhan keterkaitan :
+Alokasi sumber daya :
+| No|Kebutuhan|Nama Barang| Quantity |Harga|Jumlah|
+|--|--|--|--|--|--|
+|1| Laptop | Lenovo Ideapad AD 320-141KBN Intel Core i5 |1| Rp. 8.000.000,- |Rp. 8.000.000-,
+|2|Smartphone| Xiaomi MI Max|1|Rp. 3.500.000,-| Rp. 3.500.000-,
+|3|Uang transport untuk kebutuhan survei mitra|BBM|Rp.25.000 x 8 kali survei (4 Orang)|Rp.800.000,-| Rp. 800.000-,
+|4|Alokasi dana kebutuhan tim|Konsumsi, Internet |Untuk 1 kelompok|Rp. 60.000.000,-| Rp. 60.000.000-,
+|| |||Total | Rp. 72.300.000
 
-    Penentuan ide dan rumusan masalah yang dibutuhkan
-    Pembuatan rancangan sistem aplikasi yang akan di buat
-    Pembuatan sistem aplikasi Website
-    Pembuatan sistem aplikasi Android
-    Uji coba dan simulasi
-    revisi atau perbaikan
 
-5.3 Kebutuhan-kebutuhan sumber daya
 
-Sumber daya yang di perlukan untuk pembuatan aplikasi ini terdiri dari 3 orang dengan divisi yang sudah di tentukan di atas. dan adanya kebutuhan-kebutuhan yang diperlukan sebagai berikut :
-No. 	Perangkat Keras 	Perangkat Lunak 	Other
-1 	3 Unit Laptop 	Sublime Text 	Koneksi Internet
-2 	4 Unit Mouse 	Android Studio 	Konsumsi
-3 	4 Unit Keyboard 	Photo Shop 	Hosting
-4 	1 Unit Komputer 		
-5 	1 Unit Monitor 		
+**5.5 Jadwal**
+![enter image description here](https://lh3.googleusercontent.com/-yQxjm42S2Kg/Ws8LuNlhJbI/AAAAAAAAAgE/RiiO8GmrgqMFESfOrLjT8W2mv-Dn4Y_YwCL0BGAs/w530-d-h393-n/tmline.png)
 
-5.4 Alokasi Anggaran dan sumber daya
 
-Alokasi Anggaran dalam pembuatan aplkasi ini sebagai berikut :
-No. 	Keperluan 	Angaran
-1 	3 Unit Laptop 	Rp. 30.500.000
-2 	4 Unit Mouse 	Rp. 400.000
-3 	4 Unit Keyboard 	Rp. 5.000.000
-4 	Koneksi Internet 	Rp. 2.000.000
-5 	Konsumsi 	Rp. 10.000.000
 
-5.5 Jadwal
-
-Jadwal dalam pengerjaan aplikasi adalaha 16 minggu atau 4 bulan, adapun rincianya sebagai berikut :
-
-enter image description here
-
-    © 2018 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    API
-    Training
-    Shop
-    Blog
-    About
-
-Press h to open a hovercard with more details.
