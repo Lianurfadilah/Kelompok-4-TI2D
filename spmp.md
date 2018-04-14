@@ -32,7 +32,7 @@ Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis website ada
 
 Aplikasi ini terdapat 3 user, yaitu diantaranya :
 		
-|No|User  	 	 |						Fungsi		 			 |
+|No|User  	 	 |					 Fungsi		 			 |
 |--|-------------|----------------------------------------------|
 |  1| Dokter	 |view data pasien, view stok obat, input resep|
 |2| Admin	|input data pasien|
@@ -63,21 +63,22 @@ Aplikasi Pendukung:
 - materi-materi tutorial lainnya
 
 **1.5 Definisi dan akronim (singkatan)**
-|No| Singkatan | Definisi |
+
+| No. | Singkatan | Definisi |
 |--|--|--|
-|1 |Dr | Dokter |
-|2 |Komputerisasi |Pengolahan Data |
-|3 |Admin|Bagian utama, seperti mencatat, surat menyurat dan pendataan |
-|4 |Apoteker |Pendataan / Pendaftaran  |
-|5 |Registrasi | Orang yang ahli dalam ilmu obat-obatan |  
-|6 |Operasional | Operasi / Kegiatan yang didasarkan pada aturan |
-|7 |Valid | Menurut  cara yang semestinya |
-|8 |Mitra |Mitra dalam pembuatan proyek ini "Dr. Jamil" |
-|9 |Survei|Melakukan peninjauan atau pengecekan  |
-|10 | SIMPATY ADIL |Sistem Informasi Pasien Pada Study Kasus Dr. Jamil |
-|11 | SPMP  |Software Project Manajemen Plan |
-|12 | SRS |Software Requirement Specification |
-|13 | SDD | Software Design Description|
+| 1 |Dr | Dokter |
+| 2 |Komputerisasi |Pengolahan Data |
+| 3 |Admin|Bagian utama, seperti mencatat, surat menyurat dan pendataan |
+| 4 |Apoteker |Pendataan / Pendaftaran  |
+| 5 |Registrasi | Orang yang ahli dalam ilmu obat-obatan |  
+| 6 |Operasional | Operasi / Kegiatan yang didasarkan pada aturan |
+| 7 |Valid | Menurut  cara yang semestinya |
+| 8 |Mitra |Mitra dalam pembuatan proyek ini "Dr. Jamil" |
+| 9 |Survei|Melakukan peninjauan atau pengecekan  |
+| 10 | SIMPATY ADIL |Sistem Informasi Pasien Pada Study Kasus Dr. Jamil |
+| 11 | SPMP  |Software Project Manajemen Plan |
+| 12 | SRS |Software Requirement Specification |
+| 13 | SDD | Software Design Description|
 
 **2. Organisasi Proyek**
 
