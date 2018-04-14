@@ -30,7 +30,7 @@
 
 **1. Pendahuluan**
 
-Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Website adalah sebuah aplikasi yang ditujukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stook obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien. 
+Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Website adalah sebuah aplikasi yang ditunjukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stok obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien. 
 
 **1.1 Tujuan**
 
@@ -46,10 +46,11 @@ Tabel 1. Daftar Definisi dan Akronim
 	
 |Kata Kunci | Definisi atau Akronim  |
 |--|--|
-| SRS | Software Requirement Specification|
-| SKPL| Spesifikasi Kebutuhan Perangkat Lunak, Merupakan Dokumen hasil analis yang berisi spesifikasi kebutuhan user				 		|
-|RPL| Rekayasa Perangkat Lunak, Kegiatan pengembangan perangkat lunak|
-
+| SRS | Software Requirement Specification. |
+| SKPL| Spesifikasi Kebutuhan Perangkat Lunak, Merupakan Dokumen hasil analis yang berisi spesifikasi kebutuhan user. |
+| RPL | Rekayasa Perangkat Lunak, Kegiatan pengembangan perangkat lunak. |
+| Valid | perbuatan / tindakan ataupun sesuatu yang dilakukan secara sahih atau sesuai dengan aturan yang semestinya. |
+| IEEE | 
 
 tabel 2. Daftar Istilah
 	
@@ -66,24 +67,23 @@ tabel 2. Daftar Istilah
 
 **1.5 Deskripsi Umum Dokumen (Ikhtisar)**
  
-sistem informasi pada pasien a
+sistem informasi pada pasien Dokter Jamil adalah
 
 **2. Gambaran Umum**
 **2.1 Perspektif Produk**
 
 
 
+
 | No | User |	Fungsi  |
-|--|--|--|
-| 1 |Admin| Login, menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan, dan menampilkan laporan pendaftaran pasien tiap bulan berupa grafik|
+| -- | -- | -- |
+| 1 | Admi n| Login, menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan, dan menampilkan laporan pendaftaran pasien tiap bulan berupa grafik|
 |2|Dokter|view data pasien, dan input resep obat. Pada Menu ini terdapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan Pasien bisa dilihat pada Dokter. agar lebih efisien disini Dokter bisa klik tombol search untuk mencari data pasien.|
 |3|Apotek|input stok obat, lihat dan cetak data pasien yang sudah berobat|
 
 
 **2.1.1 Antarmuka Sistem**
 ![Antarmuka sistem](https://lh3.googleusercontent.com/-9P0BW2SUZOc/Ws3AoZOaVHI/AAAAAAAAANA/RXeQDyvSD14hmRVv3S2UdkUQ-Hw0AoYfQCL0BGAs/w530-d-h410-n-rw/use%2Bcase%2Bfungsi%2B%2Bproject.jpeg)
-
-
 
 **2.1.2 Atarmuka Pengguna**
 
@@ -122,12 +122,12 @@ Penggunaan Ruang penyimpanan pada aplikasi ini (berbasis Android) yaitu tidak ku
 
 | No | User |Fungsi  |
 |--|--|--|
-| 1 |Admin| menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan|
-|2|Dokter|view data pasien, input resep dokter, Pada Menu ini, tedapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan si Pasien. Disini Dokter hanya bisa melihat saja dan untuk megefisiensikan waktu,Dokter bisa klik tombol search untuk mencari.|
-|3|Apotek |input stok obat, view dan cetak data pasien yang sudah berobat|
+| 1 | Admin | menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan.|
+| 2 | Dokter |view data pasien, input resep dokter, Pada Menu ini, tedapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan si Pasien. Disini Dokter hanya bisa melihat saja dan untuk megefisiensikan waktu,Dokter bisa klik tombol search untuk mencari.|
+| 3 | Apotek |input stok obat, view dan cetak data pasien yang sudah berobat.|
 
 **2.3 Spesifikasi Kebutuhan non-fungsional**
-Usability 	: penerapan pada aplikasi ini menggunakan usability, dengan ini maka dapat mempermudah user dalam penggunaannya. salah satunya yaitu penerapan bootstrap yang mempengaruhi penampilan pada aplikasinya, sehingga tampilan aplikasi terlihat lebih menarik
+
 **2.4 karakteristik pengguna**
 
 **2.5 Batasan-batasan**
@@ -147,55 +147,55 @@ Usability 	: penerapan pada aplikasi ini menggunakan usability, dengan ini maka 
 Logika Struktur terdapat pada bagian 3.3.1
 
 **3.2.1 Registrasi Dokter**
-|Nama Fungsi|Registrasi Dokter|
+| Nama Fungsi | Registrasi Dokter |
 |--|--|
-| **Ref** | Registrasi Dokter|
-|**Trigger**| user login,insert resep.|
+| **Ref** | Registrasi Dokter |
+| **Trigger** | user login,insert resep. |
 | **Pre condition**  |halaman dashboard , dan halaman insert resep, dan kolom view stok obat.|
-|**Basic Path** | 1. user memilih kolom registrasi pada dashboard.	
-||2. user mengisi kolom registrasi.
-||3. user mengirim data registrasi.
-||4. user mempunyai akses untuk login.|
-|**Alternative Path**|tidak ada.|
-|**Post condition**|User dapat Registrasi dan dapat mengakses untuk login.|
-|**Exception push**| Tidak ada Koneksi|
+| **Basic Path** | 1. user memilih kolom registrasi pada dashboard.
+|| 2. user mengisi kolom registrasi. 
+|| 3. user mengirim data registrasi.
+|| 4. user mempunyai akses untuk login. |
+| **Alternative Path** |tidak ada.|
+| **Post condition** |User dapat Registrasi dan dapat mengakses untuk login.|
+| **Exception push** | Tidak ada Koneksi |
 
 3.2.2 Registrasi Apoteker**
-|Nama Fungsi|Registrasi Apoteker|
+| Nama Fungsi | Registrasi Apoteker |
 |--|--|
-| **Ref** | Registrasi Apoteker|
-|**Trigger**| user login,insert stok obat, obat.|
+| **Ref** | Registrasi Apoteker |
+| **Trigger** | user login,insert stok obat, obat.|
 | **Pre condition**  |halaman dashboard dan halaman input obat, stok obat, dan view resep.|
-|**Basic Path** | 1. user memilih kolom registrasi pada dashboard.	
-||2. user mengisi kolom registrasi.
-||3. user mengirim data registrasi.
-||4. user mempunyai akses untuk login.|
-|**Alternative Path**|tidak ada.|
-|**Post condition**|User dapat Registrasi dan dapat mengakses untuk login.|
-|**Exception push**| Tidak ada Koneksi|
+| **Basic Path** | 1. user memilih kolom registrasi pada dashboard.	
+|| 2. user mengisi kolom registrasi.
+|| 3. user mengirim data registrasi.
+|| 4. user mempunyai akses untuk login.|
+| **Alternative Path** |tidak ada.|
+| **Post condition** |User dapat Registrasi dan dapat mengakses untuk login.|
+| **Exception push** | Tidak ada Koneksi|
 
 3.2.3 Halaman menu Dashboard
-| Nama Fungsi |Dashboard Admin|
+| Nama Fungsi | Dashboard Admin |
 |--|--|
-| **Ref** |laporan data pasien perbulan dalam grafik.|
+| **Ref** |laporan data pasien perbulan dalam bentuk grafik.|
 | **Triger** |menginput data pasien maka akan menampilkan laporan berupa grafik.|
-|**Precondition**|halaman login|
-|**Basic Path** | 1. admin menginput data pasien	
-||2. kemudian sistem mengirim data terebut ke dalam sistem user dokternya, sehingga ketika dokter membuka menu daftar pasien, maka data sudah muncul secara otomatis   
-||3. Dokter menginputkan resep obat, yang kemudian terhubung langsung ke bagian apoteker|
-|**Alternative**|Tidak ada |
-|**Postcondition**|user apotek bisa melihat data obat yang sudah diinputkan|
-|**Exception Paths**| bisa dilihat kapan saja,dikhususkan untuk pelaporan data jumlah pasien perbulannya|
+| **Precondition** |halaman login|
+| **Basic Path** | 1. Admin menginput data pasien.	
+|| 2.Sistem mengirim data terebut ke dalam sistem user dokternya, sehingga ketika dokter membuka menu daftar pasien, maka data sudah muncul secara otomatis.   
+|| 3. Dokter menginputkan resep obat, yang kemudian terhubung langsung ke bagian apoteker.|
+| **Alternative** |Tidak ada. |
+| **Postcondition** | user apotek bisa melihat data obat yang sudah diinputkan. |
+| **Exception Paths** | bisa dilihat kapan saja,dikhususkan untuk pelaporan data jumlah pasien perbulannya. |
 
-3.2.3 tambahan
+3.2.4 tambahan
 
-|Nama Fungsi|Sistem|
+| Nama Fungsi | Sistem |
 |--|--|
-|  **Trigger**| Admin, melakukan proses pendataan pasien  |
-|**Precondition**|admin telah mengakses layar utama |
-|**Basic Path**| 1\. Sistem menyajikan tabel kosong untuk memasukkan pendaftaran pasien 
-||2\. admin memasukkan informasi dan mengirimkan biodata pasien 
-||3\. Sistem memeriksa bahwa kolom nama biodata lainnya sudah terpenuhi|
+| **Trigger** | Admin, melakukan proses pendataan pasien. |
+| **Precondition** |admin telah mengakses layar utama. |
+| **Basic Path** | 1\. Sistem menyajikan tabel kosong untuk memasukkan pendaftaran pasien. 
+||2\. admin memasukkan informasi dan mengirimkan biodata pasien.
+||3\. Sistem memeriksa bahwa kolom nama biodata lainnya sudah terpenuhi. |
 
 **3.3 Persyaratan Non Fungsional**
 
@@ -204,9 +204,9 @@ Logika Struktur terdapat pada bagian 3.3.1
 Struktur logis data (ERD) yang akan disimpan dalam database Article Manager internal diberikan di bawah ini:
 ![enter image description here](https://lh3.googleusercontent.com/-b-psNrrlOk8/WqonLX7W3GI/AAAAAAAAA3Y/6n_qs5JVVm8efgapTqOS5IVgKpEIlZKuACL0BGAs/w530-d-h418-n-rw/ERD%2BFIX%2BBISMILLAH.jpg)
 
-|Data item|Type|Description|Comment|
+| Data item | Type | Description | Comment |
 |--|--|--|--|
-|nama|text|nama obat|menampilkan nama|
+| nama | text | nama obat | menampilkan nama |
 |ID|Integer|harga obat|ID harus Primary key|
 |speciality|Text|mempunyai keahlian dalam bidangnya masing-masing|
 
