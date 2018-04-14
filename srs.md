@@ -127,7 +127,7 @@ Penggunaan Ruang penyimpanan pada aplikasi ini (berbasis Android) yaitu tidak ku
 | 3 | Apotek |input stok obat, view dan cetak data pasien yang sudah berobat.|
 
 **2.3 Spesifikasi Kebutuhan non-fungsional**
-
+Usability 	: penerapan pada aplikasi ini menggunakan usability, dengan ini maka dapat mempermudah user dalam penggunaannya. salah satunya yaitu penerapan bootstrap yang mempengaruhi penampilan pada aplikasinya, sehingga tampilan aplikasi terlihat lebih menarik
 **2.4 karakteristik pengguna**
 
 **2.5 Batasan-batasan**
