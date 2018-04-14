@@ -166,10 +166,10 @@ Logika Struktur terdapat pada bagian 3.3.1
 | **Ref** | Registrasi Apoteker |
 | **Trigger** | user login,insert stok obat, obat.|
 | **Pre condition**  |halaman dashboard dan halaman input obat, stok obat, dan view resep.|
-| **Basic Path** | 1. user memilih kolom registrasi pada dashboard.	
-|| 2. user mengisi kolom registrasi.
-|| 3. user mengirim data registrasi.
-|| 4. user mempunyai akses untuk login.|
+| **Basic Path** | 1\. user memilih kolom registrasi pada dashboard.	
+|| 2\. user mengisi kolom registrasi.
+|| 3\. user mengirim data registrasi.
+|| 4\. user mempunyai akses untuk login.|
 | **Alternative Path** |tidak ada.|
 | **Post condition** |User dapat Registrasi dan dapat mengakses untuk login.|
 | **Exception push** | Tidak ada Koneksi|
@@ -180,9 +180,9 @@ Logika Struktur terdapat pada bagian 3.3.1
 | **Ref** |laporan data pasien perbulan dalam bentuk grafik.|
 | **Triger** |menginput data pasien maka akan menampilkan laporan berupa grafik.|
 | **Precondition** |halaman login|
-| **Basic Path** | 1. Admin menginput data pasien.	
-|| 2.Sistem mengirim data terebut ke dalam sistem user dokternya, sehingga ketika dokter membuka menu daftar pasien, maka data sudah muncul secara otomatis.   
-|| 3. Dokter menginputkan resep obat, yang kemudian terhubung langsung ke bagian apoteker.|
+| **Basic Path** | 1\. Admin menginput data pasien.	
+|| 2\.Sistem mengirim data terebut ke dalam sistem user dokternya, sehingga ketika dokter membuka menu daftar pasien, maka data sudah muncul secara otomatis.   
+|| 3\. Dokter menginputkan resep obat, yang kemudian terhubung langsung ke bagian apoteker.|
 | **Alternative** |Tidak ada. |
 | **Postcondition** | user apotek bisa melihat data obat yang sudah diinputkan. |
 | **Exception Paths** | bisa dilihat kapan saja,dikhususkan untuk pelaporan data jumlah pasien perbulannya. |
