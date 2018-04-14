@@ -83,11 +83,10 @@ sistem informasi pada pasien Dokter Jamil adalah
 
 
 **2.1.1 Antarmuka Sistem**
-![Antarmuka sistem](https://lh3.googleusercontent.com/-9P0BW2SUZOc/Ws3AoZOaVHI/AAAAAAAAANA/RXeQDyvSD14hmRVv3S2UdkUQ-Hw0AoYfQCL0BGAs/w530-d-h410-n-rw/use%2Bcase%2Bfungsi%2B%2Bproject.jpeg)
+![enter image description here](https://lh3.googleusercontent.com/-4f9m-y1iEdI/Ws20d9qoLyI/AAAAAAAAAMk/HMN9HUevz28_Ny0l8Nmt553IQI6RfGLFACJoC/w530-h410-n/antarmuka+sistem.jpeg)
 
 **2.1.2 Atarmuka Pengguna**
 
-**~~~belommmmm~~~**
 
 **2.1.3 Antarmuka Perangkat Keras**
 
@@ -116,7 +115,18 @@ Sebuah aplikasi web berkomunikasi dengan perangkat lunak _client_ melalui HTTP. 
 Penggunaan Ruang penyimpanan pada aplikasi ini (berbasis Android) yaitu tidak kurang dari 100 Mb.
 
 **2.1.7 Operasi-operasi**
-	 
+	
+|No| Operasi |Fungsi|
+|--|--|--|
+| 1 | Login |Untuk masuk sebagai user dan dapat mengakses aplikasi|
+|  2| Input Data |Untuk Memasukkan data-data yang terkait|
+| 3 | Delete Data |Untuk menghapus data|
+| 4 | Edit Data |Untuk mengubah data|
+| 5 | Save Data |Untuk menyimpan data|
+| 6 | View Data |Untuk menampilkan data|
+| 7 |Back |Untuk kembali kehalaman sebelumnya|
+| 8 | Print |Untuk mencetak sebuah data atau laporan|
+
 **2.2 Spesifikasi Kebutuhan fungsional**
 ![enter image description here](https://lh3.googleusercontent.com/-14ARNace9NU/WrQ6zwjNyXI/AAAAAAAAAIA/AHvQLduu7BQRP5o6S1JaKQXmCfIf2DhCQCL0BGAs/w530-d-h410-n-rw/use%2Bcase%2Bfungsit.jpg)
 
@@ -155,15 +165,15 @@ Logika Struktur terdapat pada bagian 3.3.1
 | **Basic Path** | 1. user memilih kolom registrasi pada dashboard.
 || 2. user mengisi kolom registrasi. 
 || 3. user mengirim data registrasi.
-|| 4. user mempunyai akses untuk login. |
-| **Alternative Path** |tidak ada.|
-| **Post condition** |User dapat Registrasi dan dapat mengakses untuk login.|
-| **Exception push** | Tidak ada Koneksi |
+|| 4. user mempunyai akses untuk login. 
+| **Alternative Path** |tidak ada.
+| **Post condition** |User dapat Registrasi dan dapat mengakses untuk login.
+| **Exception push** | Tidak ada Koneksi 
 
 3.2.2 Registrasi Apoteker**
 | Nama Fungsi | Registrasi Apoteker |
 |--|--|
-| **Ref** | Registrasi Apoteker |
+| **Ref** | Registrasi Apoteker 
 | **Trigger** | user login,insert stok obat, obat.|
 | **Pre condition**  |halaman dashboard dan halaman input obat, stok obat, dan view resep.|
 | **Basic Path** | 1\. user memilih kolom registrasi pada dashboard.	
@@ -209,4 +219,5 @@ Struktur logis data (ERD) yang akan disimpan dalam database Article Manager inte
 | nama | text | nama obat | menampilkan nama |
 |ID|Integer|harga obat|ID harus Primary key|
 |speciality|Text|mempunyai keahlian dalam bidangnya masing-masing|
+
 
