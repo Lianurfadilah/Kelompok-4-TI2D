@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <body><center>
 	<h1 align="center">Software Project Management Plan</h1>
-	<h2 align="center">Version 1.2<br>
-	12 April  2018</h2><br><br>
+	<h2 align="center">Version 1.3<br>
+	14 April  2018</h2><br><br>
 	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
 	<br>
-	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
+	<h2 align="center">Rancang Bangun Aplikasi Pasien pada Study Kasus Dr.Jamil<br>
 	(SIMPATY ADIL)</h2>
 	<align="center" br>
 	<ol align="center">Nama Anggota TIM</ol><align="center">
@@ -28,7 +28,8 @@
 
 **1.1 Gambaran Proyek**
 
-Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis website adalah sebuah aplikasiyang ditunjukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stok obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubung dengan hal ini perlu dikembangkan sebuah sistem informasi untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien.
+Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis website adalah sebuah aplikasiyang ditunjukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat
+ pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stok obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubung dengan hal ini perlu dikembangkan sebuah sistem informasi untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien.
 
 Aplikasi ini terdapat 3 user, yaitu diantaranya :
 		
@@ -58,9 +59,9 @@ Aplikasi Pendukung:
 
 **Referensi materi acuan :**
 
-- http://www.okedroid.com/p/ebook.html
-- https://belajarkoding.net/produk/dvd-modul-android-lengkap-ebook-video-tutorial/
-- materi-materi tutorial lainnya
+-  IEEE
+-  Unimap IEEE SPMP
+-  SPMP sample
 
 **1.5 Definisi dan akronim (singkatan)**
 
@@ -198,6 +199,3 @@ Kebutuhan sumber daya yang dibutuhkan yaitu terdapat pada hardwarenya, misalnya 
 ![enter image description here](https://lh3.googleusercontent.com/-yQxjm42S2Kg/Ws8LuNlhJbI/AAAAAAAAAgE/RiiO8GmrgqMFESfOrLjT8W2mv-Dn4Y_YwCL0BGAs/w530-d-h393-n/tmline.png)
 
 
-
-
-	
