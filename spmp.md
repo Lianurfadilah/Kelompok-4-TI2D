@@ -184,14 +184,13 @@ Kebutuhan sumber daya yang dibutuhkan yaitu terdapat pada hardwarenya, misalnya 
 
 **5.4 Alokasi budget sumber daya**
 
-Alokasi sumber daya :
-| No|Kebutuhan|Nama Barang| Quantity |Harga|Jumlah|
+| No. | Kebutuhan | Nama Barang | Quantity | Harga | Jumlah |
 |--|--|--|--|--|--|
-|1| Laptop | Lenovo Ideapad AD 320-141KBN Intel Core i5 |1| Rp. 8.000.000,- |Rp. 8.000.000-, |
-|2|Smartphone| Xiaomi MI Max|1|Rp. 3.500.000,-| Rp. 3.500.000-, |
-|3|Uang transport untuk kebutuhan survei mitra|BBM|Rp.25.000 x 8 kali survei (4 Orang)|Rp.800.000,-| Rp. 800.000-, |
-|4|Alokasi dana kebutuhan tim|Konsumsi, Internet |Untuk 1 kelompok|Rp. 60.000.000,-| Rp. 60.000.000-, |
-|| |||Total | Rp. 72.300.000|
+| 1 | Laptop | Lenovo Ideapad AD 320-141KBN Intel Core i5 |1| Rp. 8.000.000,- |Rp. 8.000.000-, |
+| 2 |Smartphone| Xiaomi MI Max|1|Rp. 3.500.000,-| Rp. 3.500.000-, |
+| 3 |Uang transport untuk kebutuhan survei mitra|BBM|Rp.25.000 x 8 kali survei (4 Orang)|Rp.800.000,-| Rp. 800.000-, |
+| 4 |Alokasi dana kebutuhan tim|Konsumsi, Internet |Untuk 1 kelompok|Rp. 60.000.000,-| Rp. 60.000.000-, |
+| | | | |Total | Rp. 72.300.000|
 
 **5.5 Jadwal**
 
