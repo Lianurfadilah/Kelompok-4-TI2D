@@ -193,14 +193,10 @@ Dokter|1\.Input resep|memasukan resep pasien pada sistem.|
 ||3\.Lihat data pasien |menampilkan data pasien yang masuk.
 |Apoteker|1\.Input Stok obat|memasukan data obat pada sistem.
 ||2\.Lihat resep|menampilkan data resep pasien yang di telah input oleh dokter.
-||3\.Lihat data pasien|menampilkan data pasien yang telah di input oleh Admin.
-||4\.Lihat data pasien|menampilkan data pasien yang telah di input oleh Admin.|
-
+||3\.Lihat data pasien|menampilkan data pasien yang telah di input oleh Admin.|
 **2.5 Batasan-batasan**
 
 Keterbatasan waktu yang singkat memungkinkan implementasi fungsi-fungsi yang ada di rencanakan belum bisa berfungsi dengan sesuai.
-
-**2.6 Asumsi-asumsi keterkaitan**
 
 **3. Persyaratan Kebutuhan**
 
@@ -270,14 +266,81 @@ Logika Struktur terdapat pada bagian 3.3.1
 
 **3.3.1 Logika Struktur Data**
 
-Struktur logis data (ERD) yang akan disimpan dalam database Article Manager internal diberikan di bawah ini:
+Struktur logis data (ERD) yang akan disimpan dalam database Article Manager internal diberikan sebagai berikut:
 
 ![enter image description here](https://lh3.googleusercontent.com/-b-psNrrlOk8/WqonLX7W3GI/AAAAAAAAA3Y/6n_qs5JVVm8efgapTqOS5IVgKpEIlZKuACL0BGAs/w530-d-h418-n-rw/ERD%2BFIX%2BBISMILLAH.jpg)
 
-| Data item | Type | Description | Comment |
-|--|--|--|--|
-| nama | text | nama obat | menampilkan nama |
-|ID|Integer|harga obat|ID harus Primary key|
-|speciality|Text|mempunyai keahlian dalam bidangnya masing-masing|-|
+Dokter
+
+| Data item | Type | Description |
+|--|--|--|
+|Id_dokter|Integer|Primary key|
+|Id_login|Integer|foreign key|
+|Id_obat|Integer|golongan obat|
+|nama_dokter|varchar|nama dokter|
+
+Data Pasien
+
+| Data item | Type | Description |
+|--|--|--|
+|Id_pasien|Integer|Primary Key|
+|nik|Integer|nomor induk kependudukan|
+|nama_pasien|varchar|nama pasien|
+|umur|integer|umur|
+|alamat_pasien|varchar|alamat|
+|no_telp|integer|nomor telepon|
+|keluhan|varchar|keluhan pasien|
+
+
+Resep
+
+| Data item | Type | Description |
+|--|--|--|
+|Id_resep_obat|integer| Primary key|
+|nama_obat|varchar| nama obat |
+|aturan_pakai|varchar|aturan minum obat|
+|Id_stok_obat|integer|foreign key|
+
+Obat
+
+| Data item | Type | Description |
+|--|--|--|
+|Id_obat|integer|primary key|
+|Id_stok_obat|integer|foreign key|
+|Id_resep_obat|integer||
+
+Stok Obat
+| Data item | Type | Description |
+|--|--|--|
+|Id_stok_obat|integer|primary key|
+|nama_obat|varchar|nama obat|
+|harga_obat|varchar|harga obat|
+|jumlah_obat|varchar|jumlah obat|
+
+Apoteker
+
+| Data item | Type | Description |
+|--|--|--|
+|Id_apoteker|integer|primary key|
+|Id_login|integer|foreign key|
+|Id_stok_obat|integer||
+|nama_apoteker|varchar|nama apoteker|
+
+Login
+
+| Data item | Type | Description |
+|--|--|--|
+|Id_login|integer|primary key|
+|username|varchar|username|
+|password|varchar|password|
+|type|varchar|type user|
+
+
+
+
+
+
+
+
 
 
