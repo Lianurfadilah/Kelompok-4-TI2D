@@ -79,7 +79,6 @@ Dari sistem admin yaitu mempunyai fungsi untuk menginputkan data pasien yang reg
 Sedangkan untuk sistem dokter yaitu mampu melihat data pasien dan kemudian menginput resep obat yang sesuai dengan keluhan data pasien, selain itu dokter juga mampu memonitoring jumlah stok obat yang ada diapotek.
 kemudian untuk sistem apotek yaitu mampu menginputkan data stok obat, selain itu juga bagian apotek mampu melihat resep obat yang sudah diinput oleh dokter, yang kemudian melakukan proses pencetakan pada resep obat.
 
-RANCANG BANGUN SISTEM INFORMASI REKAM... (PDF Download Available). Available from: https://www.researchgate.net/publication/321984739_RANCANG_BANGUN_SISTEM_INFORMASI_REKAM_MEDIS_KLINIK_BERBASIS_WEB_STUDI_KASUS_KLINIK_UTAMA_MEDITAMA_SEMARANG [accessed Apr 15 2018].
 **2.1 Perspektif Produk**
 
 | No | User |	Fungsi  |
