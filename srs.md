@@ -136,7 +136,7 @@ Pada memori yang di butuhkan tidak ada karena Aplikasi ini berbasis website.
 
 **2.2.1 use case Admin**
 
-![Admin] (https://lh3.googleusercontent.com/-2ELKoMhZd4M/WrRFEkXKniI/AAAAAAAAAJs/lSWtjkzb77EmN0RgFYHG2OY3ZjIbAqgagCJoC/w530-h392-n-rw/use%2Bcase%2Bbagian%2Badmin.jpg)
+![Admin](https://lh3.googleusercontent.com/-2ELKoMhZd4M/WrRFEkXKniI/AAAAAAAAAJs/lSWtjkzb77EmN0RgFYHG2OY3ZjIbAqgagCJoC/w530-h392-n-rw/use%2Bcase%2Bbagian%2Badmin.jpg)
 
 Langkah-langkah:
 
@@ -146,7 +146,7 @@ Langkah-langkah:
 
 **2.2.2 use case Dokter**
 
-![Dokter] (https://lh3.googleusercontent.com/-PsN9dQXncG8/WrRFPVzs3YI/AAAAAAAAAJs/lmeM3CiB_PEiIESzrNKUMSmGGEyKftKfwCJoC/w530-h368-n-rw/use%2Bcase%2Bbagian%2Bdokter.jpg)
+![Dokter](https://lh3.googleusercontent.com/-PsN9dQXncG8/WrRFPVzs3YI/AAAAAAAAAJs/lmeM3CiB_PEiIESzrNKUMSmGGEyKftKfwCJoC/w530-h368-n-rw/use%2Bcase%2Bbagian%2Bdokter.jpg)
 
 Langkah-langkah:
 1. Login masukan username dan password, lalu sistem meverifikasi kesalahan data.
@@ -155,7 +155,7 @@ Langkah-langkah:
 
 **2.2.3 use case Apoteker**
 
-![Apoteker] (https://lh3.googleusercontent.com/-gXq2qYQBeeE/WrRFKgz025I/AAAAAAAAAJs/XdFubohn2aQDXyc4o4ZMQpI8hui_E1XIACJoC/w530-h472-n-rw/use%2Bcase%2Bbagian%2Bapoteker.jpg)
+![Apoteker](https://lh3.googleusercontent.com/-gXq2qYQBeeE/WrRFKgz025I/AAAAAAAAAJs/XdFubohn2aQDXyc4o4ZMQpI8hui_E1XIACJoC/w530-h472-n-rw/use%2Bcase%2Bbagian%2Bapoteker.jpg)
 
 Langkah-langkah:
 1. Login masukan username dan password, lalu sistem meverifikasi kesalahan data.
