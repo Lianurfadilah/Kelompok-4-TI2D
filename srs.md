@@ -26,7 +26,10 @@
 </center>
 </body>
 </html>
-**1. Pendahuluan**Aplikasi Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil Berbasis Website adalah sebuah aplikasi yang ditunjukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stok obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas pada rekam medis Dr. Jamil.
+	
+**1. Pendahuluan**
+
+Aplikasi Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil Berbasis Website adalah sebuah aplikasi yang ditunjukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stok obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas pada rekam medis Dr. Jamil.
 	
 **1.1 Tujuan**
 
@@ -64,7 +67,7 @@ tabel 2. Daftar Istilah
 
 **1.5 Deskripsi Umum Dokumen (Ikhtisar)**
  
-Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil adalah
+Pada bab selanjutnya yaitu menjelaskan Menjelaskan gambaran umum aplikasi,interface pada tiap bagian dan alur. pada bab terakhir menjelaskan tentang fungsi-fungsi yang di implentasi.
 
 **2. Gambaran Umum**
 
@@ -128,8 +131,37 @@ Pada memori yang di butuhkan tidak ada karena Aplikasi ini berbasis website.
 | No | User |Fungsi  |
 |--|--|--|
 | 1 | Admin | menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan.|
-| 2 | Dokter |view data pasien, input resep dokter, Pada Menu ini, tedapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan si Pasien. Disini Dokter hanya bisa melihat saja dan untuk megefisiensikan waktu,Dokter bisa klik tombol search untuk mencari.|
+| 2 | Dokter |view data pasien, input resep dokter, Pada Menu ini, terdapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan pasien. Disini Dokter hanya bisa melihat saja dan untuk efisiensi waktu,Dokter bisa klik tombol search untuk mencari.|
 | 3 | Apotek |input stok obat, view dan cetak data pasien yang sudah berobat.|
+
+**2.2.1 use case Admin**
+
+![Admin] (https://lh3.googleusercontent.com/-2ELKoMhZd4M/WrRFEkXKniI/AAAAAAAAAJs/lSWtjkzb77EmN0RgFYHG2OY3ZjIbAqgagCJoC/w530-h392-n-rw/use%2Bcase%2Bbagian%2Badmin.jpg)
+
+Langkah-langkah:
+
+1. Login sesuai dengan tipe nya. masukan username dan password, lalu sistem meverifikasi kesalahan data.
+2. Memasukan data pasien (Nama Pasien, NIK, Alamat, No Telp, Umur, Keluhan dan Keterangan).
+3. Menampilkan Rekap data pasien perbulan dalam bentuk tabel grafik.
+
+**2.2.2 use case Dokter**
+
+![Dokter] (https://lh3.googleusercontent.com/-PsN9dQXncG8/WrRFPVzs3YI/AAAAAAAAAJs/lmeM3CiB_PEiIESzrNKUMSmGGEyKftKfwCJoC/w530-h368-n-rw/use%2Bcase%2Bbagian%2Bdokter.jpg)
+
+Langkah-langkah:
+1. Login masukan username dan password, lalu sistem meverifikasi kesalahan data.
+2. Menampilkan data pasien (Nama Pasien, NIK, Alamat, No Telp, Umur, Keluhan dan Keterangan).
+3. Memasukan resep pasien.
+
+**2.2.3 use case Apoteker**
+
+![Apoteker] (https://lh3.googleusercontent.com/-gXq2qYQBeeE/WrRFKgz025I/AAAAAAAAAJs/XdFubohn2aQDXyc4o4ZMQpI8hui_E1XIACJoC/w530-h472-n-rw/use%2Bcase%2Bbagian%2Bapoteker.jpg)
+
+Langkah-langkah:
+1. Login masukan username dan password, lalu sistem meverifikasi kesalahan data.
+2. Menampilkan data pasien (Nama Pasien, NIK, Alamat, No Telp, Umur, Keluhan dan Keterangan).
+3. Menampilkan resep pasien.
+4. Memasukan stok obat.
 
 **2.3 Spesifikasi Kebutuhan non-fungsional**
 
@@ -152,14 +184,15 @@ Dokter|1\.Input resep|memasukan resep pasien pada sistem.|
 ||2\.Lihat stok obat| menampilkan nama obat, jumlah obat ,harga obat dan status.
 ||3\.Lihat data pasien |menampilkan data pasien yang masuk.
 |Apoteker|1\.Input Stok obat|memasukan data obat pada sistem.
-||2\.Lihat resep|menampilkan data resep pasien yang di telah input oleh dokter.||3\.Lihat data pasien|menampilkan data pasien yang telah di input oleh Admin.||4\.Lihat data pasien|menampilkan data pasien yang telah di input oleh Admin.|
+||2\.Lihat resep|menampilkan data resep pasien yang di telah input oleh dokter.
+||3\.Lihat data pasien|menampilkan data pasien yang telah di input oleh Admin.
+||4\.Lihat data pasien|menampilkan data pasien yang telah di input oleh Admin.|
 
 **2.5 Batasan-batasan**
 
-Keterbatasan waktu yang singkat memungkinkan implementasi fungsi-fungsi yang ada di rencanakan belum bisa berfungsi dengan sesui.
+Keterbatasan waktu yang singkat memungkinkan implementasi fungsi-fungsi yang ada di rencanakan belum bisa berfungsi dengan sesuai.
 
 **2.6 Asumsi-asumsi keterkaitan**
-
 
 **3. Persyaratan Kebutuhan**
 
