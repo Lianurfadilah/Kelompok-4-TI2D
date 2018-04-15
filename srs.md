@@ -140,6 +140,16 @@ Kebutuhan yang digunakan dalam Reability yaitu proses pada pencetakan resep obat
 
 **2.4 karakteristik pengguna**
 
+| Tipe Pengguna | Operasi | Keterangan |
+| -- | -- | --|
+| Admin | 1\. Laporan Pasien(grafik)| menampilkan jumlah pasien perbulan dalam bentuk tabel grafik |
+||2\. Input data pasien. |memasukan data pasien pada sistem.
+Dokter|1\.Input resep|memasukan resep pasien pada sistem.|
+||2\.Lihat stok obat| menampilkan nama obat, jumlah obat ,harga obat dan status.
+||3\.Lihat data pasien |menampilkan data pasien yang masuk.
+|Apoteker|1\.Input Stok obat|memasukan data obat pada sistem.
+||2\.Lihat resep|menampilkan data resep pasien yang di telah input oleh dokter.||3\.Lihat data pasien|menampilkan data pasien yang telah di input oleh Admin.|
+
 **2.5 Batasan-batasan**
 
 Keterbatasan waktu yang singkat memungkinkan fungsi fungsi yang ada di web belum bisa berfungsi sesuai dengan fungsinya.
@@ -154,9 +164,6 @@ Salah satu syarat untuk mengakses aplikasi ini yaitu harus mendapatkan hak akses
 
 **3.2 Persyaratan Fungsional**
 
-**3.1.2 Antarmuka perangkat lunak**
-
-**3.2 Kebutuhan Fungsional**
 Logika Struktur terdapat pada bagian 3.3.1
 
 **3.2.1 Registrasi Dokter**
