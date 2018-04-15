@@ -12,8 +12,8 @@
 	<br>
 	<h2 align="center">Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil</h2>
 	<align="center" br>
-	<ol align="center" Nama Anggota TIM</ol><align="center">
 	<div align="center">
+	<h4>Nama Anggota TIM</h4><br>
 	LIA NUR FADILAH (1603104)<br>
 	JENIA ADELLIA P.(1603102)<br>
 	LUVI HAERUNISAH	(1603105)<br>
