@@ -7,11 +7,10 @@
 <body><center>
 	<h1 align="center">Software Requirements Specification</h1>
 	<h2 align="center">Version 1.5<br>
-	14 April 2018</h2><br><br>
+	15 April 2018</h2><br><br>
 	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
 	<br>
-	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
-	(SIMPATY ADIL)</h2>
+	<h2 align="center">Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil</h2>
 	<align="center" br>
 	<ol align="center">Nama Anggota TIM</ol><align="center">
 	<div align="center">
@@ -73,22 +72,16 @@ sistem informasi pada pasien Dokter Jamil adalah
 **2. Gambaran Umum**
 **2.1 Perspektif Produk**
 
-
-
-
 | No | User |	Fungsi  |
 | -- | -- | -- |
 | 1 | Admi n| Login, menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan, dan menampilkan laporan pendaftaran pasien tiap bulan berupa grafik|
 |2|Dokter|view data pasien, dan input resep obat. Pada Menu ini terdapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan Pasien bisa dilihat pada Dokter. agar lebih efisien disini Dokter bisa klik tombol search untuk mencari data pasien.|
 |3|Apotek|input stok obat, lihat dan cetak data pasien yang sudah berobat|
 
-
 **2.1.1 Antarmuka Sistem**
 ![enter image description here](https://lh3.googleusercontent.com/-4f9m-y1iEdI/Ws20d9qoLyI/AAAAAAAAAMk/HMN9HUevz28_Ny0l8Nmt553IQI6RfGLFACJoC/w530-h410-n/antarmuka+sistem.jpeg)
 
 **2.1.2 Atarmuka Pengguna**
-
-
 **2.1.3 Antarmuka Perangkat Keras**
 
 Admin :menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan.
@@ -149,12 +142,15 @@ Kebutuhan yang digunakan dalam Reability yaitu proses pada pencetakan resep obat
 
 **2.5 Batasan-batasan**
 
+Keterbatasan waktu yang singkat memungkinkan fungsi fungsi yang ada di web belum bisa berfungsi sesuai dengan fungsinya.
 **2.6 Asumsi-asumsi keterkaitan**
 
 
 **3. Persyaratan Kebutuhan**
 
 **3.1 Persyaratan Antarmuka Eksternal**
+
+Salah satu syarat untuk mengakses aplikasi ini yaitu harus mendapatkan hak akses terlebih dahulu yang diberikan oleh bagian admin. kemudian melakukan login yang diwajibkan untuk mengisi username dan password yang sesuai. Setelah login berhasil, dokter dapat melihat data pasien, stok obat, dan menginput resep pasien. Dan untuk apotek dapat menginput data stok obat dan mencetak resep obat.
 
 **3.2 Persyaratan Fungsional**
 
@@ -228,7 +224,7 @@ Nama Fungsi         & Dashboard Admin                                           
 
 **3.3 Persyaratan Non Fungsional**
 
-**3.3.1 Struktur Detail Kebutuhan Non-Fungsional**
+**3.3.1 Logika Struktur Data**
 
 Struktur logis data (ERD) yang akan disimpan dalam database Article Manager internal diberikan di bawah ini:
 
