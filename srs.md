@@ -148,11 +148,12 @@ Dokter|1\.Input resep|memasukan resep pasien pada sistem.|
 ||2\.Lihat stok obat| menampilkan nama obat, jumlah obat ,harga obat dan status.
 ||3\.Lihat data pasien |menampilkan data pasien yang masuk.
 |Apoteker|1\.Input Stok obat|memasukan data obat pada sistem.
-||2\.Lihat resep|menampilkan data resep pasien yang di telah input oleh dokter.||3\.Lihat data pasien|menampilkan data pasien yang telah di input oleh Admin.|
+||2\.Lihat resep|menampilkan data resep pasien yang di telah input oleh dokter.||3\.Lihat data pasien|menampilkan data pasien yang telah di input oleh Admin.||4\.Lihat data pasien|menampilkan data pasien yang telah di input oleh Admin.|
 
 **2.5 Batasan-batasan**
 
 Keterbatasan waktu yang singkat memungkinkan fungsi fungsi yang ada di web belum bisa berfungsi sesuai dengan fungsinya.
+
 **2.6 Asumsi-asumsi keterkaitan**
 
 
@@ -198,26 +199,17 @@ Logika Struktur terdapat pada bagian 3.3.1
 
 **3.2.3 Halaman menu Dashboard**
 
-% Please add the following required packages to your document preamble:
-% \usepackage[normalem]{ulem}
-% \useunder{\uline}{\ul}{}
-\begin{table}[]
-\centering
-\caption{My caption}
-\label{my-label}
-\begin{tabular}{ll}
-Nama Fungsi         & Dashboard Admin                                                                                                                                            \\
-**Ref**             & laporan data pasien perbulan dalam bentuk grafik.                                                                                                          \\
-**Triger**          & menginput data pasien maka akan menampilkan laporan berupa grafik.                                                                                         \\
-**Precondition**    & halaman login                                                                                                                                              \\
-**Basic Path**      & 1\. Admin menginput data pasien.                                                                                                                           \\
-                    & 2\.Sistem mengirim data terebut ke dalam sistem user dokternya, sehingga ketika dokter membuka menu daftar pasien, maka data sudah muncul secara otomatis. \\
-                    & 3\. Dokter menginputkan resep obat, yang kemudian terhubung langsung ke bagian apoteker.                                                                   \\
-**Alternative**     & Tidak ada.                                                                                                                                                 \\
-**Postcondition**   & user apotek bisa melihat data obat yang sudah diinputkan.                                                                                                  \\
-**Exception Paths** & bisa dilihat kapan saja,dikhususkan untuk pelaporan data jumlah pasien perbulannya.                                                                       
-\end{tabular}
-\end{table}
+| Nama Fungsi | Dashboard Admin |
+|--|--|
+| **Ref** |laporan data pasien perbulan dalam bentuk grafik.|
+| **Triger** |menginput data pasien maka akan menampilkan laporan berupa grafik.|
+| **Precondition** |halaman login|
+| **Basic Path** | 1\. Admin menginput data pasien.	
+|| 2\.Sistem mengirim data terebut ke dalam sistem user dokternya, sehingga ketika dokter membuka menu daftar pasien, maka data sudah muncul secara otomatis.   
+|| 3\. Dokter menginputkan resep obat, yang kemudian terhubung langsung ke bagian apoteker.|
+| **Alternative** |Tidak ada. |
+| **Postcondition** | user apotek bisa melihat data obat yang sudah diinputkan. |
+| **Exception Paths** | bisa dilihat kapan saja,dikhususkan untuk pelaporan data jumlah pasien perbulannya. |
 
 **3.2.4 tambahan**
 
