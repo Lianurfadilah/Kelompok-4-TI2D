@@ -63,7 +63,8 @@ tabel 2. Daftar Istilah
 **1.4 Referensi**
 
  1. IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Specifications. IEEE Computer Society, 1998. 
- //belum //
+ 2. Teamleader, Joan. Adams, Paul. Baker, Bobbie. Charlie, Charles. 15 April 2004. Web Publishing System
+ "SRSExample-webapp.pdf".
 
 **1.5 Deskripsi Umum Dokumen (Ikhtisar)**
  
@@ -137,7 +138,13 @@ Penggunaan Ruang penyimpanan pada aplikasi ini (berbasis Android) yaitu tidak ku
 | 3 | Apotek |input stok obat, view dan cetak data pasien yang sudah berobat.|
 
 **2.3 Spesifikasi Kebutuhan non-fungsional**
-Usability 	: penerapan pada aplikasi ini menggunakan usability, dengan ini maka dapat mempermudah user dalam penggunaannya. salah satunya yaitu penerapan bootstrap yang mempengaruhi penampilan pada aplikasinya, sehingga tampilan aplikasi terlihat lebih menarik
+Usability
+kebutuhan yang digunakan dalam usability sebagai menjadi user-friendly. contoh nya penggunaan boostrap pada aplikasi agar kelihatan rapih dan lebih menarik.  
+Security
+Kebutuhan yang digunakan dalam security yaitu harus registrasi pada sistem terlebih dahulu (user;Apoteker, dan Dokter). dan kebutuhan lainnya yaitu proses verifikasi akun berupa pengguna captcha.
+Reability
+Kebutuhan yang digunakan dalam Reability yaitu proses pada pencetakan resep obat.
+
 **2.4 karakteristik pengguna**
 
 **2.5 Batasan-batasan**
@@ -157,6 +164,7 @@ Usability 	: penerapan pada aplikasi ini menggunakan usability, dengan ini maka 
 Logika Struktur terdapat pada bagian 3.3.1
 
 **3.2.1 Registrasi Dokter**
+
 | Nama Fungsi | Registrasi Dokter |
 |--|--|
 | **Ref** | Registrasi Dokter |
@@ -170,7 +178,8 @@ Logika Struktur terdapat pada bagian 3.3.1
 | **Post condition** |User dapat Registrasi dan dapat mengakses untuk login.
 | **Exception push** | Tidak ada Koneksi 
 
-3.2.2 Registrasi Apoteker**
+**3.2.2 Registrasi Apoteker**
+
 | Nama Fungsi | Registrasi Apoteker |
 |--|--|
 | **Ref** | Registrasi Apoteker 
@@ -184,20 +193,30 @@ Logika Struktur terdapat pada bagian 3.3.1
 | **Post condition** |User dapat Registrasi dan dapat mengakses untuk login.|
 | **Exception push** | Tidak ada Koneksi|
 
-3.2.3 Halaman menu Dashboard
-| Nama Fungsi | Dashboard Admin |
-|--|--|
-| **Ref** |laporan data pasien perbulan dalam bentuk grafik.|
-| **Triger** |menginput data pasien maka akan menampilkan laporan berupa grafik.|
-| **Precondition** |halaman login|
-| **Basic Path** | 1\. Admin menginput data pasien.	
-|| 2\.Sistem mengirim data terebut ke dalam sistem user dokternya, sehingga ketika dokter membuka menu daftar pasien, maka data sudah muncul secara otomatis.   
-|| 3\. Dokter menginputkan resep obat, yang kemudian terhubung langsung ke bagian apoteker.|
-| **Alternative** |Tidak ada. |
-| **Postcondition** | user apotek bisa melihat data obat yang sudah diinputkan. |
-| **Exception Paths** | bisa dilihat kapan saja,dikhususkan untuk pelaporan data jumlah pasien perbulannya. |
+**3.2.3 Halaman menu Dashboard**
 
-3.2.4 tambahan
+% Please add the following required packages to your document preamble:
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{ll}
+Nama Fungsi         & Dashboard Admin                                                                                                                                            \\
+**Ref**             & laporan data pasien perbulan dalam bentuk grafik.                                                                                                          \\
+**Triger**          & menginput data pasien maka akan menampilkan laporan berupa grafik.                                                                                         \\
+**Precondition**    & halaman login                                                                                                                                              \\
+**Basic Path**      & 1\. Admin menginput data pasien.                                                                                                                           \\
+                    & 2\.Sistem mengirim data terebut ke dalam sistem user dokternya, sehingga ketika dokter membuka menu daftar pasien, maka data sudah muncul secara otomatis. \\
+                    & 3\. Dokter menginputkan resep obat, yang kemudian terhubung langsung ke bagian apoteker.                                                                   \\
+**Alternative**     & Tidak ada.                                                                                                                                                 \\
+**Postcondition**   & user apotek bisa melihat data obat yang sudah diinputkan.                                                                                                  \\
+**Exception Paths** & bisa dilihat kapan saja,dikhususkan untuk pelaporan data jumlah pasien perbulannya.                                                                       
+\end{tabular}
+\end{table}
+
+**3.2.4 tambahan**
 
 | Nama Fungsi | Sistem |
 |--|--|
@@ -209,15 +228,16 @@ Logika Struktur terdapat pada bagian 3.3.1
 
 **3.3 Persyaratan Non Fungsional**
 
-**3.3.1 Struktur tidak logis**
+**3.3.1 Struktur Detail Kebutuhan Non-Fungsional**
 
 Struktur logis data (ERD) yang akan disimpan dalam database Article Manager internal diberikan di bawah ini:
+
 ![enter image description here](https://lh3.googleusercontent.com/-b-psNrrlOk8/WqonLX7W3GI/AAAAAAAAA3Y/6n_qs5JVVm8efgapTqOS5IVgKpEIlZKuACL0BGAs/w530-d-h418-n-rw/ERD%2BFIX%2BBISMILLAH.jpg)
 
 | Data item | Type | Description | Comment |
 |--|--|--|--|
 | nama | text | nama obat | menampilkan nama |
 |ID|Integer|harga obat|ID harus Primary key|
-|speciality|Text|mempunyai keahlian dalam bidangnya masing-masing|
+|speciality|Text|mempunyai keahlian dalam bidangnya masing-masing|-|
 
 
