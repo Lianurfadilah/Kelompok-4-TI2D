@@ -3,14 +3,14 @@
 <body><center>
 	<h1 align="center">Software Project Management Plan</h1>
 	<h2 align="center">Version 1.4<br>
-	14 April  2018</h2><br><br>
+	15 April  2018</h2><br><br>
 	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
 	<br>
 	<h2 align="center">Rancang Bangun Aplikasi Pasien pada Study Kasus Dr.Jamil<br>
 	(SIMPATY ADIL)</h2>
 	<align="center" br>
 	<div align="center">
-	<h4>Nama Anggota TIM</h4><br><br>
+	<h4>Nama Anggota TIM</h4><br>
 	LIA NUR FADILAH (1603104)<br>
 	JENIA ADELLIA P.(1603102)<br>
 	LUVI HAERUNISAH	(1603105)<br>
