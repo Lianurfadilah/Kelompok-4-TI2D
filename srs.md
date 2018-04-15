@@ -92,6 +92,13 @@ kemudian untuk sistem apotek yaitu mampu menginputkan data stok obat, selain itu
 ![enter image description here](https://lh3.googleusercontent.com/-4f9m-y1iEdI/Ws20d9qoLyI/AAAAAAAAAMk/HMN9HUevz28_Ny0l8Nmt553IQI6RfGLFACJoC/w530-h410-n/antarmuka+sistem.jpeg)
 
 **2.1.2 Atarmuka Pengguna**
+|  |  |
+|--|--|
+|![enter image description here](https://lh3.googleusercontent.com/-4ig80hC8VYs/WtNYNnU28II/AAAAAAAABFc/F8YepuGwta88hXiSU3rX2DQiRTKlBa_AwCL0BGAs/w795-d-h462-n/create+new+account.png)
+halaman daftar akun, akses sebagai dokter atau apoteker|![enter image description here](https://lh3.googleusercontent.com/-TjaLOIEm8Hs/WtNX_L9hYfI/AAAAAAAABFI/qVoyeNcovWsR40ckIRnwaP77o496VCPFQCL0BGAs/w795-d-h549-n/login.png)halaman login setelah mendaftar akun |
+| ![enter image description here](https://lh3.googleusercontent.com/-pyzuZnY6WTo/WtNYtp62BrI/AAAAAAAABGE/srYNT-o_iOssMwEsJnkUYxKO6PZ-a34OgCL0BGAs/w795-d-h446-n/admin.png) halaman dashboard admin, dimana ada menu data pasien dan laporan. pada data pasien menampilkan tabel yang  berupa inputan untuk pasien yang register, dan pada laporan, akan menampilkan grafik jumlah pasien tiap bulannya| ![enter image description here](https://lh3.googleusercontent.com/-stI1u4C_5OI/WtNZDg6CVAI/AAAAAAAABGg/RdjJHDj9GW0dWNSwX6WMM961BxQ5vor2QCL0BGAs/w795-d-h549-n/dashboard.png) |
+| ![enter image description here](https://lh3.googleusercontent.com/-vXg_0sDhZQ0/WtNZbUxHLaI/AAAAAAAABHA/fd2D-z1l7lQWgoZiKk7ItrubneIDIGV5gCL0BGAs/w795-d-h438-n/dokter.png)halaman dokter, dimana ada dua menu yaitu data pasien dan data stok obat. pada data pasien, dokter bisa melihat data pasien, dan menginputkan resep pasien. dan pada menu stok obat, dokter bisa melihat dan memonitoring stok obat ada diapotek.|  ![enter image description here](https://lh3.googleusercontent.com/-hqu2LhBM7KE/WtNZt516-kI/AAAAAAAABHc/a8tz1Tkk7tYu1phPFt9405FSmGkf8B2QgCL0BGAs/w795-d-h572-n/resep.png)halaman inputan resep obat untuk dokter|
+|![enter image description here](https://lh3.googleusercontent.com/-4myjz4P8Geg/WtNfjjd5ZBI/AAAAAAAABKk/dqzcWHLkmnIQgFoAe_27AMVl3nNrB4nhACL0BGAs/w795-d-h446-n/Apotek.png)halaman apotek ada dropdown berupa menu resep obat dan stok obat. pada resep obat, bagian apoteker akan mencetak resep yang sudah diinputkan dokter. pada menu stok obat apoteker menginputkan stok obat  |![enter image description here](https://lh3.googleusercontent.com/-X2dnNGpUSYQ/WtNaaC8G-_I/AAAAAAAABIY/IJFF1HiP-koV4i1OwclImfwXJJfly-8lACL0BGAs/w795-d-h572-n/New+Mockup+7.png)halaman resep obat yang akan dicetak pada apoteker |
 
 **2.1.3 Antarmuka Perangkat Keras**
 
@@ -340,6 +347,7 @@ Login
 **3.3.2 Keamanan** 
 
 Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil akan memiliki keamanannya sendiri untuk mencegah kesalahan dalam masuk ke sistem. Tidak ada batasan akses baca. menggunakan validasi login dan keamanan eksternal tambahn untuk sistem.
+
 
 
 
