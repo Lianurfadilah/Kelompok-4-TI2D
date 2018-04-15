@@ -71,6 +71,15 @@ Pada bab selanjutnya yaitu menjelaskan Menjelaskan gambaran umum aplikasi,interf
 
 **2. Gambaran Umum**
 
+Rancang Bangun Aplikasi Pasien pada Study kasus Dr. Jamil merupakan kegiatan menerjemahkan hasil analisa kedalam bentuk paket perangkat lunak atau software kemudian menciptakan sistem tersebut ataupun memperbaiki sistem yang sudah ada. permasalahan yang ada pada Dr.Jamil ini yaitu pengelolaan data pasien yang kurang efektif dan efisien. tujuan dibuatnya aplikasi ini yaitu supaya pengelolaan data pasien dapat berjalan dengan cepat dan tepat. Metode pengembangan sistem ini menggunakan SDLC dengan membuat diagram-diagram UML seperi use case diagram, class diagram, activity diagram, entity relationship diagram sebagai tahapan perancangan sistem. Aplikasi ini dibuat dengan berbasis WEB menggunakan bahasa pemrograman PHP yang didukung basis data MySQL. Hasil rancang bangun sistem ini diharapkan dapat menjadi salah satu solusi dari permasalahan yang terjadi selama ini. 
+
+Dengan demikian kelompok kami mempunyai gagasan dan ide yang dpat meminimalisir dari ketidakefisienan dan ketidakefektifan pada sistem yang ada di Dr. Jamil. pada sistem ini ada 3 user, yaitu diantaranya :
+
+Dari sistem admin yaitu mempunyai fungsi untuk menginputkan data pasien yang regiter, dan melaporkan hasil laporan jumlah pasien perbulannya, 
+Sedangkan untuk sistem dokter yaitu mampu melihat data pasien dan kemudian menginput resep obat yang sesuai dengan keluhan data pasien, selain itu dokter juga mampu memonitoring jumlah stok obat yang ada diapotek.
+kemudian untuk sistem apotek yaitu mampu menginputkan data stok obat, selain itu juga bagian apotek mampu melihat resep obat yang sudah diinput oleh dokter, yang kemudian melakukan proses pencetakan pada resep obat.
+
+RANCANG BANGUN SISTEM INFORMASI REKAM... (PDF Download Available). Available from: https://www.researchgate.net/publication/321984739_RANCANG_BANGUN_SISTEM_INFORMASI_REKAM_MEDIS_KLINIK_BERBASIS_WEB_STUDI_KASUS_KLINIK_UTAMA_MEDITAMA_SEMARANG [accessed Apr 15 2018].
 **2.1 Perspektif Produk**
 
 | No | User |	Fungsi  |
