@@ -26,14 +26,11 @@
 </center>
 </body>
 </html>
-
-**1. Pendahuluan**
-
-Aplikasi Sistem Informasi pasien pada study kasus Dr. Jamil Berbasis Website adalah sebuah aplikasi yang ditunjukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stok obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas di tempat praktek Dr. Jamil dalam pendataan pasien. 
-
+**1. Pendahuluan**Aplikasi Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil Berbasis Website adalah sebuah aplikasi yang ditunjukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. Saat ini komputerisasi memegang peranan penting dalam menyelesaikan langkah kerja yang besar dan rumit. Dengan berkembangnya sistem komputer efisiensi dan optimasi kerja dapat tercapai. Praktek Dr. Jamil merupakan salah satu layanan praktek dokter yang ada di Indramayu, Jawa Barat. Saat ini Praktek Dr. Jamil memiliki 4 jenis pegawai yaitu dokter, admin, apotek, bagian registrasi (kasir). Sejauh ini, kondisi tempat praktek dokter masih menggunakan sebuah sistem pendataan yang manual. Hal ini membuat data pasien dalam skala besar seringkali hilang. Setiap ada pasien yang datang periksa, dokter atau petugas registrasi harus mendata satu per satu dengan mengacu pada kartu periksa pasien. Kegiatan operasional sehari-hari mereka sering mengalami kesulitan dalam mendata riwayat periksa pasien dan data pasien menjadi tidak valid. Serta data stok obat yang ada di apotek tidak terpantau dengan baik. Dengan adanya permasalahan tersebut, pelayanan terhadap pasien menjadi kurang berjalan dengan maksimal. Sehubungan dengan hal ini perlu dikembangkan sebuah sistem informasi berbasis web dan android untuk menangani masalah pendataan pasien, serta pendataan obat. Sistem ini dapat mempermudah petugas pada rekam medis Dr. Jamil.
+	
 **1.1 Tujuan**
 
-Tujuan pembuatan SRS (Software Requirement Specifications) adalah untuk deskripsikan kebutuhan pada perangkat lunak yang dibuat, yaitu "Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil".
+Tujuan pembuatan SRS (Software Requirement Specifications) adalah untuk pendeskripsian kebutuhan pada perangkat lunak yang dibuat yaitu Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil.
 
 **1.2 Lingkup**
 
@@ -49,14 +46,14 @@ Tabel 1. Daftar Definisi dan Akronim
 | SKPL| Spesifikasi Kebutuhan Perangkat Lunak, Merupakan Dokumen hasil analis yang berisi spesifikasi kebutuhan user. |
 | RPL | Rekayasa Perangkat Lunak, Kegiatan pengembangan perangkat lunak. |
 | Valid | perbuatan / tindakan ataupun sesuatu yang dilakukan secara sahih atau sesuai dengan aturan yang semestinya. |
-| IEEE | 
+| IEEE | Institute of Electrical and Electronics Engineers | 
 
 tabel 2. Daftar Istilah
 	
 | Kata Kunci  | Definisi atau Akronim |
 |--|--|
-| 	 Android	| sistem operasi berbasis Linux / Windows yang dirancang untuk perangkat bergerak layar sentuh seperti telepon pintar dan komputer tablet |
-| 	 Web		|suatu ruang informasi yang dipakai oleh pengenal global yang disebut Pengidentifikasi Sumber Seragam untuk mengenal pasti sumber daya berguna |
+| 	 Web		|suatu ruang informasi yang dipakai oleh pengenal global yang disebut Pengidentifikasi Sumber Seragam untuk mengenal pasti sumber daya berguna.|
+|	Rekam Medis	|informasi yang diperoleh dokter dengan cara menanyakan pertanyaan tertentu, dan pasien dapat memberikan jawaban yang sesuai.|
 	
 
 **1.4 Referensi**
@@ -67,21 +64,24 @@ tabel 2. Daftar Istilah
 
 **1.5 Deskripsi Umum Dokumen (Ikhtisar)**
  
-sistem informasi pada pasien Dokter Jamil adalah
+Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil adalah
 
 **2. Gambaran Umum**
+
 **2.1 Perspektif Produk**
 
 | No | User |	Fungsi  |
 | -- | -- | -- |
-| 1 | Admi n| Login, menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan, dan menampilkan laporan pendaftaran pasien tiap bulan berupa grafik|
+| 1 | Admin| Login, menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan, dan menampilkan laporan pendaftaran pasien tiap bulan berupa grafik|
 |2|Dokter|view data pasien, dan input resep obat. Pada Menu ini terdapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan Pasien bisa dilihat pada Dokter. agar lebih efisien disini Dokter bisa klik tombol search untuk mencari data pasien.|
 |3|Apotek|input stok obat, lihat dan cetak data pasien yang sudah berobat|
 
 **2.1.1 Antarmuka Sistem**
+
 ![enter image description here](https://lh3.googleusercontent.com/-4f9m-y1iEdI/Ws20d9qoLyI/AAAAAAAAAMk/HMN9HUevz28_Ny0l8Nmt553IQI6RfGLFACJoC/w530-h410-n/antarmuka+sistem.jpeg)
 
 **2.1.2 Atarmuka Pengguna**
+
 **2.1.3 Antarmuka Perangkat Keras**
 
 Admin :menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan.
@@ -94,11 +94,11 @@ Apoteker :input stok obat, view dan cetak data pasien yang sudah berobat.
 
 **2.1.4 Antarmuka Perangkat Lunak**
 
-Tidak ada antarmuka perangkat lain yang dibutuhkan dalam pengembangan Aplikasi Sistem Informasi Pasien pada Study Kasus Dr. Jamil.
+Aplikasi Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil digunakan pada semua browser (all support).
 
 **2.1.5 Antarmuka Komunikasi**
 
-Ada antarmuka komunikasi yang dibutuhkan dalam aplikasi ini yaitu antarmuka untuk melakukan koneksi dalam jaringan internet yaitu:
+Antarmuka komunikasi yang dibutuhkan dalam aplikasi ini yaitu antarmuka untuk melakukan koneksi dalam jaringan internet yaitu:
 
 1.  Antarmuka komunikasi pada sisi Server
 
@@ -106,7 +106,7 @@ Sebuah aplikasi web berkomunikasi dengan perangkat lunak _client_ melalui HTTP. 
 
 **2.1.6 Batasan Memori**
 
-Penggunaan Ruang penyimpanan pada aplikasi ini (berbasis Android) yaitu tidak kurang dari 100 Mb.
+Pada memori yang di butuhkan tidak ada karena Aplikasi ini berbasis website.
 
 **2.1.7 Operasi-operasi**
 	
@@ -122,6 +122,7 @@ Penggunaan Ruang penyimpanan pada aplikasi ini (berbasis Android) yaitu tidak ku
 | 8 | Print |Untuk mencetak sebuah data atau laporan|
 
 **2.2 Spesifikasi Kebutuhan fungsional**
+
 ![enter image description here](https://lh3.googleusercontent.com/-14ARNace9NU/WrQ6zwjNyXI/AAAAAAAAAIA/AHvQLduu7BQRP5o6S1JaKQXmCfIf2DhCQCL0BGAs/w530-d-h410-n-rw/use%2Bcase%2Bfungsit.jpg)
 
 | No | User |Fungsi  |
@@ -131,10 +132,13 @@ Penggunaan Ruang penyimpanan pada aplikasi ini (berbasis Android) yaitu tidak ku
 | 3 | Apotek |input stok obat, view dan cetak data pasien yang sudah berobat.|
 
 **2.3 Spesifikasi Kebutuhan non-fungsional**
+
 Usability
 kebutuhan yang digunakan dalam usability sebagai menjadi user-friendly. contoh nya penggunaan boostrap pada aplikasi agar kelihatan rapih dan lebih menarik.  
+
 Security
 Kebutuhan yang digunakan dalam security yaitu harus registrasi pada sistem terlebih dahulu (user;Apoteker, dan Dokter). dan kebutuhan lainnya yaitu proses verifikasi akun berupa pengguna captcha.
+
 Reability
 Kebutuhan yang digunakan dalam Reability yaitu proses pada pencetakan resep obat.
 
@@ -152,7 +156,7 @@ Dokter|1\.Input resep|memasukan resep pasien pada sistem.|
 
 **2.5 Batasan-batasan**
 
-Keterbatasan waktu yang singkat memungkinkan fungsi fungsi yang ada di web belum bisa berfungsi sesuai dengan fungsinya.
+Keterbatasan waktu yang singkat memungkinkan implementasi fungsi-fungsi yang ada di rencanakan belum bisa berfungsi dengan sesui.
 
 **2.6 Asumsi-asumsi keterkaitan**
 
