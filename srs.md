@@ -206,7 +206,7 @@ Salah satu syarat untuk mengakses aplikasi ini yaitu harus mendapatkan hak akses
 
 **3.2 Persyaratan Fungsional**
 
-Logika Struktur terdapat pada bagian 3.3.1
+Logika Struktur Data terdapat pada bagian 3.3.1
 
 **3.2.1 Registrasi Dokter**
 
@@ -310,6 +310,7 @@ Obat
 |Id_resep_obat|integer||
 
 Stok Obat
+
 | Data item | Type | Description |
 |--|--|--|
 |Id_stok_obat|integer|primary key|
@@ -336,6 +337,9 @@ Login
 |type|varchar|type user|
 
 
+**3.3.2 Keamanan** 
+
+Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil akan memiliki keamanannya sendiri untuk mencegah kesalahan dalam masuk ke sistem. Tidak ada batasan akses baca. menggunakan validasi login dan keamanan eksternal tambahn untuk sistem.
 
 
 
