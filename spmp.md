@@ -2,15 +2,20 @@
 <!DOCTYPE html>
 <body><center>
 	<h1 align="center">Software Project Management Plan</h1>
+<<<<<<< HEAD
 	<h2 align="center">Version 1.2<br>
 	14 April  2018</h2><br><br>
+=======
+	<h2 align="center">Version 1.5<br>
+	15 April  2018</h2><br><br>
+>>>>>>> 7a315dd996ebdabc1db9d933536859eaadfb0443
 	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
 	<br>
-	<h2 align="center">Aplikasi Sistem Informasi Pasien pada Study Kasus Dr.Jamil<br>
+	<h2 align="center">Rancang Bangun Aplikasi Pasien pada Study Kasus Dr.Jamil<br>
 	(SIMPATY ADIL)</h2>
 	<align="center" br>
-	<ol align="center">Nama Anggota TIM</ol><align="center">
 	<div align="center">
+	<h4>Nama Anggota TIM</h4><br>
 	LIA NUR FADILAH (1603104)<br>
 	JENIA ADELLIA P.(1603102)<br>
 	LUVI HAERUNISAH	(1603105)<br>
@@ -37,7 +42,9 @@ Aplikasi ini terdapat 3 user, yaitu diantaranya :
 |  1| Dokter	 |view data pasien, view stok obat, input resep|
 |2| Admin	|input data pasien|
 |3|Apotek | input stok obat dan harga|
+
 **1.2 Dokumen-dokumen dalam proyek**
+
 - modul modul pembuatan 
 - laporan 
 - proposal pengajuan
@@ -49,18 +56,17 @@ personal harus mampu mempertanggungjawabkan setiap jobdesk yang sudah ditentukan
 
 **1.4 Material proyek**
 
-Aplikasi Pendukung:
+**Aplikasi Pendukung:**
 
 - Sublime Text
 - MockPlus
 - Microsoft Visio
 		
-
 **Referensi materi acuan :**
 
-- http://www.okedroid.com/p/ebook.html
-- https://belajarkoding.net/produk/dvd-modul-android-lengkap-ebook-video-tutorial/
-- materi-materi tutorial lainnya
+-  IEEE
+-  Unimap IEEE SPMP
+-  SPMP sample
 
 **1.5 Definisi dan akronim (singkatan)**
 
@@ -82,14 +88,15 @@ Aplikasi Pendukung:
 
 **2. Organisasi Proyek**
 
-  **2.1 Model proyek**
+**2.1 Model proyek**
 
-Aplikasi Sistem Informasi Pasien Pada Study Kasus Dr. Jamil berbasis website menggunakan Model pengerjaan V-Model karena V-model sangat fleksibel. V-model ini bisa digunakan untuk project tailoring serta penambahan pengurangan method dan tool secara dinamik. V-model dikembangkan dan di maintain oleh publik. User dari V model berpartisipasi dalam change board yang memproses semua change request terhadap V model.
+Aplikasi Sistem Informasi Pasien Pada Study Kasus Dr. Jamil berbasis website menggunakan Model pengerjaan V-Model karena V-model sangat fleksibel. V-model ini bisa digunakan untuk project tailoring serta penambahan pengurangan method dan tool secara dinamik. V-model dikembangkan dan di maintain oleh publik. User dari V model berpartisipasi dalam change board yang memproses semua change request terhadap V model. Dengan menggunakan V-Model maka dengan ini dapat meminimalisir kesalahan pada hasil yang telah dibuat. 
 
 ![enter image description here](http://3.bp.blogspot.com/-vGtlEKrEeyw/Ud1_SfkFZFI/AAAAAAAAAFU/DBY1ZEJ7ubE/s320/v-model.png)
 		
 		
 **2.2 Struktur organisasi**
+
 Dalam pengerjaan pembuatan aplikasi ini kita melakukan pembagian untuk memudahkan dalam pembuatan aplikasi yang kita buat dan di sepakati menjadi sebuah struktur seperti dibawah ini:
 
 ![enter image description here](https://lh3.googleusercontent.com/-LFjsBkwUmQM/Ws2-cVzkK6I/AAAAAAAAAfY/KENNlYPZOlQnKZFSrOuPyeCEfAt2SnTfQCJoC/w530-h322-n/struktur.png)
@@ -114,7 +121,7 @@ Tujuan dari projek ini adalah untuk mempermudah Praktek Dr. Jamil (mitra) dalam 
 
 **3.2 Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan**
 
--Keterbatasan peralatan
+- Keterbatasan peralatan
 - Laptop kurang memadai
 
 Kendala
@@ -123,7 +130,7 @@ Kendala
 
 **3.3 Manajemen resiko**
 
-resiko yang mungkin terjadi yaitu terjadinya kesalahan pada proses bug dan error.
+resiko yang mungkin terjadi yaitu terjadinya kesalahan pada proses bug dan error serta resiko sumber daya manusia.
 
 **3.4 Mekanisme monitoring dan kontroling**
 
@@ -150,6 +157,9 @@ Anggota TIM
 
 Proyek ini akan diimplementasikan kepada Praktek Dr. Jamil, dengan memanfaatkan  metodologi V model. Dan alat seperti Sublime Text dan firebase. Mengunakan boostrap sebagai penunjang aplikasi pada bagian WEB nya.
 
+![enter image description here](https://lh3.googleusercontent.com/-0xj5-jcTk3Q/WtMD1PHQXFI/AAAAAAAABC8/ia2LuaUN3WQfoTWTzEVz_qw7FRJXdp6cQCL0BGAs/w795-d-h504-n/metode+v+model.png)
+
+
 **4.2 Dokumentasi perangkat lunak**
 
 SQAP
@@ -166,38 +176,41 @@ SQAP
 	
 | No  |  Nama |  Jabatan |Modul | Rincian Pekerjaan|
 |--|--|--|--|--|
-| 1 | LIA NUR FADILAH  |Manager Proyek |Perancangan Fungsi Sistem| Android Developer|
-| 2 | JENIA ADELLIA P.|Anggota| Perancangan Project|Web Developer|
-| 3 | LUVI HAERUNISAH |Anggota| Perancangan Project|DFD, Flowchart, ERD, Database|
-| 4 | MAULANA AHMAD Q.  |Anggota|Perancangan Project |Mockup Design |
+| 1 | LIA NUR FADILAH  |Manager Proyek |Modul Otentikasi, Modul Registrasi, Modul rekap registrasi | Web Developer|
+| 2 | JENIA ADELLIA P.|Anggota| Modul Pasien, Modul Obat, Modul Resep|Web Developer|
+| 3 | LUVI HAERUNISAH |Anggota| Database|DFD, Flowchart, ERD, Database|
+| 4 | MAULANA AHMAD Q.  |Anggota|Desain Mockup  |Mockup Design |
 		
 **5.2 Ketergantungan/keterkaitan**
-Kebutuhan keterkaitan :
- 1. Penentuan ide dan rumusan masalah apa saja yang terjadi pada tempat Prakterk Dr. Jamil
- 2. Pembuatan ranacangan sistem aplikasi yang akan dibuat
- 3. Pembuatan sistem aplikasi website
- 4. Uji coba program
- 5. Revisi 
+
+|  |  
+|--|
+| ![enter image description here](https://lh3.googleusercontent.com/-gq_RX5MipPI/WtL7ongBOvI/AAAAAAAABB0/S2bMsvsAUsUZ6fRil6nYHLO5AJu_Xr7DgCL0BGAs/w795-d-h1086-n/Ketergantungan+Dan+Keterkaitan.jpg) |  
 
 **5.3 Kebutuhan-kebutuhaan sumber daya**
 
 Kebutuhan sumber daya yang dibutuhkan yaitu terdapat pada hardwarenya, misalnya laptop. diharapkan bisa support dan bisa berjalan sesuai yang diharapkan.
+kebutuhan-kebutuhan yang diperlukan yaitu diantaranya :
+
+|No. | Nama Device | Kategori Perangkat |
+|--|--|--|
+|1.|Laptop| Perangkat Keras|
+|2.|Sublime |Perangkat Lunak |
+|3.|xampp | Perangkat Lunak |
+|4.|Lainnya|internet |
+
 
 **5.4 Alokasi budget sumber daya**
 
 | No. | Kebutuhan | Nama Barang | Quantity | Harga | Jumlah |
 |--|--|--|--|--|--|
 | 1 | Laptop | Lenovo Ideapad AD 320-141KBN Intel Core i5 |1| Rp. 8.000.000,- |Rp. 8.000.000-, |
-| 2 |Smartphone| Xiaomi MI Max|1|Rp. 3.500.000,-| Rp. 3.500.000-, |
-| 3 |Uang transport untuk kebutuhan survei mitra|BBM|Rp.25.000 x 8 kali survei (4 Orang)|Rp.800.000,-| Rp. 800.000-, |
-| 4 |Alokasi dana kebutuhan tim|Konsumsi, Internet |Untuk 1 kelompok|Rp. 60.000.000,-| Rp. 60.000.000-, |
-| | | | |Total | Rp. 72.300.000|
+| 2 |Transport individu|BBM|Rp.25.000,- x 4 kali survei (4 Orang)|Rp.80.000,-| Rp. 100.000-, |
+| 3 |Alokasi dana kebutuhan tim|Konsumsi, Internet |Untuk 1 kelompok|Rp. 40.000.000,-| Rp. 40.000.000-, |
+| | | | |Total | Rp. 48.100.000|
 
 **5.5 Jadwal**
 
 ![enter image description here](https://lh3.googleusercontent.com/-yQxjm42S2Kg/Ws8LuNlhJbI/AAAAAAAAAgE/RiiO8GmrgqMFESfOrLjT8W2mv-Dn4Y_YwCL0BGAs/w530-d-h393-n/tmline.png)
 
 
-
-
-	
