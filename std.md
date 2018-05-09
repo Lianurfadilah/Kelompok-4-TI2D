@@ -25,3 +25,18 @@
 </center>
 </body>
 </html>
+	
+Lingkungan Pengujian Perangkat Lunak
+2.1 Perangkat Lunak Pengujian
+2.2 Perangkat Keras Pengujian
+2.3 Material Pengujian
+2.4 Sumber Daya Manusia 
+2.5 Prosedur Umum Pengujian
+	2.5.1 Pengenalan dan Latihan
+		2.5.2 Persiapan Awal
+			2.5.2.1 Persiapan Prosedural
+			2.5.2.2 Persiapan Perangkat Keras
+			2.5.2.3 Persiapan Perangkat Lunak
+		2.5.3 Pelaksanaan
+		2.5.4 Pelaporan Hasil
+
