@@ -30,7 +30,7 @@
 
 Dokumen ini digunakan sebagai panduan untuk melakukan pengujian terhadap Rancang Bangun Aplikasi Pasien pada Study Kasus Dr.Jamil
 (SIMPATY ADIL). Dokumen ini digunakan untuk menguji coba kemampuan dari proyek yang kami buat agar sesuai dengan rancangan.
-Pembuatan dokumen ini ditujukan untuk
+Pembuatan dokumen ini ditujukan untuk acuan dalam permbuatan aplikasi yang kami buat.
 
 **1.2 Deskripsi Umum Sistem**
 
@@ -78,10 +78,9 @@ Bahasa pemrograman yang digunakan yaitu PHP, HTML, Bootstrap dan CSS.
 **2.2 Perangkat Keras Pengujian**
 
  Perangkat keras yang diperlukan untuk menguji aplikasi SPEK ini adalah satu set komputer dengan spesifikasi:
- 
-• Processor: Intel® Pentium Dual Core
-• Memory: 4 GB DDR3
-• Harddisk 100 GB
+ • Processor: Intel® Pentium Dual Core
+ • Memory: 4 GB DDR3
+ • Harddisk 100 GB
 
 **2.3 Material Pengujian**
 
@@ -91,7 +90,6 @@ Pada program “Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil” Apl
 
 Persyaratan sumber daya manusia yang akan terlibat dalam proses
 pengujian perangkat lunak ini adalah:
-
 • Memahami konsep pemrograman berorientasi objek dalam bahasa PHP.
 • Memahami proses pengujian perangkat lunak berorientasi objek.
 • Memahami konsep pemrograman data base XAMPP.
@@ -106,7 +104,7 @@ Penguji aplikasi ini hanya diberikan latihan kembali tentang SQL, dan pengenalan
 
 **2.5.2.1 Persiapan Prosedural**
 
-Pengujian ini bisa dilakukan didalam lingkungan kampus, di tempat praktek Dr. Jamil dan bisa juga dilakukan ditempat lain yang berada diluar kampus. Dimana pengujian ini dilakukan oleh tim pembuat aplikasi / tim proyek yang sudah ditentukan oleh Dosen pengampu. Alat yang digunakan 1 buah laptop dengan software yang telah di instalasi.
+Pengujian ini bisa dilakukan didalam lingkungan kampus, ditempat praktek Dr. Jamil dan bisa juga dilakukan ditempat lain yang berada diluar kampus. Dimana pengujian ini dilakukan oleh tim pembuat aplikasi / tim proyek yang sudah ditentukan oleh Dosen pengampu. Alat yang digunakan 1 buah komputer/laptop dengan software yang telah dipersiapkan.
 
 **2.5.2.2 Persiapan Perangkat Keras**
 
@@ -124,17 +122,17 @@ adalah sebagai berikut :
 
 1. Persiapkan sistem operasi Microsoft Windows.
 
-2. Perangkat lunak yang akan di uji di copy ke sebuah direktori, misalnya C:\XAMPP\htdocs.
+2. Perangkat lunak yang akan di uji di copykan ke sebuah direktori penyimpanan pada komputer/laptop, contohnya seperti C:\XAMPP\htdocs.
 
 3. Browser Google Chrome.
 
-4. Database di import ke phpMyAdmin di database.
+4. Database diimportkan ke phpMyAdmin pada database.
 
-5. Sublime untuk melihat source code.
+5. Sublime untuk proses memasukan dan melihat source code.
 
 **2.5.3 Pelaksanaan**
 
-Pengujian dilaksanakan dengan waktu yang sudah ditentukan saat awal perancangan aplikasi. Pelaksanaan pengujian dilakukan dengan mengeksekusi aplikasi yang sudah kami buat.
+Pengujian dilaksanakan dengan mengikuti waktu yang sudah kami tentukan saat awal perancangan membuat aplikasi. Pelaksanaan pengujian dilakukan dengan mengeksekusi aplikasi yang sudah kami buat.
 
 **2.5.4 Pelaporan Hasil**
 
