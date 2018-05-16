@@ -46,7 +46,7 @@ untuk merepresentasikan struktur data statis pada perangkat lunak.
 |--|--|--|--|
 | 1 | SKPL |Spesifikasi Kebutuhan Perangkat Lunak, atau dalam bahasa Inggris-nya sering juga disebut sebagai Software Requirements Spesification (SRS), dan merupakan spesifikasi dari perangkat lunak yang akan dikembangkan (requirement).|
 | 2 | DFD  |Data Flow Diagram, diagram dan notasi yang digunakan untuk menunjukkan aliran data pada perangkat lunak. Jurusan Teknik Komputer Diploma IPB PDHUPL-SPEK Halaman 7 dari 14 Template Dokumen ini dan informasi yang dimilikinya adalah milik Jurusan Teknik Komputer-Diploma IPB dan bersifat rahasia. Dilarang mereproduksi dokumen ini tanpa diketahui oleh Jurusan Teknik Komputer Diploma IPB	|
-| 3 | ERD  |Entity Relationship Diagram, diagram dan notasi yang digunakan
+| 3 | ERD  |Entity Relationship Diagram, diagram dan notasi yang digunakan|
 
 	
 **1.5 Dokumen Referensi**
