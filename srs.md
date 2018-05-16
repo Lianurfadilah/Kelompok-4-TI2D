@@ -141,7 +141,8 @@ Pada memori yang di butuhkan tidak ada karena Aplikasi ini berbasis website.
 | 8 | Print |Untuk mencetak sebuah data atau laporan|
 
 **2.2 Spesifikasi Kebutuhan fungsional**
-![enter image description here](https://lh3.googleusercontent.com/-14ARNace9NU/WrQ6zwjNyXI/AAAAAAAAAIA/AHvQLduu7BQRP5o6S1JaKQXmCfIf2DhCQCL0BGAs/w530-d-h410-n-rw/use%2Bcase%2Bfungsit.jpg)
+
+![enter image description here](https://lh3.googleusercontent.com/-9P0BW2SUZOc/Ws3AoZOaVHI/AAAAAAAAANg/LJRDwrvuN3AOVb4t6_Lz1IR5_YPe9EorACJoC/w530-h410-n/use%2Bcase%2Bfungsi%2B%2Bproject.jpeg)
 
 **2.2.1 use case Login**
 
