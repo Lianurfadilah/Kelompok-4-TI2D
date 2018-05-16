@@ -141,20 +141,13 @@ Pada memori yang di butuhkan tidak ada karena Aplikasi ini berbasis website.
 | 8 | Print |Untuk mencetak sebuah data atau laporan|
 
 **2.2 Spesifikasi Kebutuhan fungsional**
-
 ![enter image description here](https://lh3.googleusercontent.com/-14ARNace9NU/WrQ6zwjNyXI/AAAAAAAAAIA/AHvQLduu7BQRP5o6S1JaKQXmCfIf2DhCQCL0BGAs/w530-d-h410-n-rw/use%2Bcase%2Bfungsit.jpg)
-
-| No | User |Fungsi  |
-|--|--|--|
-| 1 | Admin | menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan.|
-| 2 | Dokter |view data pasien, input resep dokter, Pada Menu ini, terdapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan pasien. Disini Dokter hanya bisa melihat saja dan untuk efisiensi waktu,Dokter bisa klik tombol search untuk mencari.|
-| 3 | Apotek |input stok obat, view dan cetak data pasien yang sudah berobat.|
 
 **2.2.1 use case Login**
 
 1. Masukan username dan password.
 2. Sistem meverifikasi kesalahan data yang di masukan.
-3. jika berhasil login maka akan sesuai dengan tipe nya (berdasarkan username dan password)
+3. jika berhasil login maka akan sesuai dengan tipe nya yaitu; Admin, Dokter, atau Apoteker (berdasarkan username dan password).
 
 **2.2.2 use case Verivikasi password**
 
@@ -169,6 +162,7 @@ Pada memori yang di butuhkan tidak ada karena Aplikasi ini berbasis website.
 
 **2.2.4 Input Data Pasien**
 
+input data pasien dengan cara:
 1. Masukan Data NIK Pasien.
 2. Masukan Nama Pasien.
 3. Masukan Alamat Pasien.
@@ -178,15 +172,38 @@ Pada memori yang di butuhkan tidak ada karena Aplikasi ini berbasis website.
 
 **2.2.5 Laporan berupa Grafik Jumlah Pasien Perbulan**
 
+Admin dapat melihat laporan berupa grafik yaitu jumlah pasien perbulan melalui:
+
+1. Halaman Laporan berada pada Dashboard Admin.
+2. Apabila Admin input data pasien (perbulan dengan jumlah banyak) maka Grafik akan muncul.
+
 **2.2.6 Lihat Data Pasien**
+
+1. Masukan Data Pasien yang sudah di inputkan
+2. Data Pasien bisa dilihat dengan data pasien yang berhasil di inputkan oleh Admin, Apoteker, dan Admin.
 
 **2.2.7 Input Resep Obat**
 
+Dokter dapat input resep obat dengan cara:
+1. Masukan Resep Obat (sesuai dengan Data Pasien yang telah di input oleh Admin)
+
 **2.2.8 Lihat Stok Obat**
+
+Dokter dapat Lihat stok obat dengan cara:
+1. lihat stok obat (sesuai dengan nama obat yang telah di input oleh Apoteker)
 
 **2.2.9 Lihat Resep Obat**
 
+1.lihat resep obat (sesuai dengan nama pasien yang telah di input oleh Dokter)
+Apoteker dapat Lihat resep obat dengan cara:
+
 **2.2.10 Input Stok Obat**
+
+Apoteker dapat input resep obat dengan cara:
+1. Masukan Stok Obat:
+- nama obat
+- harga obat
+- jumlah obat
 
 **2.3 Spesifikasi Kebutuhan non-fungsional**
 
