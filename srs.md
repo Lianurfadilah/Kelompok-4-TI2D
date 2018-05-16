@@ -103,13 +103,7 @@ halaman daftar akun, akses sebagai dokter atau apoteker.|![enter image descripti
 
 **2.1.3 Antarmuka Perangkat Keras**
 
-Admin :menginput Data pasien yang terdiri dari Nama Pasien, NIK, Alamat, No Telp, Umur dan Keluhan.
-
-Dokter : view data pasien, input resep dokter, Pada Menu ini, tedapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan si Pasien. Disini Dokter hanya bisa melihat saja dan untuk megefisiensikan waktu,Dokter bisa klik tombol search untuk mencari.
-
-Apoteker :input stok obat, view dan cetak data pasien yang sudah berobat.
-
-![enter image description here](https://lh3.googleusercontent.com/-RtCAMqcDuq0/WtH0yUs-zJI/AAAAAAAAAO0/RAc2UTDr_U8pbZWcr8h0zVk70_UG2vVzACL0BGAs/w530-d-h168-n-rw/antarmuka%2Bperangkat%2Bkeras%2B%25281%2529.jpg)
+![enter image description here](https://lh3.googleusercontent.com/-RtCAMqcDuq0/WtH0yUs-zJI/AAAAAAAAAPE/yHgn2IChBHcCcxhqYtt5IxLb_BuD171SgCJoC/w530-h168-n/antarmuka%2Bperangkat%2Bkeras%2B%25281%2529.jpg)
 
 **2.1.4 Antarmuka Perangkat Lunak**
 
