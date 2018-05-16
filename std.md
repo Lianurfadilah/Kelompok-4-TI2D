@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head></head
@@ -41,19 +43,48 @@ Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Renc
 
 **1.4 Definisi dan Singkatan**
 untuk merepresentasikan struktur data statis pada perangkat lunak.
+<table>
+<tr>
+<td>No</td>
+<td>Singkatan</td>
+<td>Definisi</td>
+</tr>
+<tr>
+<td>1</td>
+<td>SKPL</td>
+<td>Spesifikasi Kebutuhan Perangkat Lunak, atau dalam bahasa Inggris-nya sering juga disebut sebagai Software Requirements Spesification (SRS), dan merupakan spesifikasi dari perangkat lunak yang akan dikembangkan (requirement)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>DFD</td>
+<td>Data Flow Diagram, diagram dan notasi yang digunakan untuk menunjukkan aliran data pada perangkat lunak. Jurusan Teknik Komputer Diploma IPB PDHUPL-SPEK Halaman 7 dari 14 Template Dokumen ini dan informasi yang dimilikinya adalah milik Jurusan Teknik Komputer-Diploma IPB dan bersifat rahasia. Dilarang mereproduksi dokumen ini tanpa diketahui oleh Jurusan Teknik Komputer Diploma IPB</td>
+</tr>
+<tr>
+<td>3</td>
+<td>ERD</td>
+<td>Entity Relationship Diagram, diagram dan notasi yang digunakan</td>
+</tr>
+</table>
 
-|No  | Singkatan | Definisi |
-|--|--|--|--|
-| 1 | SKPL |Spesifikasi Kebutuhan Perangkat Lunak, atau dalam bahasa Inggris-nya sering juga disebut sebagai Software Requirements Spesification (SRS), dan merupakan spesifikasi dari perangkat lunak yang akan dikembangkan (requirement).|
-| 2 | DFD  |Data Flow Diagram, diagram dan notasi yang digunakan untuk menunjukkan aliran data pada perangkat lunak. Jurusan Teknik Komputer Diploma IPB PDHUPL-SPEK Halaman 7 dari 14 Template Dokumen ini dan informasi yang dimilikinya adalah milik Jurusan Teknik Komputer-Diploma IPB dan bersifat rahasia. Dilarang mereproduksi dokumen ini tanpa diketahui oleh Jurusan Teknik Komputer Diploma IPB	|
-| 3 | ERD  |Entity Relationship Diagram, diagram dan notasi yang digunakan
+
+
 
 	
 **1.5 Dokumen Referensi**
-|No|Referensi  |
-|--|--|
-| 1 |IEEE P1016/D5.0; 12 December 2005, IEEE Draft Standard for Software Design  |
-| 2 | Software Design Description (SDD) / Deskripsi Perancangan Perangkat Lunak (DPPL)- Software Design Description.pdf |
+<table>
+<tr>
+<td>No</td>
+<td>Referensi</td>
+</tr>
+<tr>
+<td>1</td>
+<td>IEEE P1016/D5.0; 12 December 2005, IEEE Draft Standard for Software Design</td>
+</tr>
+<tr>
+<td>2</td>
+<td> Software Design Description (SDD) / Deskripsi Perancangan Perangkat Lunak (DPPL)- Software Design Description.pdf</td>
+</tr>
+</table>
 
 
 
@@ -63,12 +94,29 @@ untuk merepresentasikan struktur data statis pada perangkat lunak.
 
 Perangkat lunak ini (SPEK) diujikan dengan beberapa perangkat lunak lain.
 Pendukung dalam pembuatan aplikasi antara lain:
-| No | Pendukung |
-|--|--|
-| 1 | Sistem Operasi Microsoft Windows 7 s/d Windows 10 |
-| 2 | DBMS yang digunakan adalah Mysqli. |
-| 3 | Development Tools Sublime text, 3XAMPP, Control Panel v.3.2.2
-| 4 | Bahasa pemrograman yang digunakan PHP, HTML, Bootstrap dan CSS.
+
+<table>
+<tr>
+<td>No</td>
+<td>Pendukung</td>
+</tr>
+<tr>
+<td>1</td>
+<td> Sistem Operasi Microsoft Windows 7 s/d Windows 10 </td>
+</tr>
+<tr>
+<td>2</td>
+<td>DBMS yang digunakan adalah Mysqli.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Development Tools Sublime text, 3XAMPP, Control Panel v.3.2.2</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Bahasa pemrograman yang digunakan PHP, HTML, Bootstrap dan CSS.</td>
+</table>
+
 
 **2.2 Perangkat Keras Pengujian**
 
@@ -84,13 +132,25 @@ Pada program “Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil” Apl
 **2.4 Sumber Daya Manusia**
 Persyaratan sumber daya manusia yang akan terlibat dalam proses
 pengujian perangkat lunak ini adalah:
-| No |Sumber Daya Manusia  |	
-|--|--|--|
-| 1 |Memahami konsep pemrograman berorientasi objek dalam bahasa PHP.	|
-| 2 |Memahami proses pengujian perangkat lunak berorientasi objek.	|
-| 3 |Memahami konsep pemrograman database XAMPP.	|
 
-
+<table>
+<tr>
+<td>No</td>
+<td>Sumber Daya Manusia</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Memahami konsep pemrograman berorientasi objek dalam bahasa PHP</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Memahami proses pengujian perangkat lunak berorientasi objek.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Memahami konsep pemrograman database XAMPP</td>
+</tr>
+</table>
 
 
 **2.5 Prosedur Umum Pengujian**
