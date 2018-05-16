@@ -45,7 +45,7 @@ untuk merepresentasikan struktur data statis pada perangkat lunak.
 |No  | Singkatan | Definisi |
 |--|--|--|--|
 | 1 | SKPL |Spesifikasi Kebutuhan Perangkat Lunak, atau dalam bahasa Inggris-nya sering juga disebut sebagai Software Requirements Spesification (SRS), dan merupakan spesifikasi dari perangkat lunak yang akan dikembangkan (requirement).|
-| 2 | DFD  |Data Flow Diagram, diagram dan notasi yang digunakan untuk menunjukkan aliran data pada perangkat lunak. Jurusan Teknik Komputer Diploma IPB PDHUPL-SPEK Halaman 7 dari 14 Template Dokumen ini dan informasi yang dimilikinya adalah milik Jurusan Teknik Komputer-Diploma IPB dan bersifat rahasia. Dilarang mereproduksi dokumen ini tanpa diketahui oleh Jurusan Teknik Komputer Diploma IPB	|
+| 2 | DFD  |Data Flow Diagram, diagram dan notasi yang digunakan untuk menunjukkan aliran data pada perangkat lunak. Jurusan Teknik Komputer Diploma IPB PDHUPL-SPEK Halaman 7 dari 14 Template Dokumen ini dan informasi yang dimilikinya adalah milik Jurusan Teknik Komputer-Diploma IPB dan bersifat rahasia. Dilarang mereproduksi dokumen ini tanpa diketahui oleh Jurusan Teknik Komputer Diploma IP|
 | 3 | ERD  |Entity Relationship Diagram, diagram dan notasi yang digunakan|
 
 	
@@ -67,8 +67,8 @@ Pendukung dalam pembuatan aplikasi antara lain:
 |--|--|
 | 1 | Sistem Operasi Microsoft Windows 7 s/d Windows 10 |
 | 2 | DBMS yang digunakan adalah Mysqli. |
-| 3 | Development Tools Sublime text, 3XAMPP, Control Panel v.3.2.2
-| 4 | Bahasa pemrograman yang digunakan PHP, HTML, Bootstrap dan CSS.
+| 3 | Development Tools Sublime text, 3XAMPP, Control Panel v.3.2.2 |
+| 4 | Bahasa pemrograman yang digunakan PHP, HTML, Bootstrap dan CSS.|
 
 **2.2 Perangkat Keras Pengujian**
 
