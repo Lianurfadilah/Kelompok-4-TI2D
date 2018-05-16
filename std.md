@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head></head
@@ -41,39 +40,35 @@ Perangkat lunak yang akan diuji adalah “Rancang Bangun Aplikasi Pasien pada St
 Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Rencana Pengujian, Deskripsi dan Uji Hasil.
 
 **1.4 Definisi dan Singkatan**
-
-• SKPL adalah Spesifikasi Kebutuhan Perangkat Lunak, atau dalam bahasa Inggris-nya sering juga disebut sebagai Software Requirements Spesification (SRS), dan merupakan spesifikasi dari perangkat lunak yang akan dikembangkan (requirement).
-
-• DFD adalah Data Flow Diagram, diagram dan notasi yang digunakan untuk menunjukkan aliran data pada perangkat lunak. Jurusan Teknik Komputer Diploma IPB PDHUPL-SPEK Halaman 7 dari 14 Template Dokumen ini dan informasi yang dimilikinya adalah milik Jurusan Teknik Komputer-Diploma IPB dan bersifat rahasia. Dilarang mereproduksi dokumen ini tanpa diketahui oleh Jurusan Teknik Komputer Diploma IPB
-
-• ERD adalah Entity Relationship Diagram, diagram dan notasi yang digunakan
 untuk merepresentasikan struktur data statis pada perangkat lunak.
 
+|No  | Singkatan | Definisi |
+|--|--|--|--|
+| 1 | SKPL |Spesifikasi Kebutuhan Perangkat Lunak, atau dalam bahasa Inggris-nya sering juga disebut sebagai Software Requirements Spesification (SRS), dan merupakan spesifikasi dari perangkat lunak yang akan dikembangkan (requirement).|
+| 2 | DFD  |Data Flow Diagram, diagram dan notasi yang digunakan untuk menunjukkan aliran data pada perangkat lunak. Jurusan Teknik Komputer Diploma IPB PDHUPL-SPEK Halaman 7 dari 14 Template Dokumen ini dan informasi yang dimilikinya adalah milik Jurusan Teknik Komputer-Diploma IPB dan bersifat rahasia. Dilarang mereproduksi dokumen ini tanpa diketahui oleh Jurusan Teknik Komputer Diploma IPB	|
+| 3 | ERD  |Entity Relationship Diagram, diagram dan notasi yang digunakan
+
+	
 **1.5 Dokumen Referensi**
+|No|Referensi  |
+|--|--|
+| 1 |IEEE P1016/D5.0; 12 December 2005, IEEE Draft Standard for Software Design  |
+| 2 | Software Design Description (SDD) / Deskripsi Perancangan Perangkat Lunak (DPPL)- Software Design Description.pdf |
 
--IEEE P1016/D5.0; 12 December 2005, IEEE Draft Standard for Software Design
 
--Software Design Description (SDD) / Deskripsi Perancangan Perangkat Lunak (DPPL)- Software Design Description.pdf
 
 **2 Lingkungan Pengujian Perangkat Lunak**
 
 **2.1 Perangkat Lunak Pengujian**
 
-Perangkat lunak ini (SPEK) diujikan dengan beberapa perangkat lunak lain, yaitu:
-
+Perangkat lunak ini (SPEK) diujikan dengan beberapa perangkat lunak lain.
 Pendukung dalam pembuatan aplikasi antara lain:
-
-a. Sistem Operasi Microsoft Windows 7 s/d Windows 10
-
-b. DBMS
-DBMS yang digunakan adalah Mysqli.
-
-c. Development Tools
-Sublime text 3
-XAMPP Control Panel v.3.2.2
-
-d. Bahasa Pemrograman
-Bahasa pemrograman yang digunakan yaitu PHP, HTML, Bootstrap dan CSS.
+| No | Pendukung |
+|--|--|
+| 1 | Sistem Operasi Microsoft Windows 7 s/d Windows 10 |
+| 2 | DBMS yang digunakan adalah Mysqli. |
+| 3 | Development Tools Sublime text, 3XAMPP, Control Panel v.3.2.2
+| 4 | Bahasa pemrograman yang digunakan PHP, HTML, Bootstrap dan CSS.
 
 **2.2 Perangkat Keras Pengujian**
 
@@ -87,12 +82,16 @@ Bahasa pemrograman yang digunakan yaitu PHP, HTML, Bootstrap dan CSS.
 Pada program “Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil” Aplikasi Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr.Jamil Berbasis Website adalah sebuah aplikasi yang ditunjukan untuk mempermudah dalam proses pendataan pasien dan pendataan obat yang terdapat pada apotek, aplikasi ini lebih dikhususkan untuk sistem yang terdapat pada Praktek Dr. Jamil. Perkembangan teknologi informasi saat ini semakin pesat. Informasi dapat diperoleh secara manual maupun secara komputerisasi. 
 
 **2.4 Sumber Daya Manusia**
-
 Persyaratan sumber daya manusia yang akan terlibat dalam proses
 pengujian perangkat lunak ini adalah:
-• Memahami konsep pemrograman berorientasi objek dalam bahasa PHP.
-• Memahami proses pengujian perangkat lunak berorientasi objek.
-• Memahami konsep pemrograman data base XAMPP.
+| No |Sumber Daya Manusia  |	
+|--|--|--|
+| 1 |Memahami konsep pemrograman berorientasi objek dalam bahasa PHP.	|
+| 2 |Memahami proses pengujian perangkat lunak berorientasi objek.	|
+| 3 |Memahami konsep pemrograman database XAMPP.	|
+
+
+
 
 **2.5 Prosedur Umum Pengujian**
 
