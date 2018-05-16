@@ -92,13 +92,14 @@ kemudian untuk sistem apotek yaitu mampu menginputkan data stok obat, selain itu
 ![enter image description here](https://lh3.googleusercontent.com/-4f9m-y1iEdI/Ws20d9qoLyI/AAAAAAAAAMk/HMN9HUevz28_Ny0l8Nmt553IQI6RfGLFACJoC/w530-h410-n/antarmuka+sistem.jpeg)
 
 **2.1.2 Atarmuka Pengguna**
-|  |  |
+
+|||
 |--|--|
 |![enter image description here](https://lh3.googleusercontent.com/-4ig80hC8VYs/WtNYNnU28II/AAAAAAAABFc/F8YepuGwta88hXiSU3rX2DQiRTKlBa_AwCL0BGAs/w795-d-h462-n/create+new+account.png)
-halaman daftar akun, akses sebagai dokter atau apoteker|![enter image description here](https://lh3.googleusercontent.com/-TjaLOIEm8Hs/WtNX_L9hYfI/AAAAAAAABFI/qVoyeNcovWsR40ckIRnwaP77o496VCPFQCL0BGAs/w795-d-h549-n/login.png)halaman login setelah mendaftar akun |
-| ![enter image description here](https://lh3.googleusercontent.com/-pyzuZnY6WTo/WtNYtp62BrI/AAAAAAAABGE/srYNT-o_iOssMwEsJnkUYxKO6PZ-a34OgCL0BGAs/w795-d-h446-n/admin.png) halaman dashboard admin, dimana ada menu data pasien dan laporan. pada data pasien menampilkan tabel yang  berupa inputan untuk pasien yang register, dan pada laporan, akan menampilkan grafik jumlah pasien tiap bulannya| ![enter image description here](https://lh3.googleusercontent.com/-stI1u4C_5OI/WtNZDg6CVAI/AAAAAAAABGg/RdjJHDj9GW0dWNSwX6WMM961BxQ5vor2QCL0BGAs/w795-d-h549-n/dashboard.png) |
-| ![enter image description here](https://lh3.googleusercontent.com/-vXg_0sDhZQ0/WtNZbUxHLaI/AAAAAAAABHA/fd2D-z1l7lQWgoZiKk7ItrubneIDIGV5gCL0BGAs/w795-d-h438-n/dokter.png)halaman dokter, dimana ada dua menu yaitu data pasien dan data stok obat. pada data pasien, dokter bisa melihat data pasien, dan menginputkan resep pasien. dan pada menu stok obat, dokter bisa melihat dan memonitoring stok obat ada diapotek.|  ![enter image description here](https://lh3.googleusercontent.com/-hqu2LhBM7KE/WtNZt516-kI/AAAAAAAABHc/a8tz1Tkk7tYu1phPFt9405FSmGkf8B2QgCL0BGAs/w795-d-h572-n/resep.png)halaman inputan resep obat untuk dokter|
-|![enter image description here](https://lh3.googleusercontent.com/-4myjz4P8Geg/WtNfjjd5ZBI/AAAAAAAABKk/dqzcWHLkmnIQgFoAe_27AMVl3nNrB4nhACL0BGAs/w795-d-h446-n/Apotek.png)halaman apotek ada dropdown berupa menu resep obat dan stok obat. pada resep obat, bagian apoteker akan mencetak resep yang sudah diinputkan dokter. pada menu stok obat apoteker menginputkan stok obat  |![enter image description here](https://lh3.googleusercontent.com/-X2dnNGpUSYQ/WtNaaC8G-_I/AAAAAAAABIY/IJFF1HiP-koV4i1OwclImfwXJJfly-8lACL0BGAs/w795-d-h572-n/New+Mockup+7.png)halaman resep obat yang akan dicetak pada apoteker |
+halaman daftar akun, akses sebagai dokter atau apoteker.|![enter image description here](https://lh3.googleusercontent.com/-TjaLOIEm8Hs/WtNX_L9hYfI/AAAAAAAABFI/qVoyeNcovWsR40ckIRnwaP77o496VCPFQCL0BGAs/w795-d-h549-n/login.png)halaman login setelah mendaftar akun.|
+| ![enter image description here](https://lh3.googleusercontent.com/-pyzuZnY6WTo/WtNYtp62BrI/AAAAAAAABGE/srYNT-o_iOssMwEsJnkUYxKO6PZ-a34OgCL0BGAs/w795-d-h446-n/admin.png) halaman dashboard admin, dimana ada menu data pasien dan laporan. pada data pasien menampilkan tabel yang  berupa inputan untuk pasien yang register, dan pada laporan, akan menampilkan grafik jumlah pasien tiap bulannya.| ![enter image description here](https://lh3.googleusercontent.com/-stI1u4C_5OI/WtNZDg6CVAI/AAAAAAAABGg/RdjJHDj9GW0dWNSwX6WMM961BxQ5vor2QCL0BGAs/w795-d-h549-n/dashboard.png) |
+| ![enter image description here](https://lh3.googleusercontent.com/-vXg_0sDhZQ0/WtNZbUxHLaI/AAAAAAAABHA/fd2D-z1l7lQWgoZiKk7ItrubneIDIGV5gCL0BGAs/w795-d-h438-n/dokter.png)halaman dokter, dimana ada dua menu yaitu data pasien dan data stok obat. pada data pasien, dokter bisa melihat data pasien, dan menginputkan resep pasien. dan pada menu stok obat, dokter bisa melihat dan memonitoring stok obat ada diapotek.|  ![enter image description here](https://lh3.googleusercontent.com/-hqu2LhBM7KE/WtNZt516-kI/AAAAAAAABHc/a8tz1Tkk7tYu1phPFt9405FSmGkf8B2QgCL0BGAs/w795-d-h572-n/resep.png)halaman inputan resep obat untuk dokter.|
+|![enter image description here](https://lh3.googleusercontent.com/-4myjz4P8Geg/WtNfjjd5ZBI/AAAAAAAABKk/dqzcWHLkmnIQgFoAe_27AMVl3nNrB4nhACL0BGAs/w795-d-h446-n/Apotek.png)halaman apotek ada dropdown berupa menu resep obat dan stok obat. pada resep obat, bagian apoteker akan mencetak resep yang sudah diinputkan dokter. pada menu stok obat apoteker menginputkan stok obat.|![enter image description here](https://lh3.googleusercontent.com/-X2dnNGpUSYQ/WtNaaC8G-_I/AAAAAAAABIY/IJFF1HiP-koV4i1OwclImfwXJJfly-8lACL0BGAs/w795-d-h572-n/New+Mockup+7.png)halaman resep obat yang akan dicetak pada apoteker.|
 
 **2.1.3 Antarmuka Perangkat Keras**
 
@@ -149,34 +150,43 @@ Pada memori yang di butuhkan tidak ada karena Aplikasi ini berbasis website.
 | 2 | Dokter |view data pasien, input resep dokter, Pada Menu ini, terdapat Data Pasien yang sudah terhubung dengan Admin. Dimana Data Pasien ini berisi Nama Pasien, NIK,Umur, No Telp dan Keluhan pasien. Disini Dokter hanya bisa melihat saja dan untuk efisiensi waktu,Dokter bisa klik tombol search untuk mencari.|
 | 3 | Apotek |input stok obat, view dan cetak data pasien yang sudah berobat.|
 
-**2.2.1 use case Admin**
+**2.2.1 use case Login**
 
-![Admin](https://lh3.googleusercontent.com/-2ELKoMhZd4M/WrRFEkXKniI/AAAAAAAAAJs/lSWtjkzb77EmN0RgFYHG2OY3ZjIbAqgagCJoC/w530-h392-n-rw/use%2Bcase%2Bbagian%2Badmin.jpg)
+1. Masukan username dan password.
+2. Sistem meverifikasi kesalahan data yang di masukan.
+3. jika berhasil login maka akan sesuai dengan tipe nya (berdasarkan username dan password)
 
-Langkah-langkah:
+**2.2.2 use case Verivikasi password**
 
-1. Login sesuai dengan tipe nya. masukan username dan password, lalu sistem meverifikasi kesalahan data.
-2. Memasukan data pasien (Nama Pasien, NIK, Alamat, No Telp, Umur, Keluhan dan Keterangan).
-3. Menampilkan Rekap data pasien perbulan dalam bentuk tabel grafik.
+1. Masukan username dan password dengan benar hingga sistem memverifikasi data yang di masukan.
+2. Jika username benar dan password salah maka gagal.
+3. Jika username salah dan password benar maka gagal.
 
-**2.2.2 use case Dokter**
+**2.2.3 Display Login Error**
 
-![Dokter](https://lh3.googleusercontent.com/-PsN9dQXncG8/WrRFPVzs3YI/AAAAAAAAAJs/lmeM3CiB_PEiIESzrNKUMSmGGEyKftKfwCJoC/w530-h368-n-rw/use%2Bcase%2Bbagian%2Bdokter.jpg)
+1. Jika username benar dan password salah maka gagal. maka sistem akan memunculkan kesalahan data login tidak berhasil.
+2. Jika username benar dan password salah maka gagal. maka sistem akan memunculkan kesalahan data login tidak berhasil.
 
-Langkah-langkah:
-1. Login masukan username dan password, lalu sistem meverifikasi kesalahan data.
-2. Menampilkan data pasien (Nama Pasien, NIK, Alamat, No Telp, Umur, Keluhan dan Keterangan).
-3. Memasukan resep pasien.
+**2.2.4 Input Data Pasien**
 
-**2.2.3 use case Apoteker**
+1. Masukan Data NIK Pasien.
+2. Masukan Nama Pasien.
+3. Masukan Alamat Pasien.
+4. Masukan Keluhan Pasien.
+5. Masukan Umur Pasien.
+6. Masukan No.telp Pasien.
 
-![Apoteker](https://lh3.googleusercontent.com/-gXq2qYQBeeE/WrRFKgz025I/AAAAAAAAAJs/XdFubohn2aQDXyc4o4ZMQpI8hui_E1XIACJoC/w530-h472-n-rw/use%2Bcase%2Bbagian%2Bapoteker.jpg)
+**2.2.5 Laporan berupa Grafik Jumlah Pasien Perbulan**
 
-Langkah-langkah:
-1. Login masukan username dan password, lalu sistem meverifikasi kesalahan data.
-2. Menampilkan data pasien (Nama Pasien, NIK, Alamat, No Telp, Umur, Keluhan dan Keterangan).
-3. Menampilkan resep pasien.
-4. Memasukan stok obat.
+**2.2.6 Lihat Data Pasien**
+
+**2.2.7 Input Resep Obat**
+
+**2.2.8 Lihat Stok Obat**
+
+**2.2.9 Lihat Resep Obat**
+
+**2.2.10 Input Stok Obat**
 
 **2.3 Spesifikasi Kebutuhan non-fungsional**
 
