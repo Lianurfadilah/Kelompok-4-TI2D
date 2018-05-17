@@ -47,7 +47,7 @@ Untuk merepresentasikan struktur data statis pada perangkat lunak.</br>
 <tr>
 <td>No</td>
 <td>Singkatan</td>
-<td>Definisi</td>
+<td<center>Definisi</center></td>
 </tr>
 <tr>
 <td>1</td>
@@ -74,7 +74,7 @@ Untuk merepresentasikan struktur data statis pada perangkat lunak.</br>
 <table>
 <tr>
 <td>No</td>
-<td>Referensi</td>
+<td><center>Referensi</center></td>
 </tr>
 <tr>
 <td>1</td>
@@ -98,7 +98,7 @@ Pendukung dalam pembuatan aplikasi antara lain:
 <table>
 <tr>
 <td>No</td>
-<td>Pendukung</td>
+<td><center>Pendukung</center></td>
 </tr>
 <tr>
 <td>1</td>
@@ -121,9 +121,9 @@ Pendukung dalam pembuatan aplikasi antara lain:
 **2.2 Perangkat Keras Pengujian**
 
  Perangkat keras yang diperlukan untuk menguji aplikasi SPEK ini adalah satu set komputer dengan spesifikasi:
- • Processor: Intel® Pentium Dual Core
- • Memory: 4 GB DDR3
- • Harddisk 100 GB
+ <br>• Processor: Intel® Pentium Dual </br>
+ <br>• Memory: 4 GB DDR3</br>
+ <br>• Harddisk 100 GB</br>
 
 **2.3 Material Pengujian**
 
@@ -136,7 +136,7 @@ pengujian perangkat lunak ini adalah:
 <table>
 <tr>
 <td>No</td>
-<td>Sumber Daya Manusia</td>
+<td><center>Sumber Daya Manusia</center></td>
 </tr>
 <tr>
 <td>1</td>
