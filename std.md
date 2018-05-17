@@ -47,7 +47,7 @@ Untuk merepresentasikan struktur data statis pada perangkat lunak.</br>
 <tr>
 <td>No</td>
 <td>Singkatan</td>
-<td<center>Definisi</center></td>
+<td<center>Definisi</td></center>
 </tr>
 <tr>
 <td>1</td>
