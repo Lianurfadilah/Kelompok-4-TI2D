@@ -47,7 +47,7 @@ Untuk merepresentasikan struktur data statis pada perangkat lunak.</br>
 <tr>
 <td>No</td>
 <td>Singkatan</td>
-<td<center>Definisi</td></center>
+<td>Definisi</td>
 </tr>
 <tr>
 <td>1</td>
@@ -170,9 +170,9 @@ Pengujian ini bisa dilakukan didalam lingkungan kampus, ditempat praktek Dr. Jam
 Perangkat keras yang perlu dipesiapkan adalah:
 
 Sebuah perangkat laptop yang dilengkapi dengan;
-• Processor: Intel® Pentium Dual Core
-• Memory: 4 GB DDR3
-• Harddisk 100 GB
+<br>• Processor: Intel® Pentium Dual Core</br>
+<br>• Memory: 4 GB DDR3</br>
+<br>• Harddisk 100 GB</br>
 
 **2.5.2.3 Persiapan Perangkat Lunak**
 
