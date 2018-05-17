@@ -42,7 +42,7 @@ Perangkat lunak yang akan diuji adalah “Rancang Bangun Aplikasi Pasien pada St
 Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Rencana Pengujian, Deskripsi dan Uji Hasil.
 
 **1.4 Definisi dan Singkatan**<br>
-untuk merepresentasikan struktur data statis pada perangkat lunak.</br>
+Untuk merepresentasikan struktur data statis pada perangkat lunak.</br>
 <table>
 <tr>
 <td>No</td>
