@@ -7,7 +7,7 @@
 <body><center>
 	<h1 align="center">Software Testing Document</h1>
 	<h2 align="center">Version 1.1<br>
-	09 Mei 2018</h2><br><br>
+	19 Mei 2018</h2><br><br>
 	<p align="center"> <img src="https://lh3.googleusercontent.com/Mk2_cB7YlTjA6BhAtenwi-6nfONxdU_Mnew1OaieHO2UTlc0SDEL8wFkT94CIst1T-uykihG561B=s200"></p>
 	<br>
 	<h2 align="center">Rancang Bangun Aplikasi Pasien Pada Study Kasus Dr. Jamil</h2>
@@ -78,11 +78,15 @@ Untuk merepresentasikan struktur data statis pada perangkat lunak.</br>
 </tr>
 <tr>
 <td>1</td>
-<td>IEEE P1016/D5.0; 12 December 2005, IEEE Draft Standard for Software Design</td>
+<td>Ernita H. GL03. Dokumen Uji Perangkat Lunak (DUPL) SDS. Bogor.</td>
 </tr>
 <tr>
 <td>2</td>
-<td> Software Design Description (SDD) / Deskripsi Perancangan Perangkat Lunak (DPPL)- Software Design Description.pdf</td>
+<td>Sistem Pentiketan Elektronik Konser.2013. Spesifikasi Kebutuhan Perangkat Lunak (SKPL)SPEK. Bogor</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Sistem Pentiketan Elektronik Konser.2013. Dokumen Perancangan Perangkat Lunak (DPPL)SPEK. Bogor.</td>
 </tr>
 </table>
 
@@ -115,6 +119,9 @@ Pendukung dalam pembuatan aplikasi antara lain:
 <tr>
 <td>4</td>
 <td>Bahasa pemrograman yang digunakan PHP, HTML, Bootstrap dan CSS.</td>
+<tr>
+<td>5</td>
+<td>Framework menggunakan CI</td>
 </table>
 
 
@@ -198,4 +205,5 @@ Pengujian dilaksanakan dengan mengikuti waktu yang sudah kami tentukan saat awal
 Dokumen hasil uji dari aplikasi ini akan diberikan kepada Dosen Pembimbing dan dievaluasi oleh Dosen Pengampu dalam tindakan yang sudah selesai lalu Aplikasi akan diberikan ke mitra dan aplikasi yang telah dibuat di harapkan membuahkan hasil yang maksimal sebagai progress akhir.
 </body>
 </html>
+
 
