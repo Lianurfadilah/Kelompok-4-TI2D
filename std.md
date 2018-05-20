@@ -235,6 +235,97 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 |Input Resep Obat | Menginput resep obat dengan benar | SRS - 2.2.8|STD - 8.1|        Sistem          |           Black Box      |Jenia Adellia |
 |                         | Kesalahan menginput resep obat|        SRS - 2.2.8            |    STD - 8.2     |        Sistem            |  Black Box                 |    Jenia Adellia   |
 |                    |     Tidak input resep obat| SRS - 2.2.8 |          STD - 8.3        |    Sistem      | Black Box| Jenia Adellia
+
+**Deskripsi dan Hasil Uji**
+
+Tabel 2 Deskripsi dan Hasil Uji
+
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-1.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Mengisi data register user dengan benar</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengetahui data register yang dimasukan benar</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Register<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Jenia Adellia</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>1. masukan  data user di kolom register dengan benar
+					  </ul><ul>2. Pilih tipe User untuk Register</ul><ul>3. Klik tombol Register</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					Username:  Jenia<br>
+					password :123<br>
+					Nama	: Jenia Adellia <br>
+					NIK : 1234567890 <br>
+					Alamat : Bekasi  <br>
+					Umur : 19
+					tipe: Dokter <br>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Data yang dimasukkan untuk register user berhasil
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				    Data yang dimasukan benar dan sesuai. misal NIK dengan angka.
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK //belum fix
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
 </body>
 </html>
 
