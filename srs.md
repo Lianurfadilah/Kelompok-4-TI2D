@@ -136,9 +136,18 @@ Pada memori yang di butuhkan tidak ada karena Aplikasi ini berbasis website.
 
 **2.2 Spesifikasi Kebutuhan fungsional**
 
-![enter image description here](https://lh3.googleusercontent.com/-9P0BW2SUZOc/Ws3AoZOaVHI/AAAAAAAAANg/LJRDwrvuN3AOVb4t6_Lz1IR5_YPe9EorACJoC/w530-h410-n/use%2Bcase%2Bfungsi%2B%2Bproject.jpeg)
+![use case all](https://lh3.googleusercontent.com/-zCFPWKrvUbc/WwERNQz1MgI/AAAAAAAAAUA/IOGQ5NjAKjcoIo15RfhY0fWDzoE3ARu5QCL0BGAs/w530-d-h461-n-rw/use%2Bcase.jpg)
+
+**2.2.1 use case Register**
+
+![register](https://lh3.googleusercontent.com/-Q8IB18qfKbo/WwEXIHrQcgI/AAAAAAAAAUk/sO66cfaZly4-M5hGhUR9S8LWLNCWUXLpgCL0BGAs/w530-d-h252-n-rw/use%2Bcase%2B%25281%2529.jpg)
+
+1. User memasukan data diri untuk register akun.
+2. Sistem mevalidasi data yang di inputkan.
 
 **2.2.1 use case Login**
+
+![login](https://lh3.googleusercontent.com/-vNrC8QMfD5g/WwEXaNbizuI/AAAAAAAAAVA/jX6Z4B8RabwodOFFsvv_pan2MwbrsZg6ACL0BGAs/w530-d-h224-n-rw/use%2Bcase%2B%25281%2529.jpg)
 
 1. Masukan username dan password.
 2. Sistem meverifikasi kesalahan data yang di masukan.
@@ -146,17 +155,25 @@ Pada memori yang di butuhkan tidak ada karena Aplikasi ini berbasis website.
 
 **2.2.2 use case Verivikasi password**
 
-1. Masukan username dan password dengan benar hingga sistem memverifikasi data yang di masukan.
-2. Jika username benar dan password salah maka gagal.
-3. Jika username salah dan password benar maka gagal.
+![login](https://lh3.googleusercontent.com/-vNrC8QMfD5g/WwEXaNbizuI/AAAAAAAAAVA/jX6Z4B8RabwodOFFsvv_pan2MwbrsZg6ACL0BGAs/w530-d-h224-n-rw/use%2Bcase%2B%25281%2529.jpg)
 
-**2.2.3 Display Login Error**
+1. User memasukan username dan password dengan benar.
+2. Sistem memverifikasi data yang di masukan.
+3. Jika username benar dan password salah maka gagal.
+4. Jika username salah dan password benar maka gagal.
+
+**2.2.3 use case Display Login Error**
+
+![login](https://lh3.googleusercontent.com/-vNrC8QMfD5g/WwEXaNbizuI/AAAAAAAAAVA/jX6Z4B8RabwodOFFsvv_pan2MwbrsZg6ACL0BGAs/w530-d-h224-n-rw/use%2Bcase%2B%25281%2529.jpg)
 
 1. Jika username benar dan password salah maka gagal. maka sistem akan memunculkan kesalahan data login tidak berhasil.
 2. Jika username benar dan password salah maka gagal. maka sistem akan memunculkan kesalahan data login tidak berhasil.
 
-**2.2.4 Input Data Pasien**
+**2.2.4 use case Input Data Pasien**
 
+![input data pasien](https://lh3.googleusercontent.com/-TbF_6TQ5mUw/WwEYCs2Q_0I/AAAAAAAAAVg/1Rg_lvfQkA8XwZtNmnKc4wjux_zuHVDaACL0BGAs/w530-d-h79-n-rw/use%2Bcase%2B%25282%2529.jpg)
+
+1. user menginputkan data pasien 
 input data pasien dengan cara:
 1. Masukan Data NIK Pasien.
 2. Masukan Nama Pasien.
@@ -165,40 +182,63 @@ input data pasien dengan cara:
 5. Masukan Umur Pasien.
 6. Masukan No.telp Pasien.
 
-**2.2.5 Laporan berupa Grafik Jumlah Pasien Perbulan**
+2. sistem menampilkan data pasien.
+
+
+**2.2.5 use case Laporan berupa Grafik Jumlah Pasien Perbulan**
+
+![input data pasien](https://lh3.googleusercontent.com/-QClMrosMjyQ/WwEbPlMbo1I/AAAAAAAAAYo/HGim6V5mouEdmhKTnIAuGm0NhEkTLT_wgCL0BGAs/w530-d-h461-n-rw/use%2Bcase%2Ball%2B%25281%2529.jpg)
 
 Admin dapat melihat laporan berupa grafik yaitu jumlah pasien perbulan melalui:
 
 1. Halaman Laporan berada pada Dashboard Admin.
-2. Apabila Admin input data pasien (perbulan dengan jumlah banyak) maka Grafik akan muncul.
+2. Apabila Admin input data pasien (perbulan dengan jumlah banyak) maka Sistem akan menampilkan grafik laporan.
 
-**2.2.6 Lihat Data Pasien**
+**2.2.6 use case Lihat Data Pasien**
 
-1. Masukan Data Pasien yang sudah di inputkan
-2. Data Pasien bisa dilihat dengan data pasien yang berhasil di inputkan oleh Admin, Apoteker, dan Admin.
+![lihat data pasien](https://lh3.googleusercontent.com/-bZyZHFXMjOg/WwEYtyrqxHI/AAAAAAAAAWE/txuQydYD7qMKrPargafEE6MM7HRWyNMPQCL0BGAs/w530-d-h161-n-rw/use%2Bcase%2B%25283%2529.jpg)
 
-**2.2.7 Input Resep Obat**
+1. user dapat melihat data pasien
+- Data Pasien bisa dilihat dengan data pasien yang berhasil di inputkan
+- Data Pasien bisa di cari dengan NIK.
 
-Dokter dapat input resep obat dengan cara:
-1. Masukan Resep Obat (sesuai dengan Data Pasien yang telah di input oleh Admin)
+2. Sistem menampilkan data pasien 
 
-**2.2.8 Lihat Stok Obat**
+**2.2.7 use case Input Resep Obat**
 
-Dokter dapat Lihat stok obat dengan cara:
+![input resep obat](https://lh3.googleusercontent.com/-DkFn45NQjy4/WwEaGp6v-JI/AAAAAAAAAXk/OY8MzlZakHkJ5oZlfhNbP_b39nIOvmnIgCL0BGAs/w530-d-h137-n-rw/use%2Bcase%2B%25284%2529.jpg)
+
+1. User menginputkan resep obat
+2. Sistem menampilkan resep obat
+
+
+**2.2.8 use case Lihat Stok Obat**
+
+![view stok obat](https://lh3.googleusercontent.com/-3FcEPOpnWf4/WwEcdXrtNYI/AAAAAAAAAZQ/bO23fpmQ0ScahFHMHi6Tg6ziceW318ChQCL0BGAs/w530-d-h79-n-rw/use%2Bcase%2B%25285%2529.jpg)
+
+User dapat Lihat stok obat dengan cara:
 1. lihat stok obat (sesuai dengan nama obat yang telah di input oleh Apoteker)
 
-**2.2.9 Lihat Resep Obat**
+**2.2.9 use case Lihat Resep Obat**
 
+![input resep obat](https://lh3.googleusercontent.com/-DkFn45NQjy4/WwEaGp6v-JI/AAAAAAAAAXk/OY8MzlZakHkJ5oZlfhNbP_b39nIOvmnIgCL0BGAs/w530-d-h137-n-rw/use%2Bcase%2B%25284%2529.jpg)
+
+User dapat Lihat resep obat dengan cara:
 1.lihat resep obat (sesuai dengan nama pasien yang telah di input oleh Dokter)
-Apoteker dapat Lihat resep obat dengan cara:
 
-**2.2.10 Input Stok Obat**
 
-Apoteker dapat input resep obat dengan cara:
+**2.2.10 use case Input Stok Obat**
+
+
+![view stok obat](https://lh3.googleusercontent.com/-3FcEPOpnWf4/WwEcdXrtNYI/AAAAAAAAAZQ/bO23fpmQ0ScahFHMHi6Tg6ziceW318ChQCL0BGAs/w530-d-h79-n-rw/use%2Bcase%2B%25285%2529.jpg)
+
+User dapat input resep obat dengan cara:
 1. Masukan Stok Obat:
 - nama obat
 - harga obat
 - jumlah obat
+
+2. Sistem akan menampilkan data stok obat
 
 **2.3 Spesifikasi Kebutuhan non-fungsional**
 
