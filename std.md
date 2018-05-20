@@ -209,8 +209,8 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada Dosen Pembimbing dan d
 Tabel 1 Identifikasi dan Rencana Pengujian
 
 | Kelas Uji               | Butir Uji                                   | Identifikasi       |         | Jenis Pengujian | Jenis Pengujian | Penguji  |
-|-------------------------|---------------------------------------------|--------------------|---------|-------------------|-----------------|----------|
-| -----------             | ------------                                | **SRS/SDD**        | **STD** | -----------       | ------------    | -------- ||
+|-------------------------|---------------------------------------------|--------------------|---------|-----------------|------------|----------|
+| -----------             | ------------                                | **SRS/SDD**        | **STD** | -----------       | ----------  | -------- ||
 |Pengujian Register User    | Mengisi data register user dengan benar|        SRS - 2.2.1            |    STD - 1.1    |        Sistem            |  Black Box                 |     Jenia Adellia     |
 |                    |    Tidak semua mengisi Kolom input data register user    | SRS - 2.2.1 |          STD - 1.2        |    Sistem      | Black Box| Jenia Adellia
 |                    |    Kesalahan Pengisian data register user    | SRS - 2.2.1 |          STD - 1.3         |    Sistem      | Black Box| Jenia Adellia
@@ -310,7 +310,7 @@ Tabel 2 Deskripsi dan Hasil Uji
 			</td>
 			<td rowspan="1">
 				<ul>
-					 OK //belum fix
+					 OK
 				</ul>
 			</td>
 		</tr>
@@ -326,6 +326,173 @@ Tabel 2 Deskripsi dan Hasil Uji
 	</thead>
 </table>
 
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-1.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Tidak semua mengisi Kolom input data register user</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah data yang tidak terisi semua akan berhasil register</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Register<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Jenia Adellia</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>1. masukan  data user di kolom register dengan benar
+					  </ul><ul>2. Pilih tipe User untuk Register</ul><ul>3. Klik tombol Register</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					Username:  Jenia<br>
+					password :123<br>
+					Nama	: Jenia Adellia <br>
+					NIK : 1234567890 <br>
+					 <br>
+					Umur : 19
+					tipe: Dokter <br>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Data yang dimasukkan tidak berhasil register
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>Data yang dimasukan salah karena ada kolom data input yang tidak di isi.
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-1.3</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Kesalahan Pengisian data register user</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah data yang salah bisa register atau tidak</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Register<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Jenia Adellia</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>1. masukan  data user di kolom register dengan benar
+					  </ul><ul>2. Pilih tipe User untuk Register</ul><ul>3. Klik tombol Register</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					Username:  Jenia<br>
+					password :123<br>
+					Nama	: Jenia Adellia <br>
+					NIK : hahaha <br>
+					Alamat : Bekasi  <br>
+					Umur : 19
+					tipe: Dokter <br>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Data yang dimasukkan tidak berhasil register
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>Data yang dimasukan salah karena ada kolom data input yang bukan tipe data nya.
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
 </body>
 </html>
 
