@@ -185,9 +185,9 @@ input data pasien dengan cara:
 2. sistem menampilkan data pasien.
 
 
-**2.2.5 use case Laporan berupa Grafik Jumlah Pasien Perbulan**
+**2.2.5 use case Laporan berupa Grafik Jumlah Pasien**
 
-![input data pasien](https://lh3.googleusercontent.com/-QClMrosMjyQ/WwEbPlMbo1I/AAAAAAAAAYo/HGim6V5mouEdmhKTnIAuGm0NhEkTLT_wgCL0BGAs/w530-d-h461-n-rw/use%2Bcase%2Ball%2B%25281%2529.jpg)
+![grafik data pasien](https://lh3.googleusercontent.com/-TbF_6TQ5mUw/WwEYCs2Q_0I/AAAAAAAAAVg/1Rg_lvfQkA8XwZtNmnKc4wjux_zuHVDaACL0BGAs/w530-d-h79-n-rw/use%2Bcase%2B%25282%2529.jpg)
 
 Admin dapat melihat laporan berupa grafik yaitu jumlah pasien perbulan melalui:
 
@@ -199,6 +199,7 @@ Admin dapat melihat laporan berupa grafik yaitu jumlah pasien perbulan melalui:
 ![lihat data pasien](https://lh3.googleusercontent.com/-bZyZHFXMjOg/WwEYtyrqxHI/AAAAAAAAAWE/txuQydYD7qMKrPargafEE6MM7HRWyNMPQCL0BGAs/w530-d-h161-n-rw/use%2Bcase%2B%25283%2529.jpg)
 
 1. user dapat melihat data pasien
+
 - Data Pasien bisa dilihat dengan data pasien yang berhasil di inputkan
 - Data Pasien bisa di cari dengan NIK.
 
@@ -217,13 +218,15 @@ Admin dapat melihat laporan berupa grafik yaitu jumlah pasien perbulan melalui:
 ![view stok obat](https://lh3.googleusercontent.com/-3FcEPOpnWf4/WwEcdXrtNYI/AAAAAAAAAZQ/bO23fpmQ0ScahFHMHi6Tg6ziceW318ChQCL0BGAs/w530-d-h79-n-rw/use%2Bcase%2B%25285%2529.jpg)
 
 User dapat Lihat stok obat dengan cara:
-1. lihat stok obat (sesuai dengan nama obat yang telah di input oleh Apoteker)
+
+1. lihat stok obat (sesuai dengan nama obat yang telah di input oleh Apoteker).
 
 **2.2.9 use case Lihat Resep Obat**
 
 ![input resep obat](https://lh3.googleusercontent.com/-DkFn45NQjy4/WwEaGp6v-JI/AAAAAAAAAXk/OY8MzlZakHkJ5oZlfhNbP_b39nIOvmnIgCL0BGAs/w530-d-h137-n-rw/use%2Bcase%2B%25284%2529.jpg)
 
 User dapat Lihat resep obat dengan cara:
+
 1.lihat resep obat (sesuai dengan nama pasien yang telah di input oleh Dokter)
 
 
@@ -233,12 +236,13 @@ User dapat Lihat resep obat dengan cara:
 ![view stok obat](https://lh3.googleusercontent.com/-3FcEPOpnWf4/WwEcdXrtNYI/AAAAAAAAAZQ/bO23fpmQ0ScahFHMHi6Tg6ziceW318ChQCL0BGAs/w530-d-h79-n-rw/use%2Bcase%2B%25285%2529.jpg)
 
 User dapat input resep obat dengan cara:
+
 1. Masukan Stok Obat:
 - nama obat
 - harga obat
 - jumlah obat
 
-2. Sistem akan menampilkan data stok obat
+2. Sistem akan menampilkan data stok obat.
 
 **2.3 Spesifikasi Kebutuhan non-fungsional**
 
