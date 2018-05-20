@@ -203,6 +203,38 @@ Pengujian dilaksanakan dengan mengikuti waktu yang sudah kami tentukan saat awal
 **2.5.4 Pelaporan Hasil**
 
 Dokumen hasil uji dari aplikasi ini akan diberikan kepada Dosen Pembimbing dan dievaluasi oleh Dosen Pengampu dalam tindakan yang sudah selesai lalu Aplikasi akan diberikan ke mitra dan aplikasi yang telah dibuat di harapkan membuahkan hasil yang maksimal sebagai progress akhir.
+
+**3. Identifikasi Rencana Pengujian**
+
+Tabel 1 Identifikasi dan Rencana Pengujian
+
+| Kelas Uji               | Butir Uji                                   | Identifikasi       |         | Jenis Pengujian | Jenis Pengujian | Penguji  |
+|-------------------------|---------------------------------------------|--------------------|---------|-------------------|-----------------|----------|
+| -----------             | ------------                                | **SRS/SDD**        | **STD** | -----------       | ------------    | -------- ||
+|Pengujian Register User    | Mengisi data register user dengan benar|        SRS - 2.2.1            |    STD - 1.1    |        Sistem            |  Black Box                 |     Jenia Adellia     |
+|                    |    Tidak semua mengisi Kolom input data register user    | SRS - 2.2.1 |          STD - 1.2        |    Sistem      | Black Box| Jenia Adellia
+|                    |    Kesalahan Pengisian data register user    | SRS - 2.2.1 |          STD - 1.3         |    Sistem      | Black Box| Jenia Adellia
+| Login | Email dan Password dimasukan sesuai data                 | SRS - 2.2.2|STD - 2.1|        Sistem          |           Black Box      | Jenia  Adellia |
+|                         | Email dan Password yang dimasukan tidak sesuai dengan data|        SRS - 2.2.2            |    STD - 2.2     |        Sistem            |  Black Box                 |     Jenia Adellia     |
+|                    |    Tidak mengisi Email dan Password    | SRS - 2.2.2 |          STD - 2.3         |    Sistem      | Black Box| Jenia Adellia
+|Verifikasi Password | Password yang dimasukan sesuai  | SRS - 2.2.3|STD - 3.1|        Sistem          |           Black Box      | Jenia  Adellia |
+|                         | Password yang dimasukan tidak sesuai |        SRS - 2.2.3           |    STD - 3.2     |        Sistem            |  Black Box                 |     Jenia Adellia     |
+|                    |    Tidak memasukan password  | SRS - 2.2.3 |          STD - 3.3         |    Sistem      | Black Box| Jenia Adellia
+|Display Login Error | Menampilkan Gagal login  | SRS - 2.2.4|STD - 4.1|        Sistem          |           Black Box      | Lia Nur Fadilah |
+|                         | tidak memasukan Email dan Password|        SRS - 2.2.4            |    STD - 4.2     |        Sistem            |  Black Box                 |    Lia Nur Fadilah   |
+|                    |    Tidak ada koneksi internet  | SRS - 2.2.4 |          STD - 4.3         |    Sistem      | Black Box| Lia Nur Fadilah
+|Input Data Pasien | Mengisi data Pasien dengan benar | SRS - 2.2.5|STD - 5.1|        Sistem          |           Black Box      | Lia Nur Fadilah |
+|                         | kesalahan mengisi data pasien (misal;antara NIK dan nama)|        SRS - 2.2.5           |    STD - 5.2     |        Sistem            |  Black Box                 |    Lia Nur Fadilah   |
+|                    |    Tidak mengisi semua kolom input data pasien  | SRS - 2.2.5 |          STD - 5.3         |    Sistem      | Black Box| Lia Nur Fadilah
+|Laporan berupa Grafik Jumlah Pasien | Menambah Pasien  | SRS - 2.2.6|STD - 6.1|        Sistem          |           Black Box      | Luvi Haerunisah |
+|                         | Tidak menambah pasien|        SRS - 2.2.6            |    STD - 6.2     |        Sistem            |  Black Box                 |    Luvi Haerunisah   |
+|                    |     Tidak ada koneksi Internet | SRS - 2.2.6 |          STD - 6.3         |    Sistem      | Black Box| Luvi Haerunisah
+|Lihat Data Pasien | Menambah Pasien  | SRS - 2.2.7|STD - 7.1|        Sistem          |           Black Box      |Maulana Ahmad Qusyaeri |
+|                         | Tidak menambah pasien|        SRS - 2.2.7            |    STD - 7.2     |        Sistem            |  Black Box                 |    Maulana Ahmad Qusyaeri   |
+|                    |     Kesalahan mengisi tambah pasien| SRS - 2.2.7 |          STD - 7.3        |    Sistem      | Black Box| Maulana Ahmad Qusyaeri
+|Input Resep Obat | Menginput resep obat dengan benar | SRS - 2.2.8|STD - 8.1|        Sistem          |           Black Box      |Jenia Adellia |
+|                         | Kesalahan menginput resep obat|        SRS - 2.2.8            |    STD - 8.2     |        Sistem            |  Black Box                 |    Jenia Adellia   |
+|                    |     Tidak input resep obat| SRS - 2.2.8 |          STD - 8.3        |    Sistem      | Black Box| Jenia Adellia
 </body>
 </html>
 
