@@ -214,9 +214,9 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 |Pengujian Register User    | Mengisi data register user dengan benar|        SRS - 2.2.1            |    STD - 1.1    |        Sistem            |  Black Box                 |     Jenia Adellia     |
 |                    |    Tidak semua mengisi Kolom input data register user    | SRS - 2.2.1 |          STD - 1.2        |    Sistem      | Black Box| Jenia Adellia
 |                    |    Kesalahan Pengisian data register user    | SRS - 2.2.1 |          STD - 1.3         |    Sistem      | Black Box| Jenia Adellia
-| Login | Email dan Password dimasukan sesuai data                 | SRS - 2.2.2|STD - 2.1|        Sistem          |           Black Box      | Jenia  Adellia |
-|                         | Email dan Password yang dimasukan tidak sesuai dengan data|        SRS - 2.2.2            |    STD - 2.2     |        Sistem            |  Black Box                 |     Jenia Adellia     |
-|                    |    Tidak mengisi Email dan Password    | SRS - 2.2.2 |          STD - 2.3         |    Sistem      | Black Box| Jenia Adellia
+| Login | Username dan Password dimasukan sesuai data                 | SRS - 2.2.2|STD - 2.1|        Sistem          |           Black Box      | Jenia  Adellia |
+|                         | Username dan Password yang dimasukan tidak sesuai dengan data|        SRS - 2.2.2            |    STD - 2.2     |        Sistem            |  Black Box                 |     Jenia Adellia     |
+|                    |    Tidak mengisi Username dan Password    | SRS - 2.2.2 |          STD - 2.3         |    Sistem      | Black Box| Jenia Adellia
 |Verifikasi Password | Password yang dimasukan sesuai  | SRS - 2.2.3|STD - 3.1|        Sistem          |           Black Box      | Jenia  Adellia |
 |                         | Password yang dimasukan tidak sesuai |        SRS - 2.2.3           |    STD - 3.2     |        Sistem            |  Black Box                 |     Jenia Adellia     |
 |                    |    Tidak memasukan password  | SRS - 2.2.3 |          STD - 3.3         |    Sistem      | Black Box| Jenia Adellia
@@ -493,6 +493,319 @@ Tabel 2 Deskripsi dan Hasil Uji
 		</tr>
 	</thead>
 </table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-2.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Email dan Password dimasukan sesuai data</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengetahui email dan password yang dimasukan benar</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Jenia Adellia</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>1. masukan  username dan password sesuai dengan register user yang telah berhasil
+					  </ul><ul>2. Klik tombol Login</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					Username:  Jenia<br>
+					password :123<br>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Login Berhasil
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>Username dan password yang dimasukan benar
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-2.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Email dan Password yang dimasukan tidak sesuai dengan data</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengetahui email dan password yang dimasukan salah</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Jenia Adellia</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>1. masukan  username, dan password yang tidak sesuai dengan register user yang telah berhasil
+					  </ul><ul>2. Klik tombol Login</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					Username:  Jenia<br>
+					password : sayangkamu<br>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Login tidak Berhasil
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>Username yang dimasukan benar, namun password yang dimasukan salah
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-2.3</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Tidak mengisi Username dan Password</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengetahui email dan password yang dimasukan salah</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Jenia Adellia</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>1. Tidak memasukan username dan password
+					  </ul><ul>2. Klik tombol Login</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> Tidak ada
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Login tidak Berhasil
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>Harus mengisi kolom username dan password
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-2.3</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Tidak mengisi Username dan Password</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Mengetahui email dan password tidak dimasukan</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Jenia Adellia</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>1. Tidak memasukan  username dan password
+					  </ul><ul>2. Klik tombol Login</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> Tidak ada
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Login tidak Berhasil
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>Harus mengisi kolom username dan password
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
 </body>
 </html>
 
